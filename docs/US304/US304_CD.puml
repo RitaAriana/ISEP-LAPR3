@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class AuditTrailsUi{
+
+}
+
+class AuditTrailsController{
++ createUS304(idCargoManifest, idContainer)
+}
+
+
+class US304 {
+- initialize(idCargoManifest, idContainer)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+AuditTrailsUi ..> AuditTrailsController
+AuditTrailsController -> US304
+US304 --> WriteForAFile : uses
+
+@enduml

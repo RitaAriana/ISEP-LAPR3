@@ -1,0 +1,53 @@
+@startuml
+autonumber
+
+actor "Project Manager" as PM
+participant ":SendToDatabaseUI" as UI
+participant ":SendToDatabaseController" as controller
+participant ":sendToDatabase" as sendToDatabase
+
+
+
+
+activate PM
+PM -> UI : starts the script loading of objects' data to the database
+activate UI
+UI --> PM : displays a list of objects to import
+deactivate UI
+PM -> UI : selects the type of objects to import
+note right: Since the objects' importing requires an equal sequence, \nit was used ship importing as an example.
+
+
+activate UI
+UI->controller : importShips()
+activate controller
+
+controller -> sendToDatabase: sendShipsAndLocationsToDatabase()
+activate sendToDatabase
+
+sendToDatabase -> sendToDatabase: saveShip(databaseConnection, object)
+activate sendToDatabase
+
+sendToDatabase -> sendToDatabase: saveShipToDatabase(databaseConnection, ship)
+activate sendToDatabase
+
+sendToDatabase -> sendToDatabase: isOnDatabase = isShipOnDatabase(databaseConnection, ship)
+deactivate sendToDatabase
+
+alt if the ship exists on the database
+
+sendToDatabase -> sendToDatabase: updatePositionOnDatabase(databaseConnection, ship)
+activate sendToDatabase
+sendToDatabase -> sendToDatabase: executeShipStatementOnDatabase(databaseConnection, ship, sqlCommand)
+deactivate sendToDatabase
+
+else if the ship does not exist on the database
+
+sendToDatabase -> sendToDatabase: insertPositionOnDatabase(sendToDatabase, ship)
+activate sendToDatabase
+sendToDatabase -> sendToDatabase: executeShipStatementOnDatabase(databaseConnection, ship, sqlCommand)
+deactivate sendToDatabase
+
+end
+
+@enduml

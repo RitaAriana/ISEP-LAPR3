@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="346px" preserveAspectRatio="none" style="width:139px;height:346px;background:#FFFFFF;" version="1.1" viewBox="0 0 139 346" width="139px" zoomAndPan="magnify"><defs><filter height="300%" id="f66atnlp14qff" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a3093aa9f96b7df9aab31d8715601ff6]
+class Containers--><rect codeLine="2" fill="#FEFECE" filter="url(#f66atnlp14qff)" height="186.3594" id="Containers" style="stroke:#A80036;stroke-width:1.5;" width="108" x="9" y="7"/><ellipse cx="30.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M32.75,19.5 Q32.9531,19 33.1875,18.75 Q33.4219,18.5 33.6875,18.5 Q34.1563,18.5 34.4531,18.7813 Q34.75,19.0625 34.75,19.7188 L34.75,21.2813 Q34.75,21.9375 34.4688,22.2188 Q34.1875,22.5 33.75,22.5 Q33.3594,22.5 33.1094,22.3281 Q32.8594,22.1563 32.75,21.7031 Q32.7031,21.3906 32.5313,21.2188 Q32.2188,20.8906 31.6563,20.7031 Q31.0938,20.5 30.5313,20.5 Q29.8281,20.5 29.2344,20.7813 Q28.6563,21.0625 28.2031,21.6875 Q27.75,22.3125 27.75,23.1719 L27.75,24.0938 Q27.75,25.125 28.5938,25.8125 Q29.4375,26.5 30.9375,26.5 Q31.8281,26.5 32.4531,26.2969 Q32.8125,26.1875 33.2188,25.8281 Q33.4844,25.625 33.625,25.5625 Q33.7656,25.5 33.9375,25.5 Q34.2656,25.5 34.5,25.7656 Q34.75,26.0156 34.75,26.375 Q34.75,26.7188 34.4063,27.125 Q33.9063,27.7188 33.1094,28.0469 Q32.0625,28.5 30.7813,28.5 Q29.2813,28.5 28.0781,27.9063 Q27.1094,27.4375 26.4219,26.4219 Q25.75,25.4063 25.75,24.2031 L25.75,23.1094 Q25.75,21.8594 26.3438,20.7656 Q26.9531,19.6719 28,19.0938 Q29.0625,18.5 30.25,18.5 Q30.9688,18.5 31.5938,18.75 Q32.2188,19 32.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="46.25" y="27.9102">Containers</text><line style="stroke:#A80036;stroke-width:1.5;" x1="10" x2="116" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="29" y="54.4189">-x</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="29" y="68.2549">-y</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="29" y="82.0908">-z</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="88.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="29" y="95.9268">containerNumber</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="102.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="29" y="109.7627">checkDigit</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="116.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="29" y="123.5986">isoCode</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="130.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="29" y="137.4346">payLoad</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="143.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="29" y="151.2705">tare</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="157.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="29" y="165.1064">gross</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="17" y="171.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="29" y="178.9424">weight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="10" x2="116" y1="185.3594" y2="185.3594"/><!--MD5=[76562047389981627aea27c31a97aff5]
+class CargoManifest--><rect codeLine="15" fill="#FEFECE" filter="url(#f66atnlp14qff)" height="61.8359" id="CargoManifest" style="stroke:#A80036;stroke-width:1.5;" width="112" x="7" y="271"/><ellipse cx="22" cy="287" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,283.5 Q24.2031,283 24.4375,282.75 Q24.6719,282.5 24.9375,282.5 Q25.4063,282.5 25.7031,282.7813 Q26,283.0625 26,283.7188 L26,285.2813 Q26,285.9375 25.7188,286.2188 Q25.4375,286.5 25,286.5 Q24.6094,286.5 24.3594,286.3281 Q24.1094,286.1563 24,285.7031 Q23.9531,285.3906 23.7813,285.2188 Q23.4688,284.8906 22.9063,284.7031 Q22.3438,284.5 21.7813,284.5 Q21.0781,284.5 20.4844,284.7813 Q19.9063,285.0625 19.4531,285.6875 Q19,286.3125 19,287.1719 L19,288.0938 Q19,289.125 19.8438,289.8125 Q20.6875,290.5 22.1875,290.5 Q23.0781,290.5 23.7031,290.2969 Q24.0625,290.1875 24.4688,289.8281 Q24.7344,289.625 24.875,289.5625 Q25.0156,289.5 25.1875,289.5 Q25.5156,289.5 25.75,289.7656 Q26,290.0156 26,290.375 Q26,290.7188 25.6563,291.125 Q25.1563,291.7188 24.3594,292.0469 Q23.3125,292.5 22.0313,292.5 Q20.5313,292.5 19.3281,291.9063 Q18.3594,291.4375 17.6719,290.4219 Q17,289.4063 17,288.2031 L17,287.1094 Q17,285.8594 17.5938,284.7656 Q18.2031,283.6719 19.25,283.0938 Q20.3125,282.5 21.5,282.5 Q22.2188,282.5 22.8438,282.75 Q23.4688,283 24,283.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="36" y="291.9102">CargoManifest</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="118" y1="303" y2="303"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="311"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="27" y="318.4189">containerNumber</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="118" y1="324.8359" y2="324.8359"/><!--MD5=[a27713cdd7694cea32c8be89a3131559]
+link Containers to CargoManifest--><path codeLine="20" d="M63,193.1 C63,221.19 63,250.12 63,270.94 " fill="none" id="Containers-CargoManifest" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="68,237.1758,70.9389,228.1307,65.0611,228.1307,68,237.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="77" y="237.4951">related to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="42.1719" y="214.9671">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="40.8125" y="259.9471">1..*</text><!--MD5=[bd64af64adc4624d404cbd0e9918a057]
+@startuml
+'https://plantuml.com/class-diagram
+class Containers {
+-x
+-y
+-z
+-containerNumber
+-checkDigit
+-isoCode
+-payLoad
+-tare
+-gross
+-weight
+}
+
+class CargoManifest {
+-containerNumber
+}
+
+
+Containers "1..*"- -"1..*" CargoManifest: related to >
+
+@enduml
+
+@startuml
+class Containers {
+-x
+-y
+-z
+-containerNumber
+-checkDigit
+-isoCode
+-payLoad
+-tare
+-gross
+-weight
+}
+
+class CargoManifest {
+-containerNumber
+}
+
+
+Containers "1..*"- -"1..*" CargoManifest: related to >
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

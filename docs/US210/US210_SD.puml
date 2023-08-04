@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Ship Captain" as SC
+participant ": ShipsReadyMondayUI" as UI
+participant ": ShipsReadyMondayController" as CT
+participant ": US210" as US
+participant ": WriteForAFile" as WF
+
+
+
+
+SC->UI : starts the requisition of the list of ships  that will \n be available  on Monday next week and their location
+activate UI
+UI-> CT : createUS210()
+
+activate CT
+CT -> US** : create(actualDate, mmsiCode)
+deactivate CT
+US -> US : initialize (actualDate, mmsiCode)
+activate US
+US -> US : information = toString()
+activate US
+deactivate US
+US -> WF : WriteForAFile(information)
+activate WF
+deactivate WF
+
+
+deactivate US
+
+UI -->SC :  shows the list of ships
+deactivate UI
+
+deactivate SC
+@enduml

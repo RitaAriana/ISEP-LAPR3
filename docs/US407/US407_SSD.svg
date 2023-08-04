@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:550px;height:288px;background:#FFFFFF;" version="1.1" viewBox="0 0 550 288" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f9thzbg7yfwxb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f9thzbg7yfwxb)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f9thzbg7yfwxb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="503" y="154.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="89.6094" y2="203.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="508" x2="508" y1="89.6094" y2="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="86.5332">Port Manager</text><ellipse cx="51" cy="15" fill="#FEFECE" filter="url(#f9thzbg7yfwxb)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,23 L51,50 M38,31 L64,31 M51,50 L38,65 M51,50 L64,65 " fill="none" filter="url(#f9thzbg7yfwxb)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="216.5488">Port Manager</text><ellipse cx="51" cy="229.625" fill="#FEFECE" filter="url(#f9thzbg7yfwxb)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,237.625 L51,264.625 M38,245.625 L64,245.625 M51,264.625 L38,279.625 M51,264.625 L64,279.625 " fill="none" filter="url(#f9thzbg7yfwxb)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f9thzbg7yfwxb)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="476" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="483" y="74.5332">System</text><rect fill="#FEFECE" filter="url(#f9thzbg7yfwxb)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="476" y="202.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="483" y="223.5488">System</text><rect fill="#FFFFFF" filter="url(#f9thzbg7yfwxb)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f9thzbg7yfwxb)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="503" y="154.6641"/><polygon fill="#A80036" points="491,150.6641,501,154.6641,491,158.6641,495,154.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="56" x2="497" y1="154.6641" y2="154.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="400" x="63" y="117.1045">requests to know in a week in advance, the loading an unloading map</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="424" x="63" y="133.4561">based on ships and trucks load manifests and corresponding travel plans,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="341" x="63" y="149.8076">to anticipate the level of sufficient and necessary resources</text><polygon fill="#A80036" points="62,181.0156,52,185.0156,62,189.0156,58,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="56" x2="507" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="68" y="180.1592">receive the result</text><!--MD5=[91d6b6074ff37a4c7f60bcd69272bb1f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as FM
+participant "System" as SY
+
+activate FM
+FM -> SY : requests to know in a week in advance, the loading an unloading map \nbased on ships and trucks load manifests and corresponding travel plans, \nto anticipate the level of sufficient and necessary resources
+
+activate SY
+SY - -> FM : receive the result
+deactivate SY
+deactivate FM
+@enduml
+
+@startuml
+
+actor "Port Manager" as FM
+participant "System" as SY
+
+activate FM
+FM -> SY : requests to know in a week in advance, the loading an unloading map \nbased on ships and trucks load manifests and corresponding travel plans, \nto anticipate the level of sufficient and necessary resources
+
+activate SY
+SY - -> FM : receive the result
+deactivate SY
+deactivate FM
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

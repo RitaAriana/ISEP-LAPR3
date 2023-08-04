@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="312px" preserveAspectRatio="none" style="width:483px;height:312px;background:#FFFFFF;" version="1.1" viewBox="0 0 483 312" width="483px" zoomAndPan="magnify"><defs><filter height="300%" id="fk7u7iqdd8bgh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a91f07614838325443e7ca56ba6d2beb]
+class getCenterOfMassForAVesselUI--><rect codeLine="3" fill="#FEFECE" filter="url(#fk7u7iqdd8bgh)" height="48" id="getCenterOfMassForAVesselUI" style="stroke:#A80036;stroke-width:1.5;" width="203" x="136.5" y="7"/><ellipse cx="151.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M153.5,19.5 Q153.7031,19 153.9375,18.75 Q154.1719,18.5 154.4375,18.5 Q154.9063,18.5 155.2031,18.7813 Q155.5,19.0625 155.5,19.7188 L155.5,21.2813 Q155.5,21.9375 155.2188,22.2188 Q154.9375,22.5 154.5,22.5 Q154.1094,22.5 153.8594,22.3281 Q153.6094,22.1563 153.5,21.7031 Q153.4531,21.3906 153.2813,21.2188 Q152.9688,20.8906 152.4063,20.7031 Q151.8438,20.5 151.2813,20.5 Q150.5781,20.5 149.9844,20.7813 Q149.4063,21.0625 148.9531,21.6875 Q148.5,22.3125 148.5,23.1719 L148.5,24.0938 Q148.5,25.125 149.3438,25.8125 Q150.1875,26.5 151.6875,26.5 Q152.5781,26.5 153.2031,26.2969 Q153.5625,26.1875 153.9688,25.8281 Q154.2344,25.625 154.375,25.5625 Q154.5156,25.5 154.6875,25.5 Q155.0156,25.5 155.25,25.7656 Q155.5,26.0156 155.5,26.375 Q155.5,26.7188 155.1563,27.125 Q154.6563,27.7188 153.8594,28.0469 Q152.8125,28.5 151.5313,28.5 Q150.0313,28.5 148.8281,27.9063 Q147.8594,27.4375 147.1719,26.4219 Q146.5,25.4063 146.5,24.2031 L146.5,23.1094 Q146.5,21.8594 147.0938,20.7656 Q147.7031,19.6719 148.75,19.0938 Q149.8125,18.5 151,18.5 Q151.7188,18.5 152.3438,18.75 Q152.9688,19 153.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="165.5" y="27.9102">getCenterOfMassForAVesselUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="137.5" x2="338.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="137.5" x2="338.5" y1="47" y2="47"/><!--MD5=[6ffd6fa13516e281575d85c8784819e5]
+class getCenterOfMassForAVesselController--><rect codeLine="7" fill="#FEFECE" filter="url(#fk7u7iqdd8bgh)" height="61.8359" id="getCenterOfMassForAVesselController" style="stroke:#A80036;stroke-width:1.5;" width="462" x="7" y="115"/><ellipse cx="127.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M129.25,127.5 Q129.4531,127 129.6875,126.75 Q129.9219,126.5 130.1875,126.5 Q130.6563,126.5 130.9531,126.7813 Q131.25,127.0625 131.25,127.7188 L131.25,129.2813 Q131.25,129.9375 130.9688,130.2188 Q130.6875,130.5 130.25,130.5 Q129.8594,130.5 129.6094,130.3281 Q129.3594,130.1563 129.25,129.7031 Q129.2031,129.3906 129.0313,129.2188 Q128.7188,128.8906 128.1563,128.7031 Q127.5938,128.5 127.0313,128.5 Q126.3281,128.5 125.7344,128.7813 Q125.1563,129.0625 124.7031,129.6875 Q124.25,130.3125 124.25,131.1719 L124.25,132.0938 Q124.25,133.125 125.0938,133.8125 Q125.9375,134.5 127.4375,134.5 Q128.3281,134.5 128.9531,134.2969 Q129.3125,134.1875 129.7188,133.8281 Q129.9844,133.625 130.125,133.5625 Q130.2656,133.5 130.4375,133.5 Q130.7656,133.5 131,133.7656 Q131.25,134.0156 131.25,134.375 Q131.25,134.7188 130.9063,135.125 Q130.4063,135.7188 129.6094,136.0469 Q128.5625,136.5 127.2813,136.5 Q125.7813,136.5 124.5781,135.9063 Q123.6094,135.4375 122.9219,134.4219 Q122.25,133.4063 122.25,132.2031 L122.25,131.1094 Q122.25,129.8594 122.8438,128.7656 Q123.4531,127.6719 124.5,127.0938 Q125.5625,126.5 126.75,126.5 Q127.4688,126.5 128.0938,126.75 Q128.7188,127 129.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="213" x="147.75" y="135.9102">getCenterOfMassForAVesselController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="468" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="468" y1="155" y2="155"/><ellipse cx="18" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="436" x="27" y="170.4189">getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)</text><!--MD5=[59b69178a3371929e4ed347205b12574]
+class CenterOfMass--><rect codeLine="12" fill="#FEFECE" filter="url(#fk7u7iqdd8bgh)" height="61.8359" id="CenterOfMass" style="stroke:#A80036;stroke-width:1.5;" width="462" x="7" y="237"/><ellipse cx="194.25" cy="253" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M196.25,249.5 Q196.4531,249 196.6875,248.75 Q196.9219,248.5 197.1875,248.5 Q197.6563,248.5 197.9531,248.7813 Q198.25,249.0625 198.25,249.7188 L198.25,251.2813 Q198.25,251.9375 197.9688,252.2188 Q197.6875,252.5 197.25,252.5 Q196.8594,252.5 196.6094,252.3281 Q196.3594,252.1563 196.25,251.7031 Q196.2031,251.3906 196.0313,251.2188 Q195.7188,250.8906 195.1563,250.7031 Q194.5938,250.5 194.0313,250.5 Q193.3281,250.5 192.7344,250.7813 Q192.1563,251.0625 191.7031,251.6875 Q191.25,252.3125 191.25,253.1719 L191.25,254.0938 Q191.25,255.125 192.0938,255.8125 Q192.9375,256.5 194.4375,256.5 Q195.3281,256.5 195.9531,256.2969 Q196.3125,256.1875 196.7188,255.8281 Q196.9844,255.625 197.125,255.5625 Q197.2656,255.5 197.4375,255.5 Q197.7656,255.5 198,255.7656 Q198.25,256.0156 198.25,256.375 Q198.25,256.7188 197.9063,257.125 Q197.4063,257.7188 196.6094,258.0469 Q195.5625,258.5 194.2813,258.5 Q192.7813,258.5 191.5781,257.9063 Q190.6094,257.4375 189.9219,256.4219 Q189.25,255.4063 189.25,254.2031 L189.25,253.1094 Q189.25,251.8594 189.8438,250.7656 Q190.4531,249.6719 191.5,249.0938 Q192.5625,248.5 193.75,248.5 Q194.4688,248.5 195.0938,248.75 Q195.7188,249 196.25,249.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="214.75" y="257.9102">CenterOfMass</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="468" y1="269" y2="269"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="468" y1="277" y2="277"/><ellipse cx="18" cy="288" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="436" x="27" y="292.4189">getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)</text><!--MD5=[4b67750f4ca1b4f2acc76facf5cbaa76]
+link getCenterOfMassForAVesselUI to getCenterOfMassForAVesselController--><path codeLine="17" d="M238,55.14 C238,70.71 238,91.53 238,109.22 " fill="none" id="getCenterOfMassForAVesselUI-to-getCenterOfMassForAVesselController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="238,114.6,242,105.6,238,109.6,234,105.6,238,114.6" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ee16e18afa20eb331ad17fe43991b127]
+link getCenterOfMassForAVesselController to CenterOfMass--><path codeLine="18" d="M238,177.28 C238,193.77 238,214.26 238,231.49 " fill="none" id="getCenterOfMassForAVesselController-to-CenterOfMass" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="238,236.73,242,227.73,238,231.73,234,227.73,238,236.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5aacae19142a5e7f1eca2c49ccae35fa]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class getCenterOfMassForAVesselUI {
+
+}
+
+class getCenterOfMassForAVesselController {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+class CenterOfMass {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+getCenterOfMassForAVesselUI ..> getCenterOfMassForAVesselController 
+getCenterOfMassForAVesselController - -> CenterOfMass
+@enduml
+
+@startuml
+
+class getCenterOfMassForAVesselUI {
+
+}
+
+class getCenterOfMassForAVesselController {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+class CenterOfMass {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+getCenterOfMassForAVesselUI ..> getCenterOfMassForAVesselController 
+getCenterOfMassForAVesselController - -> CenterOfMass
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

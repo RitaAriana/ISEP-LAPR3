@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor TrafficManager as TM
+participant ": System" as SY
+
+autonumber
+activate TM
+TM -> SY: starts the creation of the Summary
+activate SY
+SY --> TM : ask the code that the user wants to use to search for a ship
+deactivate SY
+TM -> SY : type the code
+activate SY
+SY --> TM : shows the ship name and requests a confirmation
+deactivate SY
+TM -> SY: confirms the data
+activate SY
+SY --> TM : show the Summary associated with the code inserted
+deactivate SY
+
+
+
+@enduml

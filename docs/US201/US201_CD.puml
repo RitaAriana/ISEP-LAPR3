@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ImportPortUI {}
+
+class ImportPortController {
++importFile(fileName)
++importPorts()
+}
+
+class Ports {
+-identification
+-name
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Country {
+-name
+-continent
+}
+
+class Company {
+-designation
++ getCountryStr()
++ getPortStr()
+}
+
+class ImportPort{
++ loadFile(nameOfTheFileToBeImported)
++ convertPorts()
+}
+
+class CountryStore {
++getCountryByName(name)
++createCountry( countryName,continent)
+}
+
+class PortStore {
++create(country,code,portName,placeLocation)
++savePort()
+}
+
+class Ports2DTree {
++create Node<Port> (Port,latitude,longitude)
++balanceTree(lst)
+}
+
+Company "1"--"1..*" Ports: have >
+
+
+Ports "1" -- "1" PlaceLocation : located at >
+PlaceLocation "*" -- "1" Country : placed in >
+
+ImportPortUI ..> ImportPortController
+ImportPortController ..> Company
+ImportPortController ..> ImportPort
+ImportPort ..> Company
+ImportPort ..> CountryStore
+CountryStore "1"--> "*" Country : adopts
+ImportPort ..> PortStore
+PortStore "1"--> "*" Ports : adopts
+ImportPort ..> Ports2DTree
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant ":AuditTrailsUi" as UI
+participant ":AuditTrailsController" as CT
+participant ":US304Handler" as US
+participant ":WriteForAFile" as WF
+
+activate SC
+SC -> UI : starts the access to audit trails for a given\n container of a given cargo manifest
+activate UI
+UI --> SC : asks the cargo manifest id and the container id
+deactivate UI
+SC -> UI : type the cargo manifest id and the container id
+activate UI
+UI->CT : createUS304(idCargoManifest, idContainer)
+activate CT
+CT -> US** : create(idCargoManifest, idContainer)
+US -> US : initialize(idCargoManifest, idContainer)
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+deactivate CT
+
+UI --> SC : show the result
+deactivate UI
+deactivate SC
+@enduml

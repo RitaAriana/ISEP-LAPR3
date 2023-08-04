@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ShipsReadyNextMondayUI {}
+
+class ShipsReadyNextMondayController{
++ createUS210()
+}
+
+
+class US210 {
+- initialize)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+
+ShipsReadyNextMondayController -> US210
+US210 --> WriteForAFile : uses
+
+
+
+ShipsReadyNextMondayUI ..> ShipsReadyNextMondayController
+
+
+
+
+
+@enduml

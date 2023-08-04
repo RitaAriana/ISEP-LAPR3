@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to colour the map \n using as few colours as possible.
+activate ":System"
+
+":System" --> TM : Informs of operation success and indicates\n the colors assigned to each country.
+deactivate ":System"
+
+deactivate TM
+
+@enduml

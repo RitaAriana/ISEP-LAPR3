@@ -1,0 +1,124 @@
+@startuml
+autonumber
+
+actor "Traffic manager" as manager
+participant "SearchDetailsUI" as sdUI
+participant "SearchDetailsController" as sdCTRL
+participant "Company" as COMP
+participant "bstShip:\nBstShip" as BstShip
+participant "ShipMapper" as SMAPPER
+participant "Ship" as SHIP
+participant "Ship" as SHIP
+participant "shipDetailsDto" as SHIPDTO
+
+
+activate manager
+manager -> sdUI : Asks to search the details of a ship
+activate sdUI
+sdUI --> manager : Requests to choose the code to perform the search (MMSI, IMO or Call Sign).
+deactivate sdUI
+
+
+manager -> sdUI : Chooses the code
+activate sdUI
+
+sdUI --> manager : Asks to type code
+deactivate sdUI
+
+alt ship code - MMSI
+manager -> sdUI  : Search by MMSI
+activate sdUI
+sdUI-> sdCTRL: shipExistByMMSI(mmsiCode)
+activate sdCTRL
+activate sdCTRL
+sdCTRL -> COMP : bstShip = getBstShip()
+activate COMP
+deactivate COMP
+sdCTRL -> BstShip : ship = getShipByMmsiCode(mmmsiCode)
+activate BstShip
+deactivate BstShip
+deactivate sdCTRL
+deactivate sdCTRL
+deactivate sdUI
+
+else ship code - IMO
+manager -> sdUI  : Search by IMO
+activate sdUI
+sdUI-> sdCTRL: shipExistByIMO(imoCode)
+activate sdCTRL
+activate sdCTRL
+sdCTRL -> COMP : bstShip = getBstShip()
+activate COMP
+deactivate COMP
+sdCTRL -> BstShip : ships = inOrder()
+activate BstShip
+deactivate BstShip
+deactivate sdCTRL
+deactivate sdCTRL
+deactivate sdUI
+deactivate sdUI
+
+else ship code - Call Sign
+manager -> sdUI : Search by Call Sign
+activate sdUI
+activate sdUI
+sdUI-> sdCTRL: shipExistByCallSign(callSign)
+activate sdCTRL
+activate sdCTRL
+sdCTRL -> COMP : bstShip = getBstShip()
+activate COMP
+deactivate COMP
+sdCTRL -> BstShip : ships = inOrder()
+activate BstShip
+deactivate BstShip
+deactivate sdCTRL
+deactivate sdCTRL
+deactivate sdUI
+deactivate sdUI
+end
+
+
+manager -> sdUI : Requests data
+activate sdUI
+sdUI -> sdCTRL : getShipDetails()
+activate sdCTRL
+sdCTRL-> SMAPPER** : toDto(ship)
+deactivate sdCTRL
+activate SMAPPER
+SMAPPER -> SHIP : mmsi = getMMSI()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : name = getName()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : imo = getShipId()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : numberOfEnergyGenerators = getEnergyGenerators()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : callSign = getCallSign()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : vesselType = getVesselType()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : length = getLength()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : width = getWidth()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : capacity = getCapacity()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIP : draft = getDraft()
+activate SHIP
+deactivate SHIP
+SMAPPER -> SHIPDTO** : create(mmsi, name, imo, numberOfEnergyGenerators,\n callSign, vesselType, length, width, capacity, draft)
+SMAPPER --> sdUI : shipDetailsDto
+deactivate SMAPPER
+sdUI --> manager : Displays the details of the ship
+deactivate sdUI
+
+@enduml

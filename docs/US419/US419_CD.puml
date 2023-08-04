@@ -1,0 +1,17 @@
+@startuml
+
+class AddContainersWithoutChangingComUI {}
+
+class AddContainersWithoutChangingComController {
++addContainerWithoutChangingCom(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar)
+}
+
+class CenterOfMass {
++adicionarContentoresSemAlterarCentroMassaX(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar, centroMassaX)
+
++adicionarContentoresSemAlterarCentroMassaY(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar, centroMassaY)
+}
+
+AddContainersWithoutChangingComUI ..> AddContainersWithoutChangingComController
+AddContainersWithoutChangingComController --> CenterOfMass
+@enduml

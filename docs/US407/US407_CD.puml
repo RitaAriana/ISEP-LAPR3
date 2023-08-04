@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class InformationForTheNextWeekUI{
+}
+
+class InformationForTheNextWeekController{
++ createShipsIdle()
+}
+
+
+class InformationForTheNextWeekHandler{
+- initialize()
++ toString()
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+InformationForTheNextWeekUI ..> InformationForTheNextWeekController
+InformationForTheNextWeekController-> InformationForTheNextWeekHandler
+InformationForTheNextWeekHandler --> WriteForAFile : uses
+@enduml

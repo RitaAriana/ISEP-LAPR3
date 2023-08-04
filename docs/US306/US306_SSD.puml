@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+actor "Port Manager" as PM
+participant "System" as SY
+
+activate PM
+PM -> SY : starts the requisition of the occupancy rate\n of each warehouse and an estimate of the\n containers leaving the warehouse during\n the next 30 days
+activate SY
+SY-->PM : shows the result
+deactivate SY
+deactivate PM
+@enduml

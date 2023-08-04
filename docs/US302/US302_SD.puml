@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ColorFreightNetworkUI  " as UI
+participant ":ColorFreightNetworkController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+participant "result:Map<Capital, Integer>"
+
+
+activate TM
+TM -> UI: Initiates the process to colour the map \n using as few colours as possible.
+activate UI
+UI -> CTRL : colorNetwork()
+activate CTRL
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL-> network : colorNetwork()
+activate network
+network-->CTRL: result
+deactivate network
+CTRL-->UI: result
+deactivate CTRL
+UI --> TM : Informs of operation success and indicates\n the colors assigned to each country.
+deactivate UI
+
+deactivate TM
+
+@enduml

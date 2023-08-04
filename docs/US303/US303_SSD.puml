@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know which places (cities or ports)\n  are closest to all other places (closeness places)
+activate ":System"
+
+":System" --> TM : Asks how many locations you want to get per continent
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Informs of operation success and indicates\n the n closeness locals by continent
+deactivate ":System"
+
+deactivate TM
+
+@enduml

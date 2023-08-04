@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+participant "ShowPositionalMessagesUI" as UI
+participant "ShowPositionalMessagesController" as CTRL
+participant "Company" as COMP
+participant "bstShip:\nBstShip" as BstShip
+participant "ship:\Ship" as S
+participant "shipLocationBst:\nShipLocationBST" as ShipLocationBST
+participant "ShipLocation" as SL
+
+
+activate TM
+TM -> UI : Initiates the process to obtain the positional\n messages temporally organized of a ship
+activate UI
+UI --> TM : Requests the ship's MMSI code
+deactivate UI
+TM -> UI : Types the MMSI code
+activate UI
+UI-> CTRL: shipExist(mmsiCode)
+activate CTRL
+CTRL -> COMP : bstShip = getBstShip()
+activate COMP
+deactivate COMP
+CTRL -> BstShip : ship = getShipByMmsiCode(mmmsiCode)
+activate BstShip
+deactivate BstShip
+CTRL --> UI : result
+deactivate CTRL
+UI --> TM : Requests the necessary data \n (initial date and final date)
+deactivate UI
+TM -> UI : Introduce the requested data
+activate UI
+UI -> CTRL: showPositionalMessages(initialDate, finalDate)
+activate CTRL
+CTRL -> S : shipLocationBst = getShipPosition()
+activate S
+deactivate S
+CTRL -> ShipLocationBST : listPositionalMessages = getPositionalMessages(initialDate, finalDate)
+activate ShipLocationBST
+deactivate ShipLocationBST
+CTRL --> UI: listPositionalMessages
+deactivate CTRL
+UI --> TM : Shows the ship's positional messages
+deactivate UI
+
+deactivate TM
+
+
+
+@enduml

@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetsPortsMoreCriticalUI  " as UI
+participant ":GetsPortsMoreCriticalController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+participant ":GraphAlgorithms" as algorithms
+
+activate TM
+TM -> UI : Initiates the process to know which ports are more critical
+activate UI
+
+UI --> TM : Ask how many ports with greater centrality you want to get.
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : getsPortsMoreCritical(n)
+activate CTRL
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : getsPortsMoreCritical(n)
+activate network
+
+loop all vertices in graph
+network -> algorithms : shortestPaths()
+activate algorithms
+deactivate algorithms
+end
+
+network --> CTRL : result
+deactivate network
+CTRL --> UI : result
+deactivate CTRL
+UI --> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate UI
+
+deactivate TM
+
+@enduml

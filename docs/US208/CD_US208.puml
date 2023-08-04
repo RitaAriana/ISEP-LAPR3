@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class RatioOfCargoManifestUI{}
+
+
+class RatioOfCargoManifestController{
++ createUS208(idCargoManifest)
+}
+
+
+class US208 {
+- initialize(idCargoManifest)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+
+RatioOfCargoManifestController -> US208
+US208 --> WriteForAFile : uses
+
+RatioOfCargoManifestUI ..> RatioOfCargoManifestController
+
+
+@enduml

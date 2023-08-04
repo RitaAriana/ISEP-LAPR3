@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know which ports are more critical
+activate ":System"
+
+":System" --> TM : Ask how many ports with greater centrality you want to get.
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate ":System"
+
+deactivate TM
+
+@enduml

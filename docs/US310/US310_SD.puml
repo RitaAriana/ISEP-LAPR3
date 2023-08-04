@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as PM
+participant ":MapOfOccupancyMonthlyUi" as UI
+participant ":MapOfOccupancyMonthlyUiController" as CT
+participant ":US310Handler" as US
+participant ":WriteForAFile" as WF
+
+activate PM
+
+PM -> UI :start the creation of the map for the occupation of the\n existing resources in the port during a given month
+activate UI
+UI->CT : createUS310()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+deactivate CT
+
+UI --> PM : receive or not a warning
+deactivate UI
+deactivate PM
+@enduml

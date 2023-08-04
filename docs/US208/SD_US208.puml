@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant ": RatioOfCargoManifestUI" as UI
+participant ": RatioOfCargoManifestController" as CT
+participant ":US208" as US
+participant ": WriteForAFile" as WF
+
+
+activate SC
+SC->UI : starts the requisition of the ratio between\n number of container and the capacity of a ship
+activate UI
+UI --> SC : asks the id of the cargo manifest
+deactivate UI
+SC -> UI : type the id of the cargo manifest
+activate UI
+UI->CT : createUS2084(idCargoManifest)
+activate CT
+CT -> US** : create(idCargoManifest)
+US -> US : initialize(idCargoManifest)
+activate US
+US -> US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+
+activate WF
+deactivate WF
+deactivate US
+deactivate CT
+
+
+deactivate CT
+UI-->SC : show the ratio between the number \nof containers e the capacity of a ship
+deactivate UI
+deactivate SC
+
+@enduml

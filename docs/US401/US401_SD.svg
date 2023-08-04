@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="910.5px" preserveAspectRatio="none" style="width:1725px;height:910px;" version="1.1" viewBox="0 0 1725 910" width="1725px" zoomAndPan="magnify"><defs><filter height="300%" id="f1u68w7gbs3am3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="606.3281" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="182.9414"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="481.7461" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="273.9961"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="366.1641" style="stroke:#A80036;stroke-width:1.5;" width="15" x="979.5" y="319.5234"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1222.5" y="365.0508"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="184.582" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1386.75" y="455.5781"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1585.5" y="539.1328"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="118.0547" style="stroke:#000000;stroke-width:3.0;" width="412.5" x="1291.5" y="478.0781"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="134.4141" y2="782.7422"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="670.5" x2="670.5" y1="134.4141" y2="782.7422"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="987" x2="987" y1="134.4141" y2="782.7422"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1230" x2="1230" y1="134.4141" y2="782.7422"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1393.5" x2="1393.5" y1="134.4141" y2="782.7422"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1593" x2="1593" y1="134.4141" y2="782.7422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="129.7998">Traffic Manager</text><ellipse cx="87" cy="22.5" fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,34.5 L87,75 M67.5,46.5 L106.5,46.5 M87,75 L67.5,97.5 M87,75 L106.5,97.5 " fill="none" filter="url(#f1u68w7gbs3am3)" style="stroke:#A80036;stroke-width:3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="803.042">Traffic Manager</text><ellipse cx="87" cy="822.6563" fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,834.6563 L87,875.1563 M67.5,846.6563 L106.5,846.6563 M87,875.1563 L67.5,897.6563 M87,875.1563 L106.5,897.6563 " fill="none" filter="url(#f1u68w7gbs3am3)" style="stroke:#A80036;stroke-width:3.0;"/><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="264" x="535.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="231" x="546" y="111.7998">:GetsPortsMoreCriticalUI</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="264" x="535.5" y="781.2422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="231" x="546" y="813.542">:GetsPortsMoreCriticalUI</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="327" x="820.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="306" x="831" y="111.7998">:GetsPortsMoreCriticalController</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="327" x="820.5" y="781.2422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="306" x="831" y="813.542">:GetsPortsMoreCriticalController</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="117" x="1168.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="96" x="1179" y="111.7998">:Company</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="117" x="1168.5" y="781.2422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="96" x="1179" y="813.542">:Company</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="169.5" x="1306.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="148.5" x="1317" y="111.7998">:FreightNetwork</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="169.5" x="1306.5" y="781.2422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="148.5" x="1317" y="813.542">:FreightNetwork</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="186" x="1497" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="165" x="1507.5" y="111.7998">:GraphAlgorithms</text><rect fill="#FEFECE" filter="url(#f1u68w7gbs3am3)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="186" x="1497" y="781.2422"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="165" x="1507.5" y="813.542">:GraphAlgorithms</text><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="606.3281" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="182.9414"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="481.7461" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="273.9961"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="366.1641" style="stroke:#A80036;stroke-width:1.5;" width="15" x="979.5" y="319.5234"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1222.5" y="365.0508"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="184.582" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1386.75" y="455.5781"/><rect fill="#FFFFFF" filter="url(#f1u68w7gbs3am3)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1585.5" y="539.1328"/><polygon fill="#A80036" points="645,176.9414,660,182.9414,645,188.9414,651,182.9414" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="654" y1="182.9414" y2="182.9414"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="175.6567">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="499.5" x="121.5" y="175.6567">Initiates the process to know which ports are more critical</text><polygon fill="#A80036" points="111,222.4688,96,228.4688,111,234.4688,105,228.4688" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="102" x2="669" y1="228.4688" y2="228.4688"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="120" y="221.1841">2</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="516" x="136.5" y="221.1841">Ask how many ports with greater centrality you want to get.</text><polygon fill="#A80036" points="645,267.9961,660,273.9961,645,279.9961,651,273.9961" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="654" y1="273.9961" y2="273.9961"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="266.7114">3</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="271.5" x="121.5" y="266.7114">Enter the requested information</text><polygon fill="#A80036" points="961.5,313.5234,976.5,319.5234,961.5,325.5234,967.5,319.5234" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="678" x2="970.5" y1="319.5234" y2="319.5234"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="688.5" y="312.2388">4</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="210" x="705" y="312.2388">getsPortsMoreCritical(n)</text><polygon fill="#A80036" points="1204.5,359.0508,1219.5,365.0508,1204.5,371.0508,1210.5,365.0508" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="994.5" x2="1213.5" y1="365.0508" y2="365.0508"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1005" y="357.7661">5</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="169.5" x="1021.5" y="357.7661">getFreightNetwork()</text><polygon fill="#A80036" points="1368.75,449.5781,1383.75,455.5781,1368.75,461.5781,1374.75,455.5781" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="994.5" x2="1377.75" y1="455.5781" y2="455.5781"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1005" y="448.2935">6</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="210" x="1021.5" y="448.2935">getsPortsMoreCritical(n)</text><path d="M1291.5,478.0781 L1401,478.0781 L1401,490.0781 L1386,505.0781 L1291.5,505.0781 L1291.5,478.0781 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="118.0547" style="stroke:#000000;stroke-width:3.0;" width="412.5" x="1291.5" y="478.0781"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1314" y="499.8208">loop</text><text fill="#000000" font-family="sans-serif" font-size="16.5" font-weight="bold" lengthAdjust="spacing" textLength="174" x="1423.5" y="498.2065">[all vertices in graph]</text><polygon fill="#A80036" points="1567.5,533.1328,1582.5,539.1328,1567.5,545.1328,1573.5,539.1328" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1401.75" x2="1576.5" y1="539.1328" y2="539.1328"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1412.25" y="531.8481">7</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="133.5" x="1428.75" y="531.8481">shortestPaths()</text><polygon fill="#A80036" points="1011,634.1602,996,640.1602,1011,646.1602,1005,640.1602" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="1002" x2="1392.75" y1="640.1602" y2="640.1602"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1020" y="632.8755">8</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="48" x="1036.5" y="632.8755">result</text><polygon fill="#A80036" points="694.5,679.6875,679.5,685.6875,694.5,691.6875,688.5,685.6875" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="685.5" x2="985.5" y1="685.6875" y2="685.6875"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="703.5" y="678.4028">9</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="48" x="720" y="678.4028">result</text><polygon fill="#A80036" points="103.5,749.7422,88.5,755.7422,103.5,761.7422,97.5,755.7422" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="94.5" x2="669" y1="755.7422" y2="755.7422"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="21" x="112.5" y="736.1938">10</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="370.5" x="139.5" y="723.9302">Informs of operation success and indicates</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="285" x="145.5" y="748.4575">the n ports with greater centrality</text><!--MD5=[f15fbd1999161017c7dabe9171ac4e0f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetsPortsMoreCriticalUI  " as UI
+participant ":GetsPortsMoreCriticalController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+participant ":GraphAlgorithms" as algorithms
+
+activate TM
+TM -> UI : Initiates the process to know which ports are more critical
+activate UI
+
+UI - -> TM : Ask how many ports with greater centrality you want to get.
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : getsPortsMoreCritical(n)
+activate CTRL
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : getsPortsMoreCritical(n)
+activate network
+
+loop all vertices in graph
+network -> algorithms : shortestPaths()
+activate algorithms
+deactivate algorithms
+end
+
+network - -> CTRL : result
+deactivate network
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetsPortsMoreCriticalUI  " as UI
+participant ":GetsPortsMoreCriticalController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+participant ":GraphAlgorithms" as algorithms
+
+activate TM
+TM -> UI : Initiates the process to know which ports are more critical
+activate UI
+
+UI - -> TM : Ask how many ports with greater centrality you want to get.
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : getsPortsMoreCritical(n)
+activate CTRL
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : getsPortsMoreCritical(n)
+activate network
+
+loop all vertices in graph
+network -> algorithms : shortestPaths()
+activate algorithms
+deactivate algorithms
+end
+
+network - -> CTRL : result
+deactivate network
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

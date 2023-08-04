@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+participant ": KnowRouteController" as CT
+participant ": US305" as US
+participant ": WriteForAFile" as WF
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI --> C : Asks for the registration code and the container identifier
+deactivate UI
+
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI-> CT : createUS305(registrationCode,containerId)
+activate CT
+CT -> US** : create(registrationCode,containerId)
+deactivate CT
+US -> US : initialize (registrationCode,containerId)
+activate US
+US -> US : information = toString()
+activate US
+deactivate US
+US -> WF : WriteForAFile(information)
+activate WF
+deactivate WF
+deactivate US
+UI-->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml

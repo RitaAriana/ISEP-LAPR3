@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as PM
+participant "System" as SY
+
+activate PM
+PM -> SY : tries to add a container to a warehouse that does not support
+activate SY
+SY --> PM : receive or not a warning
+deactivate SY
+deactivate PM
+@enduml

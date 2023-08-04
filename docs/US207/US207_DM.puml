@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Containers {
+-x
+-y
+-z
+-containerNumber
+-checkDigit
+-isoCode
+-payLoad
+-tare
+-gross
+-weight
+}
+
+class CargoManifest {
+-containerNumber
+}
+
+
+Containers "1..*"--"1..*" CargoManifest: related to >
+
+@enduml

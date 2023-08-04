@@ -1,0 +1,87 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class MovementsSummaryUI{
+
+}
+class MovementsSummaryController{
++ getShipByMMSI(mmsiCode : String)
++ createSummaryForShip(ship : Ship)
+}
+class Company{
++ getShipBTS()
+}
+class BstShip{
++ getShipByMMSI(mmsiCode : String)
+}
+class Ship{
+- shipLocationBST : ShipLocationBST
++ getShipBTS()
+}
+class SummaryMapper{
++ toDto(summary : Summary)
+}
+class Summary{
+- mmsiCode : String
+- name : String
+- startBaseDate : Date
+- endBaseDate : Date
+- totalMovementTime : String
+- totalMovements : int
+- maximumSog : double
+- meanSog : double
+- maximumCog : double
+- meanCog : double
+- departureLatitude : int
+- departureLongitude : int
+- arrivalLatitude : int
+- arrivalLongitude : int
+- travelledDistance : double
+- deltaDistance : double
+}
+class SummaryDto{
+- mmsiCode : String
+- name : String
+- startBaseDate : Date
+- endBaseDate : Date
+- totalMovementTime : String
+- totalMovements : int
+- maximumSog : double
+- meanSog : double
+- maximumCog : double
+- meanCog : double
+- departureLatitude : int
+- departureLongitude : int
+- arrivalLatitude : int
+- arrivalLongitude : int
+- travelledDistance : double
+- deltaDistance : double
+}
+
+class ShipLocationBST{
++getStartBase()
++getEndBase()
++getTotalMovements()
++getTotalMovementsTime()
++getMaximumSog()
++getMeanSog()
++getMaximumCog()
++getMeanCog()
++getLatitudeDeparture()
++getLongitudeDeparture()
++getArrivalLatitude()
++getArrivalLongitude()
++getTravelledDistance()
++getDeltaDistance()
+
+}
+MovementsSummaryController..>Company
+MovementsSummaryUI ..> MovementsSummaryController
+MovementsSummaryController ..> SummaryMapper
+SummaryMapper ..> SummaryDto
+Company --> Ship : owns
+Company --> BstShip : uses
+Ship --> ShipLocationBST : has
+ShipLocationBST --> Summary : generate
+
+@enduml

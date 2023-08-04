@@ -1,0 +1,150 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+left to right direction
+actor "Traffic Manager" as TM
+actor "Port Manager" as PM
+actor "Project Manager" as M
+actor "Client" as C
+actor "Ship Captain" as SC
+actor "Port Staff" as PS
+actor "Ship Chief Electrical Engineer" as SCEE
+actor "Fleet Manager" as FM
+actor "ship's master" as SM
+
+rectangle Company{
+
+usecase "UC101: I which to import ships from a text file into a BST" as UC101
+usecase "UC102: I which to search the details of a ship using \n any of its codes: MMSI, IMO or Call Sign" as UC102
+usecase "UC103: I which to have the positional messages temporally \n organized and associated with each of the ships " as UC103
+usecase "UC104: I which to make a Summary of a ship's movements" as UC104
+usecase "UC105: I which to list for all ships the MMSI, the total number of movements,\n Travelled Distance and Delta Distance." as UC105
+usecase "UC106: Get the top-N ships with the most kilometres travelled and their average speed (MeanSOG)." as UC106
+usecase "UC107: Return pairs of ships with routes with close departure/arrival \ncoordinates (no more than 5 Kms away) and with different Travelled Distance." as UC107
+usecase "UC108: I want the team to develop the data model required to support\n all the functionality and to fulfill the purpose of the system to develop.\n This data model is to be designed following a systematic data modeling methodology. " as UC108
+usecase "UC109: I want the team to draft an SQL script to test whether the database \n verifies all the data integrity restrictions that are required to fulfil \n the purpose of the system and the business constraints of the UoD" as UC109
+usecase "UC110: I want the team to define the naming conventions to \n apply when defining identifiers or writing SQL or PL/SQL code.\n The naming conventions may evolve as new database and programming objects are known.\n The naming conventions guide should be organized in a way to facilitate its maintenance" as UC110
+usecase "UC111: I want the team to create a SQL script to load the database\n with a minimum set of data sufficient to carry out data integrity verification \n and functional testing. This script shall produce a bootstrap report \n providing the number of tuples/rows in each relation/table" as UC111
+
+usecase "UC201: I which to import ports from a text file and create a 2D-tree with port locations." as UC201
+usecase "UC202: I which to find the closest port of a ship given its CallSign, on a certain DateTime" as UC202
+usecase "UC203: I want the team to review the relational data model in view \nof the new user stories so it can support all the requirements to \nfulfil the purpose of the system being developed. " as UC203
+usecase "UC204: I want to know the current situation of a specific container being used to transport my goods." as UC204
+usecase "UC205: I want the list of containers to be offloaded in the next port, \nincluding container identifier, type, position, and load." as UC205
+usecase "UC206: I want the list of containers to be loaded in the next port, \nincluding container identifier, type, and load." as UC206
+usecase "UC207: I want to know how many cargo manifests I have transported during a \ngiven year and the average number of containers per manifest." as UC207
+usecase "UC208: I want to know the occupancy rate (percentage) of a given ship \nfor a given cargo manifest. Occupancy rate is the ratio between total number of containers \nin the ship coming from a given manifest and the total capacity of the ship, i.e., the \nmaximum number of containers the ship can load." as UC208
+usecase "UC209: I want to know the occupancy rate of a given ship at a given moment." as UC209
+usecase "UC210: I need to know which ships will be available on Monday next week and their location" as UC210
+
+usecase "UC301: I which to import data from countries, ports, borders and seadists files from the database to build a freight network." as UC301
+usecase "UC302: I wish to colour the map using as few colours as possible." as UC302
+usecase "UC303: I wish to know which places (cities or ports) are closest to all other places (closeness places)" as UC303
+usecase "UC304: I want to have access to audit trails for a given container of a given cargo manifest,\n that is, I want to have access to a list of all operations performed on a given container\n of a given manifest, in chronological order.\nFor each operation I want to know: the user/login that performed it, \n the date and time the operation was performed, \nthe type of operation (INSERT, UPDATE, DELETE), \nthe container identifier and \nthe cargo manifest identifier. " as UC304
+usecase "UC305: I want to know the route of a specific container I am leasing." as UC305
+usecase "UC306: I want to know the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days." as UC306
+usecase "UC307: I intend to get a warning whenever I issue a cargo manifest destined for a warehouse whose available capacity is insufficient to accommodate the new manifest." as UC307
+usecase "UC308: I want to have a system that ensures that the number ofcontainers in a manifest does not exceed the ship's available capacity. " as UC308
+usecase "UC309: I do not allow a cargo manifest for a particular ship to be registered in the system on a date when the ship is already occupied. " as UC309
+usecase "UC310: I intend to have a map of the occupation of the existing resources in the port during a given month. " as UC310
+
+usecase "UC311: I want to provide a database access account, \nwith login “crew” and password “bd7wd5aF”, which gives access exclusively to the \ninformation of the containers that are loaded on my ship. \nThe information about each container to be made available is: identifier, \ntype, position and load." as UC311
+usecase "UC312: I want to know the current situation of a specific container being used to transport my goods" as UC312
+usecase "UC313: I wish to fill a statically reserved matrix in memory with each container's ID in its respective place" as UC313
+usecase "UC314: I wish to know the total number of free/occupied slots in the transport vehicle." as UC314
+usecase "UC315: Given a position in the transport vehicle, I wish to know if a ontainer is there or not." as UC315
+usecase "UC316: I wish to know the total number of occupied slots" as UC316
+usecase "UC317: I want to know what set of materials to use in a container, to operate at temperatures of 7°C." as UC317
+usecase "UC318: I want to know what set of materials to use in a container, to operate at temperatures of -5 °C." as UC318
+usecase "UC319: I want to know the thermal resistance, for each operating temperature, \nof each container that must contain at \nleast three different materials in its walls. One for the outer wall, one for the intermediate material, and one for the inner wall. " as UC319
+usecase "UC320:  I intend to present in a summary document, the choice of materials considered for the two types of containers considered, and their thermal resistances." as UC320
+
+usecase "UC401: I wish to know which ports are more critical (have greater centrality) in this freight network." as UC401
+usecase "UC402: I wish to know the shortest path between two locals (city and/or port)." as UC402
+usecase "UC403: I wish to know the most efficient circuit that starts from a \n source location and visits the greatest number of other locations once, returning to the \n starting location and with the shortest total distance." as UC403
+usecase "UC404: I want to know the number of days each ship has been idle since the beginning of the current year." as UC404
+usecase "UC405: I want to know the average occupancy rate per manifest of a given ship during a given period." as UC405
+usecase "UC406: I want to know which ship voyages – place and date of origin \n and destination – had an occupancy rate below a certain threshold; by default, consider an \n occupancy rate threshold of 66%. Only the trips already concluded are to be considered." as UC406
+usecase "UC407: I intend to generate, a week in advance, the loading and \n unloading map based on ships and trucks load manifests and corresponding travel plans, \n to anticipate the level of sufficient and necessary resources (loading and unloading staff, \n warehouse staff, ...)." as UC407
+usecase "UC408: I intend to develop a data model to build a Data Warehouse to \n analyse the volume of maritime traffic between any two ports. The fact to be analysed is \n the traffic volume measured by the indicators “number of containers”, “accumulated \n number of containers” and “target number of containers”. These indicators refer to the \n number of containers that are in transit between two ports/locations on the first day of \n each month. The dimensions to consider are Time, Port of origin and Port of destination. \nThe Time dimension has a hierarchy with the following levels: Year, Month. The \n location/Port is subject to the following hierarchy: Continent, Country, Port. An estimate \n of the upper cardinality of the dimension and fact tables must be indicated" as UC408
+usecase "UC409: I wish to fill a dynamically reserved matrix array in memory with all the container's information in its respective place." as UC409
+usecase "UC410: I want to know the amount of needed energy to keep the container at its required temperature, given the position of a container" as UC410
+usecase "UC411: I want to receive an alert when the current energy generation units are not enough to provide energy to all refrigerated containers at once." as UC411
+usecase "UC412: We intend to know how much energy to supply, for each container, in a determined trip, with an exterior temperature of 20 ºC, and a travel time of 2h30. " as UC412
+usecase "UC413: The objective is to know the total energy to be supplied to the set of containers in a certain established trip, assuming that all the \n containers have the same behaviour." as UC413
+usecase "UC414: You want to know how much energy to supply \n to the container cargo, in a voyage (or route), depending on the position of the containers \n on the ship. Admitting that the interior containers, or the sides not exposed directly to the \n"sun", maintain the initial temperature, or of departure. However, the exposed sides may \npresent temperature variations during the trip." as UC414
+usecase "UC415: I need to know how many auxiliary power equipment are needed for the voyage, knowing that each one supplies a maximum of 75 KW." as UC415
+usecase "UC416: I intend to submit a summary document, with the following items" as UC416
+usecase "UC417: I want the technical team to search for at least three types of \n ship/vessels that are better suited to the task (e.g., depending on the type of cargo), in \n which the “control” bridge can assume three positions, one in the bow, one in the stern, \n and finally in the midship" as UC417
+usecase "UC418: I want the determine the unladen center of mass for each \n vessel (if different) according to its characteristics. For calculation purposes, consider \nknown geometric figures." as UC418
+usecase "UC419: I want to know where to position, for example, one hundred \n (100) containers on the vessel, such that the center of mass remains at xx and yy, \n determined in the previous point. " as UC419
+usecase "UC420: I want to know for a specific vessel, how much did the \n vessel sink, assuming that each container has half a ton of mass. " as UC420
+}
+
+TM-----UC101
+TM----UC102
+TM----UC103
+TM----UC104
+TM----UC105
+TM----UC106
+TM----UC107
+M----UC108
+M----UC109
+M----UC110
+M----UC111
+
+UC201 ---- PM
+UC202 ---- TM
+UC203 ---- M
+UC204 ---- C
+UC205 ---- SC
+UC206 ---- SC
+UC207 ---- SC
+UC208 ---- SC
+UC209 ---- SC
+UC210 ---- TM
+
+
+UC301 ---- TM
+UC302 ---- TM
+UC303 ---- TM
+UC304 ---- SC
+UC305 ---- C
+UC306 ---- PM
+UC307 ---- PM
+UC308 ---- TM
+UC309 ---- TM
+UC310 ---- PM
+UC311 ---- SC
+UC312 ---- C
+UC313 ---- PS
+UC314 ---- PS
+UC315 ---- PS
+UC316 ---- PS
+UC317 ---- SCEE
+UC318 ---- SCEE
+UC319 ---- SCEE
+UC320 ---- SCEE
+
+TM-----UC401
+TM----UC402
+TM----UC403
+FM----UC404
+FM----UC405
+FM----UC406
+PM----UC407
+PM----UC408
+PM----UC409
+UC410 ---- SCEE
+UC411 ---- SCEE
+UC412 ---- SCEE
+UC413 ---- SCEE
+UC414 ---- SCEE
+UC415 ---- SC
+UC416 ---- SM
+UC417 ---- SC
+UC418 ---- SC
+UC419 ---- SC
+UC420 ---- SC
+
+
+@enduml

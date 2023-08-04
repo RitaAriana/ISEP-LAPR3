@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant "System" as SY
+
+activate TM
+TM -> SY : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate SY
+SY --> TM : receive or not a warning
+deactivate SY
+deactivate TM
+@enduml

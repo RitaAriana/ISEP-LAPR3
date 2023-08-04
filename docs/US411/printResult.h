@@ -1,0 +1,1 @@
+void printResult(float requiredEnergy);

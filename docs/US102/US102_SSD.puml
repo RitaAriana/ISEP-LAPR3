@@ -1,0 +1,39 @@
+@startuml
+autonumber
+
+actor "Traffic manager" as manager
+participant "SearchDetailsUI" as sdUI
+
+activate manager
+manager -> sdUI : Asks to search the details of a ship
+activate sdUI
+sdUI --> manager : Requests to choose the code to perform the search (MMSI, IMO or Call Sign).
+deactivate sdUI
+
+manager -> sdUI : Chooses the code
+activate sdUI
+sdUI --> manager : Asks to type code
+deactivate sdUI
+
+alt ship code - MMSI
+manager -> sdUI  : Search by MMSI
+activate sdUI
+deactivate sdUI
+else ship code - IMO
+manager -> sdUI  : Search by IMO
+activate sdUI
+deactivate sdUI
+else ship code - Call Sign
+manager -> sdUI : Search by Call Sign
+activate sdUI
+deactivate sdUI
+end
+
+
+manager -> sdUI : Requests data
+activate sdUI
+
+sdUI --> manager : Displays the details of the ship
+deactivate sdUI
+
+@enduml

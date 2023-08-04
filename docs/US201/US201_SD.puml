@@ -1,0 +1,79 @@
+@startuml
+
+autonumber
+actor "Port Manager" as PM
+
+participant ":ImportPortUI" as ui
+participant ":ImportPortController" as controller
+participant ":ImportPort" as importPort
+participant ":Company" as company
+participant ":CountryStore" as str
+participant "country:Country" as country
+participant "placeLocation:PlaceLocation" as PL
+participant ":PortStore" as pstore
+participant "port:Ports" as Port
+participant ":Ports2DTree" as tree
+participant "lst:List<Nodes<Port>>" as lst
+
+activate PM
+PM -> ui : import ports from a text file
+activate ui
+ui --> PM : requests the name of the .csv file containing the data
+deactivate ui
+PM -> ui : inserts file name
+activate ui
+ui -> controller : importFile(fileName)
+activate controller
+controller -> importPort : loadFile(nameOfTheFileToBeImported)
+activate importPort
+deactivate importPort
+deactivate controller
+ui -> controller : importPorts()
+activate controller
+controller -> importPort : convertPorts()
+activate importPort
+loop for each line on the file
+importPort -> company: getCountryStr()
+activate company
+deactivate company
+importPort -> company : getPortStr()
+activate company
+deactivate company
+importPort -> str: country = getCountryByName(portArray[1])
+activate str
+deactivate str
+alt country == null
+importPort->str : createCountry(portArray[1],portArray[0])
+activate str
+deactivate str
+end
+importPort--> PL** : create(portArray[4],portArray[5])
+importPort --> pstore : create(country,portArray[2],portArray[3],placeLocation)
+activate pstore
+deactivate pstore
+importPort -> pstore : success =savePort()
+activate pstore
+deactivate pstore
+alt success == true
+importPort --> tree : node = create Node<Port>
+activate tree
+deactivate tree
+importPort -> lst : add(node)
+activate lst
+deactivate lst
+end
+end
+importPort -> tree: balanceTree(lst)
+activate tree
+deactivate tree
+
+
+importPort --> controller : Informs the operation success
+deactivate importPort
+controller --> ui : Informs the operation success
+deactivate controller
+
+ui -> PM : Informs the operation success
+
+
+@enduml

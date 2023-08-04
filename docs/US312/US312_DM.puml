@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Containers {
+-x
+-y
+-z
+-containerNumber
+-checkDigit
+-isoCode
+-payLoad
+-tare
+-gross
+-weight
+}
+
+class CargoManifest {
+-listOfContainers
+-ratio
+-date
+-mmsiCode
+-id
+-numberOfContainers
+-destination
+}
+
+class Ports {
+-identification
+-name
+}
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Ship {
+-mmsiCode
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-draft
+-name
+-vesselTypeId
+-length
+-width
+-capacity
+}
+
+class Company {
+-designation
+}
+
+Company "1"--"1..*" Ship: own >
+CargoManifest "*" -- "1" Ports : delivered at >
+Company "1"--"1..*" Ports: have >
+Containers "1..*"--"1..*" CargoManifest: related to >
+Containers "0..*"--"1" Ports: store >
+PlaceLocation "*" -- "1" Country : placed in >
+Ports "1" -- "1" PlaceLocation : located at >
+Ship "1"---"1..*" Containers : transport >
+Ship "0..*"--"1" Ports: dock >
+
+@enduml

@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+
+class ColorFreightNetworkUI {}
+
+class ColorFreightNetworkController {
+-colorNetwork()
+}
+
+class Company {
+-designation
+-getFreightNetwork()
+}
+
+class FreightNetwork {
+-colorNetwork()
+-isFullyColored()
+}
+
+class AdjacencyMatrixGraph {
+-vertices()
+-adjVertices()
+}
+
+
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+
+class Edge {
+
+}
+
+
+ColorFreightNetworkUI ..> ColorFreightNetworkController
+
+ColorFreightNetworkController ..> Company
+ColorFreightNetworkController ..> FreightNetwork
+
+Company "1"--"1" FreightNetwork: have >
+
+FreightNetwork ..> AdjacencyMatrixGraph
+FreightNetwork "1" -- "1..*" Place : related with
+Place <|-- Capital
+Place "1" -- "1" PlaceLocation : located at >
+PlaceLocation "*" -- "1" Country : placed in >
+Country "2" -- "*" Border : has a
+AdjacencyMatrixGraph ..> Edge
+
+@enduml

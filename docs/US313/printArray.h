@@ -1,0 +1,1 @@
+void printArray(int x, int y, int z, int (*shipAllocation)[y][z]);

@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+activate TM
+TM -> ":System" : Initiates the process to obtain the Top-N ships with\n most kilometres travelled and their average speed
+activate ":System"
+":System" --> TM : Requests the necessary data (initial date, final date and\n    number of ships want to view for each vessel type)
+deactivate ":System"
+TM -> ":System" : Introduce the requested data
+activate ":System"
+":System" --> TM : Shows the Top-N ships
+deactivate ":System"
+
+deactivate TM
+
+
+@enduml

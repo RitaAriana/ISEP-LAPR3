@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Ship Chief Eletrical Engineer" as SCEE
+participant ": ShipChiefEletricaEngineerUI" as UI
+
+activate SCEE
+SCEE -> UI : requests to know the amount of needed  to keep \nthe container at its required temperature, given\n  the position of a container
+activate UI
+UI --> SCEE : shows requested information
+deactivate UI
+deactivate SCEE
+
+@enduml

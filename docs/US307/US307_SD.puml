@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic manager" as TM
+participant ":WarningWarehouseUi" as UI
+participant ":WarningWarehouseController" as CT
+participant ":US307Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+
+TM -> UI : tries to add a container to a warehouse that does not support
+activate UI
+UI->CT : createUS307()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+deactivate CT
+
+UI --> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml

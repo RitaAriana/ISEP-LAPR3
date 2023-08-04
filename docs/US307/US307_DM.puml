@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Containers {
+-x
+-y
+-z
+-containerNumber
+-checkDigit
+-isoCode
+-payLoad
+-tare
+-gross
+-weight
+}
+
+class CargoManifest {
+-listOfContainers
+-ratio
+-date
+-mmsiCode
+-id
+-numberOfContainers
+-destination
+}
+
+class Warehouse {
+-identification
+-name
+-capacity
+-occupancy
+}
+
+Containers "1..*"--"1..*" CargoManifest: related to >
+Containers "0..*"-"1" Warehouse: store >
+@enduml

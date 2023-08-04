@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Fleet Manager" as FM
+participant ":ShipsIdleUI" as UI
+participant ":ShipsIdleController" as CT
+participant ":ShipsIdleHandler" as US
+participant ":WriteForAFile" as WF
+
+activate FM
+FM -> UI : requests to know the number of days each ship has\nbeen idle since the beginning of the current year
+activate UI
+UI->CT : createUS404()
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+deactivate US
+
+UI --> FM : receive the result
+deactivate UI
+deactivate FM
+@enduml

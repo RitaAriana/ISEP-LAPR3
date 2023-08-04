@@ -1,0 +1,37 @@
+@startuml
+autonumber
+
+actor "Client" as C
+participant "FindContainerSituationUi" as UI
+participant "FindContainerSituationController" as CTRL
+participant "US204Handler" as handler
+participant "WriteForAFile" as writer
+
+activate C
+C -> UI:  Initiates the process to get the current\n situation of a specific container
+activate UI
+UI --> C : Request the e container identifier
+deactivate UI
+C -> UI : Introduce the requested data
+activate UI
+UI -> CTRL: getContainerLocation(containerNumber)
+activate CTRL
+CTRL --> handler** : create()
+CTRL -> handler: getContainerLocation(containerNumber)
+activate handler
+handler->writer:writeForAFile(containerLocation, fileName, filePath)
+activate writer
+writer --> handler: result
+deactivate writer
+handler --> CTRL: result
+deactivate handler
+CTRL-->UI: result
+deactivate CTRL
+UI-->C :Informs the operation success
+deactivate UI
+deactivate C
+@enduml
+
+
+
+@enduml

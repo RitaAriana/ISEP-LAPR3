@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+skinparam classAttributeIconSize 0
+
+
+class Company {
+-designation
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+Place <|-- Capital
+Country "2" -- "*" Border : has a
+PlaceLocation "*" -- "1" Country : placed in >
+Place "1" -- "1" PlaceLocation : located at >
+Company "1"--"1" FreightNetwork: have >
+FreightNetwork "1" -- "1..*" Place : related with
+@enduml

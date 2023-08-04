@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="498px" preserveAspectRatio="none" style="width:475px;height:498px;" version="1.1" viewBox="0 0 475 498" width="475.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fiie83wxhqc4t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="194.6367" style="stroke:#A80036;stroke-width:1.5;" width="15" x="31.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="405" y="207.4688"/><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="405" y="298.5234"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="39" x2="39" y1="134.4141" y2="371.0508"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="412.5" x2="412.5" y1="134.4141" y2="371.0508"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="54" x="7.5" y="129.7998">Client</text><ellipse cx="39" cy="22.5" fill="#FEFECE" filter="url(#fiie83wxhqc4t)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M39,34.5 L39,75 M19.5,46.5 L58.5,46.5 M39,75 L19.5,97.5 M39,75 L58.5,97.5 " fill="none" filter="url(#fiie83wxhqc4t)" style="stroke:#A80036;stroke-width:3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="54" x="7.5" y="391.3506">Client</text><ellipse cx="39" cy="410.9648" fill="#FEFECE" filter="url(#fiie83wxhqc4t)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M39,422.9648 L39,463.4648 M19.5,434.9648 L58.5,434.9648 M39,463.4648 L19.5,485.9648 M39,463.4648 L58.5,485.9648 " fill="none" filter="url(#fiie83wxhqc4t)" style="stroke:#A80036;stroke-width:3.0;"/><rect fill="#FEFECE" filter="url(#fiie83wxhqc4t)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="90" x="364.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="69" x="375" y="111.7998">System</text><rect fill="#FEFECE" filter="url(#fiie83wxhqc4t)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="90" x="364.5" y="369.5508"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="69" x="375" y="401.8506">System</text><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="194.6367" style="stroke:#A80036;stroke-width:1.5;" width="15" x="31.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="405" y="207.4688"/><rect fill="#FFFFFF" filter="url(#fiie83wxhqc4t)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="405" y="298.5234"/><polygon fill="#A80036" points="387,201.4688,402,207.4688,387,213.4688,393,207.4688" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="46.5" x2="396" y1="207.4688" y2="207.4688"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="330" x="57" y="175.6567">Initiates the process to get the current</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="268.5" x="63" y="200.1841">situation of a specific container</text><polygon fill="#A80036" points="63,246.9961,48,252.9961,63,258.9961,57,252.9961" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="54" x2="411" y1="252.9961" y2="252.9961"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="285" x="72" y="245.7114">Request the e container identifier</text><polygon fill="#A80036" points="387,292.5234,402,298.5234,387,304.5234,393,298.5234" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="46.5" x2="396" y1="298.5234" y2="298.5234"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="247.5" x="57" y="291.2388">Introduce the requested data</text><polygon fill="#A80036" points="55.5,338.0508,40.5,344.0508,55.5,350.0508,49.5,344.0508" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="46.5" x2="411" y1="344.0508" y2="344.0508"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="220.5" x="64.5" y="336.7661">Show the current location</text><!--MD5=[5b730b02588f8a74b9663f0d09249342]
+@startuml
+'https://plantuml.com/class-diagram
+actor "Client" as C
+participant "System" as SY
+
+activate C
+C -> SY :  Initiates the process to get the current\n situation of a specific container
+activate SY
+SY - -> C : Request the e container identifier
+deactivate SY
+C -> SY : Introduce the requested data
+
+activate SY
+SY- ->C : Show the current location
+deactivate SY
+deactivate C
+@enduml
+
+@startuml
+actor "Client" as C
+participant "System" as SY
+
+activate C
+C -> SY :  Initiates the process to get the current\n situation of a specific container
+activate SY
+SY - -> C : Request the e container identifier
+deactivate SY
+C -> SY : Introduce the requested data
+
+activate SY
+SY- ->C : Show the current location
+deactivate SY
+deactivate C
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

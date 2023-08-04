@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant ":US308UI" as UI
+participant ":US308Controller" as CT
+
+participant ":US308Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+TM -> UI : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate UI
+
+
+UI->CT : createUS308()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+
+
+
+
+UI --> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml

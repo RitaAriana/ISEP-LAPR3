@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="432px" preserveAspectRatio="none" style="width:591px;height:432px;" version="1.1" viewBox="0 0 591 432" width="591px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x9vh5wfpmneu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1x9vh5wfpmneu)" height="128.1094" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1x9vh5wfpmneu)" height="70.0547" style="stroke:#A80036;stroke-width:1.5;" width="15" x="517.5" y="207.4688"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="134.4141" y2="304.5234"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="525" x2="525" y1="134.4141" y2="304.5234"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="129.7998">Traffic Manager</text><ellipse cx="87" cy="22.5" fill="#FEFECE" filter="url(#f1x9vh5wfpmneu)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,34.5 L87,75 M67.5,46.5 L106.5,46.5 M87,75 L67.5,97.5 M87,75 L106.5,97.5 " fill="none" filter="url(#f1x9vh5wfpmneu)" style="stroke:#A80036;stroke-width:3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="324.8232">Traffic Manager</text><ellipse cx="87" cy="344.4375" fill="#FEFECE" filter="url(#f1x9vh5wfpmneu)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,356.4375 L87,396.9375 M67.5,368.4375 L106.5,368.4375 M87,396.9375 L67.5,419.4375 M87,396.9375 L106.5,419.4375 " fill="none" filter="url(#f1x9vh5wfpmneu)" style="stroke:#A80036;stroke-width:3.0;"/><rect fill="#FEFECE" filter="url(#f1x9vh5wfpmneu)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="96" x="474" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="75" x="484.5" y="111.7998">:System</text><rect fill="#FEFECE" filter="url(#f1x9vh5wfpmneu)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="96" x="474" y="303.0234"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="75" x="484.5" y="335.3232">:System</text><rect fill="#FFFFFF" filter="url(#f1x9vh5wfpmneu)" height="128.1094" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1x9vh5wfpmneu)" height="70.0547" style="stroke:#A80036;stroke-width:1.5;" width="15" x="517.5" y="207.4688"/><polygon fill="#A80036" points="499.5,201.4688,514.5,207.4688,499.5,213.4688,505.5,207.4688" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="508.5" y1="207.4688" y2="207.4688"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="187.9204">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="333" x="121.5" y="175.6567">Initiates the process to colour the map</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="288" x="127.5" y="200.1841">using as few colours as possible.</text><polygon fill="#A80036" points="103.5,271.5234,88.5,277.5234,103.5,283.5234,97.5,277.5234" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="94.5" x2="523.5" y1="277.5234" y2="277.5234"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="112.5" y="257.9751">2</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="370.5" x="129" y="245.7114">Informs of operation success and indicates</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="316.5" x="135" y="270.2388">the colors assigned to each country.</text><!--MD5=[37ecef90382018fb29fb9ece451f9ac4]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to colour the map \n using as few colours as possible.
+activate ":System"
+
+":System" - -> TM : Informs of operation success and indicates\n the colors assigned to each country.
+deactivate ":System"
+
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to colour the map \n using as few colours as possible.
+activate ":System"
+
+":System" - -> TM : Informs of operation success and indicates\n the colors assigned to each country.
+deactivate ":System"
+
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

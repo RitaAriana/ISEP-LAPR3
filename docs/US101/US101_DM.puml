@@ -1,0 +1,48 @@
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+-designation
+}
+
+class TrafficManager {
+-name
+}
+
+class Ship {
+-mmsiCode
+-name
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-vesselType
+-length
+-width
+-capacity
+-draft
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+Company "1"--"1..*" Ship: own >
+
+Company "1"--"1..*" TrafficManager: have >
+
+Ship "1" -- "1..*" ShipLocation : has >
+
+TrafficManager "1" -- "1..*" ShipLocation : controls >
+
+@enduml

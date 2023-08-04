@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+actor "Ship Captain" as SC
+participant ":WarehouseActionUI" as UI
+participant ":WarehouseActionController" as CT
+participant ":US306" as US
+participant ": WriteForAFile" as WF
+
+
+
+activate SC
+SC -> UI : starts the requisition of the occupancy rate\n of each warehouse and an estimate of the\n containers leaving the warehouse during\n the next 30 days
+activate UI
+UI->CT : createUS306()
+activate CT
+CT -> US** : create()
+US -> US: initialize()
+activate US
+US -> US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+deactivate US
+UI --> SC : show the result
+deactivate UI
+
+
+
+
+@enduml

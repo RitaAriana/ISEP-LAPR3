@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class 406UI{
+}
+
+class 406Controller{
++ create405()
+}
+
+
+class 406 {
+- initialize()
++ toString()
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+406UI ..> 406Controller
+406Controller-> 406
+406 --> WriteForAFile : uses
+@enduml

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="345px" preserveAspectRatio="none" style="width:500px;height:345px;background:#FFFFFF;" version="1.1" viewBox="0 0 500 345" width="500px" zoomAndPan="magnify"><defs><filter height="300%" id="f1spcuczafdqlx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ea157df1fa39030cc170d8f4b7bdd8fc]
+class KnowRouteUI--><rect codeLine="3" fill="#FEFECE" filter="url(#f1spcuczafdqlx)" height="48" id="KnowRouteUI" style="stroke:#A80036;stroke-width:1.5;" width="108" x="70.5" y="7"/><ellipse cx="85.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M87.5,19.5 Q87.7031,19 87.9375,18.75 Q88.1719,18.5 88.4375,18.5 Q88.9063,18.5 89.2031,18.7813 Q89.5,19.0625 89.5,19.7188 L89.5,21.2813 Q89.5,21.9375 89.2188,22.2188 Q88.9375,22.5 88.5,22.5 Q88.1094,22.5 87.8594,22.3281 Q87.6094,22.1563 87.5,21.7031 Q87.4531,21.3906 87.2813,21.2188 Q86.9688,20.8906 86.4063,20.7031 Q85.8438,20.5 85.2813,20.5 Q84.5781,20.5 83.9844,20.7813 Q83.4063,21.0625 82.9531,21.6875 Q82.5,22.3125 82.5,23.1719 L82.5,24.0938 Q82.5,25.125 83.3438,25.8125 Q84.1875,26.5 85.6875,26.5 Q86.5781,26.5 87.2031,26.2969 Q87.5625,26.1875 87.9688,25.8281 Q88.2344,25.625 88.375,25.5625 Q88.5156,25.5 88.6875,25.5 Q89.0156,25.5 89.25,25.7656 Q89.5,26.0156 89.5,26.375 Q89.5,26.7188 89.1563,27.125 Q88.6563,27.7188 87.8594,28.0469 Q86.8125,28.5 85.5313,28.5 Q84.0313,28.5 82.8281,27.9063 Q81.8594,27.4375 81.1719,26.4219 Q80.5,25.4063 80.5,24.2031 L80.5,23.1094 Q80.5,21.8594 81.0938,20.7656 Q81.7031,19.6719 82.75,19.0938 Q83.8125,18.5 85,18.5 Q85.7188,18.5 86.3438,18.75 Q86.9688,19 87.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="99.5" y="27.9102">KnowRouteUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="71.5" x2="177.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="71.5" x2="177.5" y1="47" y2="47"/><!--MD5=[acdaf4045c659dc7634bd8df8d0662a3]
+class KnowRouteController--><rect codeLine="6" fill="#FEFECE" filter="url(#f1spcuczafdqlx)" height="61.8359" id="KnowRouteController" style="stroke:#A80036;stroke-width:1.5;" width="235" x="7" y="123"/><ellipse cx="61.25" cy="139" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M63.25,135.5 Q63.4531,135 63.6875,134.75 Q63.9219,134.5 64.1875,134.5 Q64.6563,134.5 64.9531,134.7813 Q65.25,135.0625 65.25,135.7188 L65.25,137.2813 Q65.25,137.9375 64.9688,138.2188 Q64.6875,138.5 64.25,138.5 Q63.8594,138.5 63.6094,138.3281 Q63.3594,138.1563 63.25,137.7031 Q63.2031,137.3906 63.0313,137.2188 Q62.7188,136.8906 62.1563,136.7031 Q61.5938,136.5 61.0313,136.5 Q60.3281,136.5 59.7344,136.7813 Q59.1563,137.0625 58.7031,137.6875 Q58.25,138.3125 58.25,139.1719 L58.25,140.0938 Q58.25,141.125 59.0938,141.8125 Q59.9375,142.5 61.4375,142.5 Q62.3281,142.5 62.9531,142.2969 Q63.3125,142.1875 63.7188,141.8281 Q63.9844,141.625 64.125,141.5625 Q64.2656,141.5 64.4375,141.5 Q64.7656,141.5 65,141.7656 Q65.25,142.0156 65.25,142.375 Q65.25,142.7188 64.9063,143.125 Q64.4063,143.7188 63.6094,144.0469 Q62.5625,144.5 61.2813,144.5 Q59.7813,144.5 58.5781,143.9063 Q57.6094,143.4375 56.9219,142.4219 Q56.25,141.4063 56.25,140.2031 L56.25,139.1094 Q56.25,137.8594 56.8438,136.7656 Q57.4531,135.6719 58.5,135.0938 Q59.5625,134.5 60.75,134.5 Q61.4688,134.5 62.0938,134.75 Q62.7188,135 63.25,135.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="81.75" y="143.9102">KnowRouteController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="241" y1="155" y2="155"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="241" y1="163" y2="163"/><ellipse cx="18" cy="174" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="27" y="178.4189">createUS205(registrationCode, containerId)</text><!--MD5=[88954a3c78b20e10016b3e3a2e07b84f]
+class US305--><rect codeLine="11" fill="#FEFECE" filter="url(#f1spcuczafdqlx)" height="75.6719" id="US305" style="stroke:#A80036;stroke-width:1.5;" width="209" x="277" y="116"/><ellipse cx="358.25" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M360.25,128.5 Q360.4531,128 360.6875,127.75 Q360.9219,127.5 361.1875,127.5 Q361.6563,127.5 361.9531,127.7813 Q362.25,128.0625 362.25,128.7188 L362.25,130.2813 Q362.25,130.9375 361.9688,131.2188 Q361.6875,131.5 361.25,131.5 Q360.8594,131.5 360.6094,131.3281 Q360.3594,131.1563 360.25,130.7031 Q360.2031,130.3906 360.0313,130.2188 Q359.7188,129.8906 359.1563,129.7031 Q358.5938,129.5 358.0313,129.5 Q357.3281,129.5 356.7344,129.7813 Q356.1563,130.0625 355.7031,130.6875 Q355.25,131.3125 355.25,132.1719 L355.25,133.0938 Q355.25,134.125 356.0938,134.8125 Q356.9375,135.5 358.4375,135.5 Q359.3281,135.5 359.9531,135.2969 Q360.3125,135.1875 360.7188,134.8281 Q360.9844,134.625 361.125,134.5625 Q361.2656,134.5 361.4375,134.5 Q361.7656,134.5 362,134.7656 Q362.25,135.0156 362.25,135.375 Q362.25,135.7188 361.9063,136.125 Q361.4063,136.7188 360.6094,137.0469 Q359.5625,137.5 358.2813,137.5 Q356.7813,137.5 355.5781,136.9063 Q354.6094,136.4375 353.9219,135.4219 Q353.25,134.4063 353.25,133.2031 L353.25,132.1094 Q353.25,130.8594 353.8438,129.7656 Q354.4531,128.6719 355.5,128.0938 Q356.5625,127.5 357.75,127.5 Q358.4688,127.5 359.0938,127.75 Q359.7188,128 360.25,128.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="378.75" y="136.9102">US305</text><line style="stroke:#A80036;stroke-width:1.5;" x1="278" x2="485" y1="148" y2="148"/><line style="stroke:#A80036;stroke-width:1.5;" x1="278" x2="485" y1="156" y2="156"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="285" y="164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="183" x="297" y="171.4189">initialize(registrationCode, containerId)</text><ellipse cx="288" cy="180.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="297" y="185.2549">toString()</text><!--MD5=[c4c1f95cf25890b8d906953e22c853cc]
+class WriteForAFile--><rect codeLine="17" fill="#FEFECE" filter="url(#f1spcuczafdqlx)" height="61.8359" id="WriteForAFile" style="stroke:#A80036;stroke-width:1.5;" width="188" x="287.5" y="270"/><ellipse cx="340.75" cy="286" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M342.75,282.5 Q342.9531,282 343.1875,281.75 Q343.4219,281.5 343.6875,281.5 Q344.1563,281.5 344.4531,281.7813 Q344.75,282.0625 344.75,282.7188 L344.75,284.2813 Q344.75,284.9375 344.4688,285.2188 Q344.1875,285.5 343.75,285.5 Q343.3594,285.5 343.1094,285.3281 Q342.8594,285.1563 342.75,284.7031 Q342.7031,284.3906 342.5313,284.2188 Q342.2188,283.8906 341.6563,283.7031 Q341.0938,283.5 340.5313,283.5 Q339.8281,283.5 339.2344,283.7813 Q338.6563,284.0625 338.2031,284.6875 Q337.75,285.3125 337.75,286.1719 L337.75,287.0938 Q337.75,288.125 338.5938,288.8125 Q339.4375,289.5 340.9375,289.5 Q341.8281,289.5 342.4531,289.2969 Q342.8125,289.1875 343.2188,288.8281 Q343.4844,288.625 343.625,288.5625 Q343.7656,288.5 343.9375,288.5 Q344.2656,288.5 344.5,288.7656 Q344.75,289.0156 344.75,289.375 Q344.75,289.7188 344.4063,290.125 Q343.9063,290.7188 343.1094,291.0469 Q342.0625,291.5 340.7813,291.5 Q339.2813,291.5 338.0781,290.9063 Q337.1094,290.4375 336.4219,289.4219 Q335.75,288.4063 335.75,287.2031 L335.75,286.1094 Q335.75,284.8594 336.3438,283.7656 Q336.9531,282.6719 338,282.0938 Q339.0625,281.5 340.25,281.5 Q340.9688,281.5 341.5938,281.75 Q342.2188,282 342.75,282.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="361.25" y="290.9102">WriteForAFile</text><line style="stroke:#A80036;stroke-width:1.5;" x1="288.5" x2="474.5" y1="302" y2="302"/><line style="stroke:#A80036;stroke-width:1.5;" x1="288.5" x2="474.5" y1="310" y2="310"/><ellipse cx="298.5" cy="321" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="307.5" y="325.4189">writeForAFiLe(textualInformation)</text><!--MD5=[be5cd08c93ff5fe2f10846c8d8e97e2b]
+link KnowRouteUI to KnowRouteController--><path codeLine="23" d="M124.5,55.04 C124.5,72.74 124.5,97.49 124.5,117.69 " fill="none" id="KnowRouteUI-to-KnowRouteController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="124.5,122.72,128.5,113.72,124.5,117.72,120.5,113.72,124.5,122.72" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ab68a184a1af215f20f3266043e2be21]
+link KnowRouteController to US305--><path codeLine="24" d="M242.21,154 C252.02,154 261.82,154 271.63,154 " fill="none" id="KnowRouteController-to-US305" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="276.76,154,267.76,150,271.76,154,267.76,158,276.76,154" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[201864743bb55c041def6998fc32d041]
+link US305 to WriteForAFile--><path codeLine="25" d="M381.5,192.34 C381.5,214.56 381.5,242.59 381.5,264.48 " fill="none" id="US305-to-WriteForAFile" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="381.5,269.62,385.5,260.62,381.5,264.62,377.5,260.62,381.5,269.62" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="382.5" y="236.4951">uses</text><!--MD5=[67fe5c6efa3311b7b123ae791d04e251]
+@startuml
+'https://plantuml.com/class-diagram
+
+class KnowRouteUI{
+}
+
+class KnowRouteController{
++ createUS205(registrationCode, containerId)
+}
+
+
+class US305 {
+- initialize(registrationCode, containerId)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+KnowRouteUI ..> KnowRouteController
+KnowRouteController -> US305
+US305 - -> WriteForAFile : uses
+
+@enduml
+
+@startuml
+
+class KnowRouteUI{
+}
+
+class KnowRouteController{
++ createUS205(registrationCode, containerId)
+}
+
+
+class US305 {
+- initialize(registrationCode, containerId)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+KnowRouteUI ..> KnowRouteController
+KnowRouteController -> US305
+US305 - -> WriteForAFile : uses
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

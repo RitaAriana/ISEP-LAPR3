@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ShipsIdleUI{
+}
+
+class ShipsIdleController{
++ createShipsIdle()
+}
+
+
+class ShipsIdleHandler{
+- initialize()
++ toString()
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+ShipsIdleUI ..> ShipsIdleController
+ShipsIdleController-> ShipsIdleHandler
+ShipsIdleHandler --> WriteForAFile : uses
+@enduml

@@ -1,0 +1,96 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+
+class GetTheMostEfficientCircuitUI  {}
+
+class GetTheMostEfficientCircuitController {
+-getTheMostEfficientCircuit(origem);
+}
+
+class Company {
+-designation
+-getFreightNetwork()
+}
+
+
+
+class FreightNetwork {
+-mostEfficientCircuit(locationName);
+}
+
+class Ports {
+-identification
+-name
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+class Seadist {
+-portId1
+-portId2
+-seaDistance
+-portName1
+-portName2
+-countryName1
+-countryName2
+}
+
+class AdjacencyMatrixGraph {
+-adjVertices(i);
+-edge(localAtual,location);
+}
+
+class Edge {
+-getWeight();
+}
+
+
+GetTheMostEfficientCircuitUI  ..> GetTheMostEfficientCircuitController
+
+GetTheMostEfficientCircuitController ..> Company
+GetTheMostEfficientCircuitController ..> FreightNetwork
+
+Company "1"--"1" FreightNetwork: have >
+FreightNetwork ..> AdjacencyMatrixGraph
+AdjacencyMatrixGraph ..> Edge
+Company "1"--"1..*" Ports: have >
+
+Ports "2"--"*" Seadist: has a
+FreightNetwork "1" -- "1..*" Place : related with
+Place <|-- Capital
+Place <|-- Ports
+Country "2" -- "*" Border : has a
+PlaceLocation "*" -- "1" Country : placed in >
+Place "1" -- "1" PlaceLocation : located at >
+
+
+@enduml

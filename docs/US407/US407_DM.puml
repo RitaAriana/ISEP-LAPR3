@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Warehouse {
+-identification
+-name
+-capacity
+-occupancy
+}
+
+class Ports {
+-identification
+-name
+}
+
+class Ship {
+-mmsiCode
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-draft
+-name
+-vesselTypeId
+-length
+-width
+-capacity
+}
+
+class Employee {
+-name
+}
+
+Employee "1" - "1..*" Ports : controls >
+Employee "1..*" -- "1" Warehouse : works >
+Employee "1..*" -- "1" Ship : works >
+@enduml

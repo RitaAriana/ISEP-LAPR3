@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ClosenessLocalsUI  " as UI
+participant ":ClosenessLocalsController" as CTRL
+participant ":Company" as CMP
+participant ":CountryStore" as STORE
+participant ":FreightNetwork" as network
+participant "result:Map<String,List<Place>>"
+
+
+
+activate TM
+TM -> UI: Initiates the process to know which places (cities or ports)\n  are closest to all other places (closeness places)
+activate UI
+UI --> TM : Asks how many locations you want to get per continent
+deactivate UI
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : closenessLocals(n)
+activate CTRL
+CTRL->CMP : getCountryStore()
+activate CMP
+deactivate CMP
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL-> network : mostCenteredCities(n,countryStore)
+activate network
+network-->CTRL: result
+deactivate network
+CTRL-->UI: result
+deactivate CTRL
+UI --> TM : Informs of operation success and indicates\n the n closeness locals by continent
+deactivate UI
+
+deactivate TM
+
+@enduml

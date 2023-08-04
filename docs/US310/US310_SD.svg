@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="526px" preserveAspectRatio="none" style="width:1098px;height:526px;background:#FFFFFF;" version="1.1" viewBox="0 0 1098 526" width="1098px" zoomAndPan="magnify"><defs><filter height="300%" id="f1u22pf7l00pjy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="323.0703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="223.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="618" y="168.6641"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="813.5" y="253.625"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818.5" y="296.9766"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1028.5" y="362.3281"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="89.6094" y2="440.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="386" x2="386" y1="89.6094" y2="440.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="623" x2="623" y1="89.6094" y2="440.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="818" x2="818" y1="209.9688" y2="440.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1033" x2="1033" y1="89.6094" y2="440.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="86.5332">Port Manager</text><ellipse cx="51" cy="15" fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,23 L51,50 M38,31 L64,31 M51,50 L38,65 M51,50 L64,65 " fill="none" filter="url(#f1u22pf7l00pjy)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="454.2129">Port Manager</text><ellipse cx="51" cy="467.2891" fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,475.2891 L51,502.2891 M38,483.2891 L64,483.2891 M51,502.2891 L38,517.2891 M51,502.2891 L64,517.2891 " fill="none" filter="url(#f1u22pf7l00pjy)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="192" x="288" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="295" y="74.5332">:MapOfOccupancyMonthlyUi</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="192" x="288" y="439.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="295" y="461.2129">:MapOfOccupancyMonthlyUi</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="254" x="494" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="240" x="501" y="74.5332">:MapOfOccupancyMonthlyUiController</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="254" x="494" y="439.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="240" x="501" y="461.2129">:MapOfOccupancyMonthlyUiController</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="762" y="439.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="769" y="461.2129">:US310Handler</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="979" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="986" y="74.5332">:WriteForAFile</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="979" y="439.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="986" y="461.2129">:WriteForAFile</text><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="323.0703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="223.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="618" y="168.6641"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="813.5" y="253.625"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818.5" y="296.9766"/><rect fill="#FFFFFF" filter="url(#f1u22pf7l00pjy)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1028.5" y="362.3281"/><polygon fill="#A80036" points="369,134.3125,379,138.3125,369,142.3125,373,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="56" x2="375" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="306" x="63" y="117.1045">start the creation of the map for the occupation of the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="67" y="133.4561">existing resources in the port during a given month</text><polygon fill="#A80036" points="606,164.6641,616,168.6641,606,172.6641,610,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="391" x2="612" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="398" y="163.8076">createUS310()</text><polygon fill="#A80036" points="750,195.0156,760,199.0156,750,203.0156,754,199.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="628" x2="756" y1="199.0156" y2="199.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="635" y="194.1592">create()</text><rect fill="#FEFECE" filter="url(#f1u22pf7l00pjy)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="762" y="176.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="769" y="198.1973">:US310Handler</text><line style="stroke:#A80036;stroke-width:1.0;" x1="818.5" x2="865.5" y1="240.625" y2="240.625"/><line style="stroke:#A80036;stroke-width:1.0;" x1="865.5" x2="865.5" y1="240.625" y2="253.625"/><line style="stroke:#A80036;stroke-width:1.0;" x1="824.5" x2="865.5" y1="253.625" y2="253.625"/><polygon fill="#A80036" points="834.5,249.625,824.5,253.625,834.5,257.625,830.5,253.625" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="830.5" y="235.7686">initialize()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="828.5" x2="870.5" y1="288.9766" y2="288.9766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="870.5" x2="870.5" y1="288.9766" y2="301.9766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="829.5" x2="870.5" y1="301.9766" y2="301.9766"/><polygon fill="#A80036" points="839.5,297.9766,829.5,301.9766,839.5,305.9766,835.5,301.9766" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="835.5" y="284.1201">textualInformation = toString()</text><polygon fill="#A80036" points="1016.5,358.3281,1026.5,362.3281,1016.5,366.3281,1020.5,362.3281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="823.5" x2="1022.5" y1="362.3281" y2="362.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="830.5" y="357.4717">writeForAFile(textualInformation)</text><polygon fill="#A80036" points="62,418.6797,52,422.6797,62,426.6797,58,422.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="56" x2="385" y1="422.6797" y2="422.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="68" y="417.8232">receive or not a warning</text><!--MD5=[1c7f7fcac99fb0b4bd9d607c91d7a39e]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as PM
+participant ":MapOfOccupancyMonthlyUi" as UI
+participant ":MapOfOccupancyMonthlyUiController" as CT
+participant ":US310Handler" as US
+participant ":WriteForAFile" as WF
+
+activate PM
+
+PM -> UI :start the creation of the map for the occupation of the\n existing resources in the port during a given month
+activate UI
+UI->CT : createUS310()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+deactivate CT
+
+UI - -> PM : receive or not a warning
+deactivate UI
+deactivate PM
+@enduml
+
+@startuml
+
+actor "Port Manager" as PM
+participant ":MapOfOccupancyMonthlyUi" as UI
+participant ":MapOfOccupancyMonthlyUiController" as CT
+participant ":US310Handler" as US
+participant ":WriteForAFile" as WF
+
+activate PM
+
+PM -> UI :start the creation of the map for the occupation of the\n existing resources in the port during a given month
+activate UI
+UI->CT : createUS310()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+deactivate CT
+
+UI - -> PM : receive or not a warning
+deactivate UI
+deactivate PM
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

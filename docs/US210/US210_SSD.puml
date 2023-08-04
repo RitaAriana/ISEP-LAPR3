@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC -> SY : starts the requisition of the list of ships  that will \n be available  on Monday next week and their location
+
+activate SY
+SY-->SC : shows the list of ships
+deactivate SY
+deactivate SC
+@enduml

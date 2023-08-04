@@ -1,0 +1,61 @@
+@startuml
+
+left to right direction
+
+class Ship {
+-mmsiCode
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-draft
+-name
+-vesselTypeId
+-length
+-width
+-capacity
+}
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+class Ports {
+-identification
+-name
+}
+
+class Company {
+-designation
+}
+
+Company "1"--"1..*" Ship: own >
+
+Company "1"--"1..*" Ports: have >
+
+PlaceLocation "*" -- "1" Country : placed in >
+
+Ports "1" -- "1" PlaceLocation : located at >
+
+Ship "0..*"--"1" Ports: dock >
+
+Ship "1" -- "1..*" ShipLocation : has >
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class US309UI{
+}
+
+class US309Controller{
++ createUS308()
+}
+
+
+class US309 {
+- initialize()
++ toString()
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+
+US309UI ..> US309Controller
+US309Controller -> US309
+US309 --> WriteForAFile : uses
+@enduml

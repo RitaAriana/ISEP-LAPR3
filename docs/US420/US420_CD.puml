@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ShipCaptainUI{
+}
+
+class VesselSankController{
+- weightForce
+- immersedArea
+- pressure
+- immersedVolumeEmpty
+- immersedVolumeLoaded
+- draftEmpty
+- draftLoaded
+- shipSankHeight
+- textualInformation
++ createUS420(ship, vesselMass, containers)
++ toString()
+}
+
+
+class ShipSank {
+- calculateWeightForce(vesselMass)
+- immersedArea(ship)
+- pressureWxertedByVesselOnWater(ship, vesselMass, containers)
+- vesselImmersedVolume(vesselMass,containers)
+- calculateDraft(ship,volume)
+- shipSankHeight(ship,vesselMass,containers)
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+ShipCaptainUI ..> VesselSankController
+VesselSankController-> ShipSank
+ShipSank --> WriteForAFile : uses
+@enduml

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="393px" preserveAspectRatio="none" style="width:390px;height:393px;background:#FFFFFF;" version="1.1" viewBox="0 0 390 393" width="390px" zoomAndPan="magnify"><defs><filter height="300%" id="f1uojsbl14h7xn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="190.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="199.0156"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="259.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="89.6094" y2="308.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="348.5" x2="348.5" y1="89.6094" y2="308.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="86.5332">Ship Captain</text><ellipse cx="48.5" cy="15" fill="#FEFECE" filter="url(#f1uojsbl14h7xn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,23 L48.5,50 M35.5,31 L61.5,31 M48.5,50 L35.5,65 M48.5,50 L61.5,65 " fill="none" filter="url(#f1uojsbl14h7xn)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="321.6035">Ship Captain</text><ellipse cx="48.5" cy="334.6797" fill="#FEFECE" filter="url(#f1uojsbl14h7xn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,342.6797 L48.5,369.6797 M35.5,350.6797 L61.5,350.6797 M48.5,369.6797 L35.5,384.6797 M48.5,369.6797 L61.5,384.6797 " fill="none" filter="url(#f1uojsbl14h7xn)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1uojsbl14h7xn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="316.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="323.5" y="74.5332">System</text><rect fill="#FEFECE" filter="url(#f1uojsbl14h7xn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="316.5" y="307.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="323.5" y="328.6035">System</text><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="190.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="199.0156"/><rect fill="#FFFFFF" filter="url(#f1uojsbl14h7xn)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="343.5" y="259.7188"/><polygon fill="#A80036" points="331.5,134.3125,341.5,138.3125,331.5,142.3125,335.5,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="337.5" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="235" x="60.5" y="117.1045">starts the requisition of the ratio between</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="64.5" y="133.4561">number of container and the capacity of a ship</text><polygon fill="#A80036" points="64.5,164.6641,54.5,168.6641,64.5,172.6641,60.5,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="347.5" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="70.5" y="163.8076">asks the mmsi code of the ship</text><polygon fill="#A80036" points="331.5,195.0156,341.5,199.0156,331.5,203.0156,335.5,199.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="337.5" y1="199.0156" y2="199.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="60.5" y="194.1592">type the mmsi code of the ship</text><polygon fill="#A80036" points="64.5,225.3672,54.5,229.3672,64.5,233.3672,60.5,229.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="347.5" y1="229.3672" y2="229.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="70.5" y="224.5107">ask the date</text><polygon fill="#A80036" points="331.5,255.7188,341.5,259.7188,331.5,263.7188,335.5,259.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="337.5" y1="259.7188" y2="259.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="60.5" y="254.8623">type the date</text><polygon fill="#A80036" points="59.5,286.0703,49.5,290.0703,59.5,294.0703,55.5,290.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="53.5" x2="347.5" y1="290.0703" y2="290.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="65.5" y="285.2139">show the ratio in the date typed</text><!--MD5=[34cf5bb5adb3389d18addcb0c73bdd1f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC->SY : starts the requisition of the ratio between\n number of container and the capacity of a ship
+activate SY
+
+SY - -> SC : asks the mmsi code of the ship
+deactivate SY
+SC -> SY : type the mmsi code of the ship
+activate SY
+SY- ->SC : ask the date 
+deactivate SY
+
+SC -> SY : type the date 
+activate SY
+SY - ->SC : show the ratio in the date typed 
+deactivate SY
+
+deactivate SC
+
+
+@enduml
+
+@startuml
+
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC->SY : starts the requisition of the ratio between\n number of container and the capacity of a ship
+activate SY
+
+SY - -> SC : asks the mmsi code of the ship
+deactivate SY
+SC -> SY : type the mmsi code of the ship
+activate SY
+SY- ->SC : ask the date 
+deactivate SY
+
+SC -> SY : type the date 
+activate SY
+SY - ->SC : show the ratio in the date typed 
+deactivate SY
+
+deactivate SC
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

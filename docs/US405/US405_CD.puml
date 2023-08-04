@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class 405UI{
+}
+
+class 405Controller{
++ create405(initialTime, endTime)
+}
+
+
+class 405 {
+- initialize(initialTime, endTime)
++ toString()
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+405UI ..> 405Controller
+405Controller-> 405
+405 --> WriteForAFile : uses
+@enduml

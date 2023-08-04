@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Port Staff" as PS
+participant ": PortStaffUI" as UI
+
+activate PS
+PS -> UI : requests to populate a dynamically reserved array\n of arrays in memory with all container information\n in its respective location
+activate UI
+UI --> PS : shows requested information
+deactivate UI
+deactivate PS
+
+@enduml

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="542px" preserveAspectRatio="none" style="width:867px;height:542px;background:#FFFFFF;" version="1.1" viewBox="0 0 867 542" width="867px" zoomAndPan="magnify"><defs><filter height="300%" id="f73rkfazwqpxn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="339.4219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="341" y="154.6641"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="263.0156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="453" y="185.0156"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="582.5" y="269.9766"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="587.5" y="313.3281"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="797.5" y="378.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="457.0313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="346" x2="346" y1="89.6094" y2="457.0313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="458" x2="458" y1="89.6094" y2="457.0313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="587" x2="587" y1="226.3203" y2="457.0313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="802" x2="802" y1="89.6094" y2="457.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#f73rkfazwqpxn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#f73rkfazwqpxn)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="470.5645">Traffic Manager</text><ellipse cx="58" cy="483.6406" fill="#FEFECE" filter="url(#f73rkfazwqpxn)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,491.6406 L58,518.6406 M45,499.6406 L71,499.6406 M58,518.6406 L45,533.6406 M58,518.6406 L71,533.6406 " fill="none" filter="url(#f73rkfazwqpxn)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="308" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="315" y="74.5332">:US308UI</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="308" y="456.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="315" y="477.5645">:US308UI</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="395" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="402" y="74.5332">:US308Controller</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="395" y="456.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="402" y="477.5645">:US308Controller</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="531" y="456.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="538" y="477.5645">:US308Handler</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="748" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="755" y="74.5332">:WriteForAFile</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="748" y="456.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="755" y="477.5645">:WriteForAFile</text><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="339.4219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="341" y="154.6641"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="263.0156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="453" y="185.0156"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="582.5" y="269.9766"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="587.5" y="313.3281"/><rect fill="#FFFFFF" filter="url(#f73rkfazwqpxn)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="797.5" y="378.6797"/><polygon fill="#A80036" points="329,150.6641,339,154.6641,329,158.6641,333,154.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="335" y1="154.6641" y2="154.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="70" y="117.1045">have a system that ensures that the number</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="70" y="133.4561">of containers in a manifest does not exceed</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="74" y="149.8076">the ship's available capacity</text><polygon fill="#A80036" points="441,181.0156,451,185.0156,441,189.0156,445,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="351" x2="447" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="358" y="180.1592">createUS308()</text><polygon fill="#A80036" points="519,211.3672,529,215.3672,519,219.3672,523,215.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="463" x2="525" y1="215.3672" y2="215.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="470" y="210.5107">create()</text><rect fill="#FEFECE" filter="url(#f73rkfazwqpxn)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="531" y="193.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="538" y="214.5488">:US308Handler</text><line style="stroke:#A80036;stroke-width:1.0;" x1="587.5" x2="634.5" y1="256.9766" y2="256.9766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="634.5" x2="634.5" y1="256.9766" y2="269.9766"/><line style="stroke:#A80036;stroke-width:1.0;" x1="593.5" x2="634.5" y1="269.9766" y2="269.9766"/><polygon fill="#A80036" points="603.5,265.9766,593.5,269.9766,603.5,273.9766,599.5,269.9766" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="599.5" y="252.1201">initialize()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="597.5" x2="639.5" y1="305.3281" y2="305.3281"/><line style="stroke:#A80036;stroke-width:1.0;" x1="639.5" x2="639.5" y1="305.3281" y2="318.3281"/><line style="stroke:#A80036;stroke-width:1.0;" x1="598.5" x2="639.5" y1="318.3281" y2="318.3281"/><polygon fill="#A80036" points="608.5,314.3281,598.5,318.3281,608.5,322.3281,604.5,318.3281" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="604.5" y="300.4717">textualInformation = toString()</text><polygon fill="#A80036" points="785.5,374.6797,795.5,378.6797,785.5,382.6797,789.5,378.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="592.5" x2="791.5" y1="378.6797" y2="378.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="599.5" y="373.8232">writeForAFile(textualInformation)</text><polygon fill="#A80036" points="69,435.0313,59,439.0313,69,443.0313,65,439.0313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="345" y1="439.0313" y2="439.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="75" y="434.1748">receive or not a warning</text><!--MD5=[9234f760dbf63fab27240359490a9a3e]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant ":US308UI" as UI
+participant ":US308Controller" as CT
+
+participant ":US308Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+TM -> UI : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate UI
+
+
+UI->CT : createUS308()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+
+
+
+
+UI - -> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml
+
+@startuml
+
+actor "Traffic Manager" as TM
+participant ":US308UI" as UI
+participant ":US308Controller" as CT
+
+participant ":US308Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+TM -> UI : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate UI
+
+
+UI->CT : createUS308()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+
+
+
+
+UI - -> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

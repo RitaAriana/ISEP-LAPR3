@@ -1,0 +1,38 @@
+@startuml
+autonumber
+
+actor "Ship Captain" as SC
+participant ": AddContainersWithoutChangingComUI" as UI
+participant ": AddContainersWithoutChangingComController" as CT
+participant ":CenterOfMass" as CM
+
+activate SC
+SC -> UI : requests to know where to position, for example, one hundred\n(100) containers on the vessel, such that the center of mass\nremains at xx and yy
+activate UI
+
+UI -> CT : addContainerWithoutChangingCom(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar)
+activate CT
+
+CT-> CM : getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+activate CM
+CM-->CT : result
+deactivate CM
+
+CT-> CM : adicionarContentoresSemAlterarCentroMassaX(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar, centroMassaX)
+activate CM
+CM-->CT : result
+deactivate CM
+
+CT-> CM : adicionarContentoresSemAlterarCentroMassaY(numeroPartes, massaTotal, xInicial, xFinal, \nyInicial, yFinal, formasGeometricas, massaAcrescentar, centroMassaY)
+activate CM
+CM-->CT : result
+deactivate CM
+
+deactivate CM
+CT --> UI : result
+deactivate CT
+
+UI --> SC : receive the result
+deactivate UI
+deactivate SC
+@enduml

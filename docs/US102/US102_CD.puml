@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+class Ship {
+-mmsiCode : String
+-name : String
+-imoCode : String
+-numberEnergyGenerators : int
+-generatorPower : float
+-callSign : String
+-vesselType : int
+-length : float
+-width : float
+-capacity : float
+-draft : float
+--
+-getMMSI()
+-getName()
+-getShipId()
+-getEnergyGenerators()
+-getCallSign()
+-getVesselType()
+-getLength()
+-getWidth()
+-getCapacity()
+-getDraft()
+}
+
+
+class BstShip {
+-getShipByMmsiCode(mmsiCode)
+-inOrder()
+
+}
+
+
+class SearchDetailsUI {}
+
+class SearchDetailsController {
+-shipExistByMMSI(String mmsiCode)
+-shipExistByIMO(String imoCode)
+-shipExistByCallSign(String callsign)
+-getShipDetails()
+}
+
+class Company {
+-designation
+-getBstShip()
+}
+
+class SearchDetailsMapper{
+-shipDetailsToDto()
+}
+
+class ShipDetailsDto{
+-mmsiCode : String
+-name : String
+-imoCode : String
+-numberEnergyGenerators : int
+-generatorPower : float
+-callSign : String
+-vesselType : int
+-length : float
+-width : float
+-capacity : float
+-draft : float
+--
+-getMMSI()
+-getName()
+-getShipId()
+-getEnergyGenerators()
+-getCallSign()
+-getVesselType()
+-getLength()
+-getWidth()
+-getCapacity()
+-getDraft()
+}
+
+
+
+Company "1" -- "1" BstShip : uses >
+
+SearchDetailsUI ..> SearchDetailsController
+SearchDetailsUI ..> ShipDetailsDto
+
+SearchDetailsController ..> Company
+SearchDetailsController ..> BstShip
+SearchDetailsController ..> Ship
+SearchDetailsController ..> SearchDetailsMapper
+SearchDetailsController ..> ShipDetailsDto
+
+
+SearchDetailsMapper ..> Ship
+
+
+
+@enduml

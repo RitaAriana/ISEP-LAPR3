@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI --> C : Asks for the registration code and the container identifier
+deactivate UI
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI-->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml

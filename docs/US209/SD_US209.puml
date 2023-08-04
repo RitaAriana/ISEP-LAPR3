@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant ": RatioOfCargoManifestDateUI" as UI
+participant ": RatioOfCargoManifestDateController" as CT
+participant ": US209" as US
+participant ": WriteForAFile" as WF
+
+
+
+activate SC
+SC->UI : starts the requisition of the ratio between\n number of container and the capacity of a ship
+activate UI
+
+UI --> SC : asks the mmsi code of the ship
+deactivate UI
+SC -> UI : type the mmsi code of the ship
+activate UI
+
+
+deactivate CT
+UI-->SC : ask the date
+deactivate UI
+
+SC -> UI : type the date
+activate UI
+UI-> CT : createUS209(actualDate, mmsiCode)
+
+activate CT
+CT -> US** : create(actualDate, mmsiCode)
+US -> US : initialize (actualDate, mmsiCode)
+activate US
+US -> US : information = toString()
+activate US
+deactivate US
+US -> WF : WriteForAFile(information)
+activate WF
+deactivate WF
+
+
+deactivate US
+deactivate CT
+UI -->SC : show the ratio in the date typed
+deactivate UI
+
+deactivate SC
+@enduml

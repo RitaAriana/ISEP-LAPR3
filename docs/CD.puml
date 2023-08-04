@@ -1,0 +1,710 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SendToDatabaseUI{
+
+}
+
+class SendToDatabaseController{
++importShips()
++importPorts()
+}
+
+class SendToDatabase{
++saveShip(DatabaseConnection databaseConnection, Object object)
++saveShipToDatabase(DatabaseConnection databaseConnection, Ship ship)
++isShipOnDatabase(DatabaseConnection databaseConnection, Ship ship)
++updateShipOnDatabase(DatabaseConnection databaseConnection, Ship ship)
++insertShipOnDatabase(DatabaseConnection databaseConnection, Ship ship
+
++saveLocation(DatabaseConnection databaseConnection, Object object)
++saveLocationToDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++isLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++updateLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++insertLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++executeShipLocationStatementOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation, String sqlCommand, boolean type)
+
++savePort(DatabaseConnection databaseConnection, Object object)
++savePortToDatabase(DatabaseConnection databaseConnection, Ports port)
++isPortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++updatePortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertPortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++executePortStatementOnDatabase(DatabaseConnection databaseConnection, Ports port, String sqlCommand)
+
++isPlaceLocationOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertPlaceLocationOnDatabase(DatabaseConnection databaseConnection, Ports port)
++executePlaceLocationStatementOnDatabase(DatabaseConnection databaseConnection, Ports port, String sqlCommand)
+
++isCountryOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertCountryOnDatabase(DatabaseConnection databaseConnection, Ports port)
+
+}
+
+class ConnectionFactory{
++loadProperties()
++getDatabaseConnection()
+}
+
+class DatabaseConnection{
++DatabaseConnection(String url, String username, String password)
++getConnection()
++registerError(SQLException error)
++connectionWorking()
+
+}
+
+interface Persistable{
++saveShip(DatabaseConnection databaseConnection, Object object)
++saveLocation(DatabaseConnection databaseConnection, Object object)
++savePort(DatabaseConnection databaseConnection, Object object)
+}
+
+
+class Company{
+-designation
+-getBstShip()
+-getImportShip()
+-getTopNShips(numberShips, initialDate, finalDate)
++ getCountryStr()
++ getPortStr()
++ getBstShip() : BstShip
+-getTransferFromDatabase()
+-getSeadistStr()
+-getCapitalStr()
+-getBorderStr()
+-getFreightNetwork()
+-getCountryStore()
+}
+
+class ImportShip{
+-getFile()
+-convertShips()
+-getLineArray()
+-createShip()
+}
+
+class ImportShipController{
+-importFile(String fileName)
+-importShips()
+}
+
+class ImportShipUI{
+}
+
+class ShipLocation{
+-baseDateTime
+-latitude
+-longitude
+-SOG
+-COG
+-heading
+-position
+-transceiverClass
+}
+
+
+class ShipLocationBST{
+-insert(shipLocation)
+}
+
+class BstShip{
+-getShipByMmsiCode(MMSI)
+-insert(ship)
+-inOrder()
++getIntendedPairsOfShips()
++inOrder() : Iterable<ShipLocation>
+}
+
+class VesselType {
+-vesselTypeId
+-length
+-width
+-capacity
+}
+
+class Ship {
+-mmsiCode : String
+-name : String
+-imoCode : String
+-numberEnergyGenerators : int
+-generatorPower : float
+-callSign : String
+-vesselType : int
+-length : float
+-width : float
+-capacity : float
+-draft : float
+- shipLocationBST : ShipLocationBST
+--
+-getMMSI()
+-getName()
+-getShipId()
+-getEnergyGenerators()
+-getCallSign()
+-getVesselType()
+-getLength()
+-getWidth()
+-getCapacity()
+-getDraft()
+-setMMSI()
+-getShipPosition()
++getShipBTS()
++ getShipPosition() : ShipLocation
+}
+class SearchDetailsUI {}
+
+class SearchDetailsController {
+-shipExistByMMSI(String mmsiCode)
+-shipExistByIMO(String imoCode)
+-shipExistByCallSign(String callsign)
+-getShipDetails()
+}
+
+class SearchDetailsMapper{
+-shipDetailsToDto()
+}
+
+class ShipDetailsDto{
+-mmsiCode : String
+-name : String
+-imoCode : String
+-numberEnergyGenerators : int
+-generatorPower : float
+-callSign : String
+-vesselType : int
+-length : float
+-width : float
+-capacity : float
+-draft : float
+--
+-getMMSI()
+-getName()
+-getShipId()
+-getEnergyGenerators()
+-getCallSign()
+-getVesselType()
+-getLength()
+-getWidth()
+-getCapacity()
+-getDraft()
+}
+
+class ShipLocationBST {
+-getPositinalMessages(initialDate, finalDate)
+}
+
+class ShowPositionalMessagesUI {}
+
+class ShowPositionalMessagesController {
+-shipExist(mmsiCode)
+-showPositionalMessages(initialDate, finalDate)
+}
+
+
+class MovementsSummaryUI{}
+
+class MovementsSummaryController{
++ getShipByMMSI(mmsiCode : String)
++ createSummaryForShip(ship : Ship)
+}
+
+class SummaryMapper{
++ toDto(summary : Summary)
+}
+class Summary{
+- mmsiCode : String
+- name : String
+- startBaseDate : Date
+- endBaseDate : Date
+- totalMovementTime : String
+- totalMovements : int
+- maximumSog : double
+- meanSog : double
+- maximumCog : double
+- meanCog : double
+- departureLatitude : int
+- departureLongitude : int
+- arrivalLatitude : int
+- arrivalLongitude : int
+- travelledDistance : double
+- deltaDistance : double
+}
+class SummaryDto{
+- mmsiCode : String
+- name : String
+- startBaseDate : Date
+- endBaseDate : Date
+- totalMovementTime : String
+- totalMovements : int
+- maximumSog : double
+- meanSog : double
+- maximumCog : double
+- meanCog : double
+- departureLatitude : int
+- departureLongitude : int
+- arrivalLatitude : int
+- arrivalLongitude : int
+- travelledDistance : double
+- deltaDistance : double
+}
+
+class ShipLocationBST{
++getStartBase()
++getEndBase()
++getTotalMovements()
++getTotalMovementsTime()
++getMaximumSog()
++getMeanSog()
++getMaximumCog()
++getMeanCog()
++getLatitudeDeparture()
++getLongitudeDeparture()
++getArrivalLatitude()
++getArrivalLongitude()
++getTravelledDistance()
++getDeltaDistance()
++ calculateDistance(arrivalLat : double, arrivalLog : double, arrivalLat2 : double, arrivalLog2 : double)
+}
+
+class ListSomeShipDataUi{}
+
+class ListSomeShipDataController{
++ getShipByList()
++ desiredOrder(order)
+--
++ orderTheListAscending()
++ orderTheListDescending()
+}
+
+class ShowTopShipsUI{}
+
+class ShowTopShipsController{
+-getTopNShips
+}
+class ImportPortUI {}
+
+class ImportPortController {
++importFile(fileName)
++importPorts()
+}
+
+class Ports {
+-identification
+-name
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Country {
+-name
+-continent
+}
+
+class ImportPort{
++ loadFile(nameOfTheFileToBeImported)
++ convertPorts()
+}
+
+class CountryStore {
++getCountryByName(name)
++createCountry( countryName,continent)
+}
+
+class PortStore {
++create(country,code,portName,placeLocation)
++savePort()
+-getPorts2DTree()
+}
+
+class Ports2DTree {
++create Node<Port> (Port,latitude,longitude)
++balanceTree(lst)
+}
+class ShowPairsOfShipsUI {}
+
+class ShowPairsOfShipsController {
++ getPairsOfShip()
+}
+
+
+class FindClosestPortUI {}
+
+class FindClosestPortController {
+-findClosestPort(callSign, date)
+
+}
+
+
+class BstShip {
+-getShipByCallSign(callSign)
+}
+
+class Ship {
+-getShipPosition()
+}
+
+class ShipLocationBST {
+-getShipLocation(date)
+}
+
+
+
+
+class Ports2DTree {
+-findNearestNeighbour(latitude, longitude)
+}
+
+class PortsMapper {
+-toDto(port)
+}
+
+class PortsDto {
+}
+
+class FindContainerSituationUi {}
+
+class FindContainerSituationController {
+-getContainerLocation(containerNumber)
+
+}
+
+class US204Handler {
+-getContainerLocation(containerNumber)
+}
+
+class WriteForAFile{
+-writeForAFile(containerLocation, fileName, filePath)
+}
+
+
+class CreateFreightNetworkUI {}
+
+class CreateFreightNetworkController {
+-createFreightNetwork(n)
+}
+
+class TransferFromDataBase {
+-importPorts()
+-importSeadists()
+-importCountries()
+-importBorders()
+}
+
+class FreightNetwork {
+-addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)
+-linkBetweenCapitalsOfNeighboringCountries(capitalStore,borderStore);
+-connectionBetweenPortsOfTheSameCountry(portStore,seadistStore);
+-connectionBetweenTheCapitalAndTheNearestPort(capitalStore,portStore);
+-connectionBetweenThePortAndTheNearestNPortsOfAnotherCountry(seadistStore,n,portStore);
+-colorNetwork()
+-isFullyColored()
+-mostCenteredCities(n,countryStore)
+-mostCenteredCitiesOnTheContinent(n,continentName)
+-mediaDist(place, matrixGraph)
+-getsPortsMoreCritical(n)
+-getShortestPaths(origem,destino,passagensObrigatorias);
+-getLandPath(sourcePlace,destination);
+-getMaritimePath(sourcePlace,destination);
+-getShortPathPassingThroughNIndicatedPlaces(placesToVisite,sourcePlace,destination);
+-searchNextCities(obligatoryPassage, p1, p2, checkedCities);
+-mostEfficientCircuit(locationName);
+}
+
+class ColorFreightNetworkUI {}
+
+class ColorFreightNetworkController {
+-colorNetwork()
+}
+
+class ClosenessLocalsUI {}
+
+class ClosenessLocalsController {
+-closenessLocals(n)
+}
+
+
+
+class SeadistStore {
+}
+
+class CapitalStore {
+}
+
+class BorderStore {
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+class Seadist {
+-portId1
+-portId2
+-seaDistance
+-portName1
+-portName2
+-countryName1
+-countryName2
+}
+
+class AdjacencyMatrixGraph {
+-addEdge()
+-vertices()
+-adjVertices()
+-edge()
+}
+
+
+class Edge {
+-getWeight();
+}
+
+
+class GetsPortsMoreCriticalUI {}
+
+class GetsPortsMoreCriticalController {
+-getsPortsMoreCritical(n)
+}
+
+
+class AdjacencyMatrixGraph {
+-numVertices();
+-vertex(i);
+-key(i)
+-adjVertices(i);
+-edge(localAtual,location);
+}
+
+
+
+class GraphAlgorithms {
+-shortestPaths(adjacencyMatrixGraph, origem, Double::compare, Double::sum, 0.0, paths, dists)
+-shortestPathDijkstra(g, vOrig, ce, sum, zero, visited, pathKeys, dist)
+-getPath(g, vOrig, vDest, pathKeys, shortPath)
+}
+
+
+
+class GetShortestPathsUI {}
+
+
+class GetShortestPathsController {
+-getShortestPaths(origem,destino,passagensObrigatorias);
+}
+
+
+
+class GetTheMostEfficientCircuitUI  {}
+
+class GetTheMostEfficientCircuitController {
+-getTheMostEfficientCircuit(origem);
+}
+
+
+
+
+
+
+
+
+
+GetTheMostEfficientCircuitUI  ..> GetTheMostEfficientCircuitController
+
+GetTheMostEfficientCircuitController ..> Company
+GetTheMostEfficientCircuitController ..> FreightNetwork
+
+GetShortestPathsUI ..> GetShortestPathsController
+
+GetShortestPathsController ..> Company
+GetShortestPathsController ..> FreightNetwork
+
+
+
+GetsPortsMoreCriticalUI ..> GetsPortsMoreCriticalController
+
+GetsPortsMoreCriticalController ..> Company
+GetsPortsMoreCriticalController ..> FreightNetwork
+
+
+
+FreightNetwork ..> AdjacencyMatrixGraph
+FreightNetwork "1" -- "1..*" Place : related with
+FreightNetwork ..> GraphAlgorithms
+
+
+AdjacencyMatrixGraph ..> Edge
+
+SeadistStore "1"--> "*" Seadist : adopts
+BorderStore "1"--> "*" Border : adopts
+
+ClosenessLocalsUI ..> ClosenessLocalsController
+
+ClosenessLocalsController ..> Company
+ClosenessLocalsController ..> FreightNetwork
+ClosenessLocalsController..> CountryStore
+
+
+ColorFreightNetworkUI ..> ColorFreightNetworkController
+
+ColorFreightNetworkController ..> Company
+ColorFreightNetworkController ..> FreightNetwork
+
+
+
+CreateFreightNetworkUI ..> CreateFreightNetworkController
+
+CreateFreightNetworkController ..> Company
+CreateFreightNetworkController ..> FreightNetwork
+CreateFreightNetworkController ..> PortStore
+CreateFreightNetworkController ..> SeadistStore
+CreateFreightNetworkController ..> BorderStore
+CreateFreightNetworkController ..> CapitalStore
+
+CapitalStore "1"--> "*" Capital : adopts
+
+FindContainerSituationUi ..> FindContainerSituationController
+FindContainerSituationController ..> US204Handler
+FindContainerSituationController ..> Company
+US204Handler ..> WriteForAFile
+
+Place <|-- Capital
+Place <|-- Ports
+Place "1" -- "1" PlaceLocation : located at >
+
+PortStore "1"--> "*" Ports : adopts
+
+Ports "2"--"*" Seadist: has a
+Ports "1" -- "1" PlaceLocation : located at >
+PortStore "1"--> "*" Ports : adopts
+PortsMapper ..> PortsDto
+
+PlaceLocation "*" -- "1" Country : placed in >
+CountryStore "1"--> "*" Country : adopts
+
+ImportShipUI ..> ImportShipController
+ImportShipController ..> Company
+
+ImportPort ..> Company
+ImportPort ..> CountryStore
+ImportPort ..> PortStore
+ImportPort ..> Ports2DTree
+ImportPortUI ..> ImportPortController
+ImportPortController ..> Company
+ImportPortController ..> ImportPort
+ImportShip "1" -- "1" BstShip : uses >
+
+Company "1"--"1..*" Ports: have >
+Company "1" -- "1" BstShip : owns >
+Company "1" -- "1..*" VesselType : owns >
+Company "1" -- "1" ImportShip : uses >
+Company --> Ship : owns
+Company --> BstShip : uses
+Company "1"--"1..*" Ship: own >
+Company "1"--"1" FreightNetwork: have >
+Company ..> TransferFromDataBase
+Company..> PortStore
+Company..>CapitalStore
+Company..>BorderStore
+Company..> SeadistStore
+Company..> CountryStore
+
+Country "2" -- "*" Border : has a
+
+BstShip "1" -- "1..*" Ship : owns >
+
+Ship "1" -- "1" ShipLocationBST : uses >
+Ship "1" -- "1" VesselType : has >
+Ship --> ShipLocationBST : has
+Ship ..> Summary
+Ship "0..*"--"1" Ports: dock >
+Ship "1" -- "1..*" ShipLocation : has >
+
+ShipLocationBST "1" -- "1..*" ShipLocation : has >
+ShipLocationBST --> Summary : generate
+
+SearchDetailsUI ..> SearchDetailsController
+SearchDetailsUI ..> ShipDetailsDto
+SearchDetailsController ..> Company
+SearchDetailsController ..> BstShip
+SearchDetailsController ..> Ship
+SearchDetailsController ..> SearchDetailsMapper
+SearchDetailsController ..> ShipDetailsDto
+SearchDetailsMapper ..> Ship
+
+ShowPositionalMessagesUI ..> ShowPositionalMessagesController
+ShowPositionalMessagesController ..> Company
+ShowPositionalMessagesController ..> BstShip
+ShowPositionalMessagesController ..> Ship
+ShowPositionalMessagesController ..> ShipLocationBST
+
+MovementsSummaryUI ..> MovementsSummaryController
+MovementsSummaryController..>Company
+MovementsSummaryController ..> SummaryMapper
+
+SummaryMapper ..> SummaryDto
+
+ListSomeShipDataUi ..> ListSomeShipDataController
+ListSomeShipDataController ..> Company
+
+ShowTopShipsUI ..> ShowTopShipsController
+ShowTopShipsController ..> Company
+ShowTopShipsController ..> BstShip
+
+ShowPairsOfShipsUI .> ShowPairsOfShipsController
+ShowPairsOfShipsController ..> Company
+
+FindClosestPortUI ..> FindClosestPortController
+FindClosestPortController ..> Company
+FindClosestPortController ..> BstShip
+FindClosestPortController ..> Ship
+FindClosestPortController ..> ShipLocationBST
+FindClosestPortController ..> PortStore
+FindClosestPortController ..> Ports2DTree
+FindClosestPortController ..> PortsMapper
+
+SendToDatabaseUI ..> SendToDatabaseController
+
+SendToDatabaseController ..> SendToDatabase
+SendToDatabase ..> Company
+SendToDatabase ..> Ship
+SendToDatabase ..> ShipLocation
+SendToDatabase ..> Ports
+SendToDatabase ..> PlaceLocation
+SendToDatabase ..> Country
+Persistable <|-- SendToDatabase
+SendToDatabase ..> ConnectionFactory
+SendToDatabase ..> DatabaseConnection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

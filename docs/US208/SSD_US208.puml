@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC->SY : starts the requisition of the ratio between\n number of container and the capacity of a ship
+activate SY
+
+SY --> SC : asks the id of the cargo manifest
+deactivate SY
+SC -> SY : type the id of the cargo manifest
+activate SY
+SY-->SC : show the ratio between the number \nof containers e the capacity of a ship
+deactivate SY
+deactivate SC
+
+@enduml

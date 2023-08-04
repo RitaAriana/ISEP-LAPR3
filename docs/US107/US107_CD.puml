@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ShowPairsOfShipsUI {
+
+}
+
+class ShowPairsOfShipsController {
++ getPairsOfShip()
+}
+
+class Company{
++ getBstShip() : BstShip
+
+}
+
+class BstShip {
++ getIntendedPairsOfShips()
++ inOrder() : Iterable<ShipLocation>
+
+
+}
+
+class Ship {
++ getShipPosition() : ShipLocation
+
+}
+
+class ShipLocation {
+
+}
+
+class ShipLocationBST {
++ getTravelledDistance() : double
++ getArrivalLatitude() : String
++ getArrivalLongitude() : String
++ calculateDistance(arrivalLat : double, arrivalLog : double, arrivalLat2 : double, arrivalLog2 : double)
++ getDepartureLatitude() : String
++ getDepartureLongitude() : String
+}
+
+ShipLocationBST --* ShipLocation
+ShowPairsOfShipsUI .> ShowPairsOfShipsController
+BstShip --* Ship
+ShowPairsOfShipsController ..> Company
+Company -> BstShip : knows
+Ship -> ShipLocationBST : has
+@enduml

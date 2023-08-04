@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class getCenterOfMassForAVesselUI {
+
+}
+
+class getCenterOfMassForAVesselController {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+class CenterOfMass {
++getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+}
+
+getCenterOfMassForAVesselUI ..> getCenterOfMassForAVesselController
+getCenterOfMassForAVesselController --> CenterOfMass
+@enduml

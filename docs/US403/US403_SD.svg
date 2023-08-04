@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="796.5px" preserveAspectRatio="none" style="width:1732px;height:796px;" version="1.1" viewBox="0 0 1732 796" width="1732.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mvzo2shvj7hd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="491.8008" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="762" y="231.9961"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="318.1641" style="stroke:#A80036;stroke-width:1.5;" width="15" x="762" y="323.0508"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="227.1094" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1192.5" y="368.5781"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1458" y="414.1055"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1622.25" y="504.6328"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="134.4141" y2="668.2148"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="769.5" x2="769.5" y1="134.4141" y2="668.2148"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1200" x2="1200" y1="134.4141" y2="668.2148"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1465.5" x2="1465.5" y1="134.4141" y2="668.2148"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="1629" x2="1629" y1="134.4141" y2="668.2148"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="129.7998">Traffic Manager</text><ellipse cx="87" cy="22.5" fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,34.5 L87,75 M67.5,46.5 L106.5,46.5 M87,75 L67.5,97.5 M87,75 L106.5,97.5 " fill="none" filter="url(#f1mvzo2shvj7hd)" style="stroke:#A80036;stroke-width:3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="688.5146">Traffic Manager</text><ellipse cx="87" cy="708.1289" fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,720.1289 L87,760.6289 M67.5,732.1289 L106.5,732.1289 M87,760.6289 L67.5,783.1289 M87,760.6289 L106.5,783.1289 " fill="none" filter="url(#f1mvzo2shvj7hd)" style="stroke:#A80036;stroke-width:3.0;"/><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="309" x="612" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="276" x="622.5" y="111.7998">:GetTheMostEfficientCircuitUI</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="309" x="612" y="666.7148"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="276" x="622.5" y="699.0146">:GetTheMostEfficientCircuitUI</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="372" x="1011" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="351" x="1021.5" y="111.7998">:GetTheMostEfficientCircuitController</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="372" x="1011" y="666.7148"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="351" x="1021.5" y="699.0146">:GetTheMostEfficientCircuitController</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="117" x="1404" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="96" x="1414.5" y="111.7998">:Company</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="117" x="1404" y="666.7148"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="96" x="1414.5" y="699.0146">:Company</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="169.5" x="1542" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="148.5" x="1552.5" y="111.7998">:FreightNetwork</text><rect fill="#FEFECE" filter="url(#f1mvzo2shvj7hd)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="169.5" x="1542" y="666.7148"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="148.5" x="1552.5" y="699.0146">:FreightNetwork</text><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="491.8008" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="762" y="231.9961"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="318.1641" style="stroke:#A80036;stroke-width:1.5;" width="15" x="762" y="323.0508"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="227.1094" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1192.5" y="368.5781"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1458" y="414.1055"/><rect fill="#FFFFFF" filter="url(#f1mvzo2shvj7hd)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1622.25" y="504.6328"/><polygon fill="#A80036" points="744,225.9961,759,231.9961,744,237.9961,750,231.9961" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="753" y1="231.9961" y2="231.9961"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="200.1841">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="616.5" x="121.5" y="175.6567">Initiates the process to know the most efficient circuit that starts from a</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="607.5" x="127.5" y="200.1841">source location and visits the greatest number of other locations once,</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="591" x="127.5" y="224.7114">returning to the starting location and with the shortest total distance.</text><polygon fill="#A80036" points="111,271.5234,96,277.5234,111,283.5234,105,277.5234" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="102" x2="768" y1="277.5234" y2="277.5234"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="120" y="270.2388">2</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="238.5" x="136.5" y="270.2388">Asks the place of departure</text><polygon fill="#A80036" points="744,317.0508,759,323.0508,744,329.0508,750,323.0508" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="753" y1="323.0508" y2="323.0508"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="315.7661">3</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="271.5" x="121.5" y="315.7661">Enter the requested information</text><polygon fill="#A80036" points="1174.5,362.5781,1189.5,368.5781,1174.5,374.5781,1180.5,368.5781" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="777" x2="1183.5" y1="368.5781" y2="368.5781"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="787.5" y="361.2935">4</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="370.5" x="804" y="361.2935">getTheMostEfficientCircuit(sourceLocation)</text><polygon fill="#A80036" points="1440,408.1055,1455,414.1055,1440,420.1055,1446,414.1055" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1207.5" x2="1449" y1="414.1055" y2="414.1055"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1218" y="406.8208">5</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="169.5" x="1234.5" y="406.8208">getFreightNetwork()</text><polygon fill="#A80036" points="1604.25,498.6328,1619.25,504.6328,1604.25,510.6328,1610.25,504.6328" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1207.5" x2="1613.25" y1="504.6328" y2="504.6328"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1218" y="497.3481">6</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="312" x="1234.5" y="497.3481">mostEfficientCircuit(sourceLocation)</text><polygon fill="#A80036" points="1224,544.1602,1209,550.1602,1224,556.1602,1218,550.1602" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="1215" x2="1628.25" y1="550.1602" y2="550.1602"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="1233" y="542.8755">7</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="48" x="1249.5" y="542.8755">result</text><polygon fill="#A80036" points="793.5,589.6875,778.5,595.6875,793.5,601.6875,787.5,595.6875" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="784.5" x2="1198.5" y1="595.6875" y2="595.6875"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="802.5" y="588.4028">8</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="48" x="819" y="588.4028">result</text><polygon fill="#A80036" points="103.5,635.2148,88.5,641.2148,103.5,647.2148,97.5,641.2148" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="94.5" x2="768" y1="641.2148" y2="641.2148"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="112.5" y="633.9302">9</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="583.5" x="129" y="633.9302">Informs of operation success and indicates the most efficient circuit</text><!--MD5=[32f92eedf391bf8ba37c8993ae35d50a]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetTheMostEfficientCircuitUI  " as UI
+participant ":GetTheMostEfficientCircuitController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+
+activate TM
+TM -> UI : Initiates the process to know the most efficient circuit that starts from a \n source location and visits the greatest number of other locations once, \n returning to the starting location and with the shortest total distance.
+
+activate UI
+
+UI - -> TM : Asks the place of departure
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL :  getTheMostEfficientCircuit(sourceLocation)
+activate CTRL
+CTRL -> CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : mostEfficientCircuit(sourceLocation)
+activate network
+network- -> CTRL : result
+deactivate network
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> TM : Informs of operation success and indicates the most efficient circuit
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetTheMostEfficientCircuitUI  " as UI
+participant ":GetTheMostEfficientCircuitController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+
+activate TM
+TM -> UI : Initiates the process to know the most efficient circuit that starts from a \n source location and visits the greatest number of other locations once, \n returning to the starting location and with the shortest total distance.
+
+activate UI
+
+UI - -> TM : Asks the place of departure
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL :  getTheMostEfficientCircuit(sourceLocation)
+activate CTRL
+CTRL -> CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : mostEfficientCircuit(sourceLocation)
+activate network
+network- -> CTRL : result
+deactivate network
+CTRL - -> UI : result
+deactivate CTRL
+UI - -> TM : Informs of operation success and indicates the most efficient circuit
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

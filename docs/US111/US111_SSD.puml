@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Project Manager" as PJ
+participant "System" as system
+
+
+activate PJ
+PJ -> system : starts the script loading of objects' data to the database
+activate system
+
+system --> PJ : displays a list of types of objects to import
+deactivate system
+note right: Ships, ShipLocations, Countries, \nPlaceLocations and Ports \nare the types of objects available for importing
+
+PJ -> system : selects the type of object to import
+activate system
+deactivate system
+
+deactivate PJ
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class CargoManifestPerYearUI{
+
+}
+
+class CargoManifestPerYearController{
++ createUS207(year, mmsiCode)
+}
+
+
+class US207 {
+- initialize(year, mmsiCode)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+CargoManifestPerYearUI ..> CargoManifestPerYearController
+CargoManifestPerYearController -> US207
+US207 --> WriteForAFile : uses
+
+@enduml

@@ -1,0 +1,59 @@
+@startuml
+
+autonumber
+actor "Port Manager" as M
+
+participant ":FindClosestPortUI" as ui
+participant ":FindClosestPortController" as controller
+participant "Company" as COMP
+participant "bstShip:\nBstShip" as BstShip
+participant "ship:\nShip" as S
+participant "shipLocationBst:\nShipLocationBST" as ShipLocationBST
+participant "location:\nShipLocation" as SL
+participant "portStr:\nPortStore" as str
+participant "portsTree:\nPorts2DTree" as tree
+participant "port: Ports" as port
+participant "PortsMapper" as mapper
+participant "dto: PortsDto" as dto
+
+activate M
+M -> ui: Initiates the process to get the closest port \n to a certain ship in a certain time.
+activate ui
+ui --> M --: Request the ship's CallSign and the date
+deactivate ui
+M -> ui: Introduce the requested data
+activate ui
+ui -> controller: findClosestPort(callSign, date)
+activate controller
+controller -> COMP: bstShip = getBstShip()
+activate COMP
+deactivate COMP
+controller -> BstShip : ship = getShipByCallSign(callSign)
+activate BstShip
+deactivate BstShip
+controller -> S : shipLocationBst = getShipPosition()
+activate S
+deactivate S
+controller -> ShipLocationBST: location=getShipLocation(date)
+activate ShipLocationBST
+deactivate ShipLocationBST
+controller -> COMP: portStr = getPortStr()
+activate COMP
+deactivate COMP
+controller -> str: portsTree = getPorts2DTree()
+activate str
+deactivate str
+controller -> tree : findNearestNeighbour(latitude, longitude)
+activate tree
+tree --> controller : port
+deactivate tree
+controller -> mapper : toDto(port)
+activate mapper
+mapper --> controller : dto
+deactivate mapper
+controller --> ui: dto
+deactivate controller
+ui --> M --: Informs the operation success \n and shows the closest port
+deactivate ui
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as PM
+participant "System" as SY
+
+activate PM
+PM -> SY : start the creation of the map for the occupation of the\n existing resources in the port during a given month
+activate SY
+SY --> PM : receive the map
+deactivate SY
+deactivate PM
+@enduml

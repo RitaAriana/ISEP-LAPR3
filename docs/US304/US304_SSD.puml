@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC -> SY : starts the access to audit trails for a given\n container of a given cargo manifest
+activate SY
+SY --> SC : asks the cargo manifest id and the container id
+deactivate SY
+SC -> SY : type the cargo manifest id and the container id
+activate SY
+SY --> SC : show the result
+deactivate SY
+deactivate SC
+@enduml

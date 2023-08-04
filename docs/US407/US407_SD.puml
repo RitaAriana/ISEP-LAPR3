@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as PM
+participant ":InformationForTheNextWeekUI" as UI
+participant ":InformationForTheNextWeekController" as CT
+participant ":InformationForTheNextWeekHandler" as US
+participant ":WriteForAFile" as WF
+
+activate PM
+PM -> UI : requests to know in a week in advance, the loading an unloading map \nbased on ships and trucks load manifests and corresponding travel plans, \nto anticipate the level of sufficient and necessary resources
+activate UI
+UI->CT : createUS407()
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+deactivate US
+
+UI --> PM : receive the result
+deactivate UI
+deactivate PM
+@enduml

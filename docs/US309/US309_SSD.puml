@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant "System" as SY
+
+activate TM
+TM -> SY : Orders to not allow a cargo manifest \nfor a particular ship  to be registered \n in the system on a date when the \n ship is already occupied.
+activate SY
+SY --> TM : receive or not a warning
+deactivate SY
+deactivate TM
+@enduml

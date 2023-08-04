@@ -1,0 +1,136 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+
+class CreateFreightNetworkUI {}
+
+class CreateFreightNetworkController {
+-createFreightNetwork(n)
+}
+
+class Company {
+-designation
+-getTransferFromDatabase()
+-getPortStr()
+-getSeadistStr()
+-getCapitalStr()
+-getBorderStr()
+-getFreightNetwork()
+}
+
+class TransferFromDataBase {
+-importPorts()
+-importSeadists()
+-importCountries()
+-importBorders()
+}
+
+class FreightNetwork {
+-addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)
+-linkBetweenCapitalsOfNeighboringCountries(capitalStore,borderStore);
+-connectionBetweenPortsOfTheSameCountry(portStore,seadistStore);
+-connectionBetweenTheCapitalAndTheNearestPort(capitalStore,portStore);
+-connectionBetweenThePortAndTheNearestNPortsOfAnotherCountry(seadistStore,n,portStore);
+}
+
+class PortStore {
+
+}
+
+class SeadistStore {
+
+}
+
+class CapitalStore {
+
+}
+
+class BorderStore {
+
+}
+
+class Ports {
+-identification
+-name
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+class Seadist {
+-portId1
+-portId2
+-seaDistance
+-portName1
+-portName2
+-countryName1
+-countryName2
+}
+
+class AdjacencyMatrixGraph {
+-addEdge()
+
+}
+
+class Edge {
+
+}
+
+CreateFreightNetworkUI ..> CreateFreightNetworkController
+
+CreateFreightNetworkController ..> Company
+CreateFreightNetworkController ..> FreightNetwork
+
+Company "1"--"1" FreightNetwork: have >
+Company ..> TransferFromDataBase
+FreightNetwork ..> AdjacencyMatrixGraph
+AdjacencyMatrixGraph ..> Edge
+CreateFreightNetworkController ..> PortStore
+CreateFreightNetworkController ..> SeadistStore
+CreateFreightNetworkController ..> BorderStore
+Company "1"--"1..*" Ports: have >
+PortStore "1"--> "*" Ports : adopts
+SeadistStore "1"--> "*" Seadist : adopts
+BorderStore "1"--> "*" Border : adopts
+
+Ports "2"--"*" Seadist: has a
+FreightNetwork "1" -- "1..*" Place : related with
+Place <|-- Capital
+Place <|-- Ports
+Country "2" -- "*" Border : has a
+PlaceLocation "*" -- "1" Country : placed in >
+Place "1" -- "1" PlaceLocation : located at >
+CreateFreightNetworkController ..> CapitalStore
+CapitalStore "1"--> "*" Capital : adopts
+Company..> PortStore
+Company..>CapitalStore
+Company..>BorderStore
+Company..> SeadistStore
+@enduml

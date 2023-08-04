@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Employee {
+-name
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+class Ship {
+-mmsiCode
+-name
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-draft
+}
+
+class Company {
+-designation
+}
+
+Company "1"--"1..*" Ship: own >
+Company "1"--"1..*" Employee: have >
+
+Ship "1" -- "1..*" ShipLocation : has >
+
+Employee "1" -- "1..*" ShipLocation : controls >
+
+
+@enduml

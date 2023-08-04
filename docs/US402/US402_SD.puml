@@ -1,0 +1,62 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetShortestPathsUI  " as UI
+participant ":GetShortestPathsController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+participant ":GraphAlgorithms" as algorithms
+
+
+activate TM
+TM -> UI : Initiates the process to know the shortest\n  path between two locals
+activate UI
+
+UI --> TM : Asks the place of departure and arrival
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+
+UI --> TM : Ask how many places are required on the path
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+
+UI --> TM : Ask for the places
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : getShortestPaths(origem,destino,passagensObrigatorias)
+activate CTRL
+CTRL -> CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : getShortestPaths(origem,destino,passagensObrigatorias)
+activate network
+network -> network : getLandPath(sourcePlace,destination)
+activate network
+deactivate network
+network -> network : getMaritimePath(sourcePlace,destination)
+activate network
+deactivate network
+network -> algorithms : shortestPath
+activate algorithms
+deactivate algorithms
+network -> network : getShortPathPassingThroughNIndicatedPlaces(placesToVisite,sourcePlace,destination)
+activate network
+deactivate network
+network--> CTRL : result
+deactivate network
+CTRL --> UI : result
+deactivate CTRL
+UI --> TM : Informs of operation success and indicates\n  the shortest paths between two locals
+deactivate UI
+
+deactivate TM
+
+@enduml

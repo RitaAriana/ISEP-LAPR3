@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WarningWarehouseUi{
+
+}
+
+class WarningWarehouseController{
++ createUS304()
+}
+
+
+class US307 {
+- initialize()
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+
+}
+
+
+WarningWarehouseUi ..> WarningWarehouseController
+WarningWarehouseController -> US307
+US307 --> WriteForAFile : uses
+@enduml

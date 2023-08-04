@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+class Ship {
+-mmsiCode
+-name
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-vesselType
+-length
+-width
+-capacity
+-draft
+-getShipPosition()
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+class BstShip {
+-getShipByMmsiCode(mmsiCode)
+}
+
+class ShipLocationBST {
+-getPositinalMessages(initialDate, finalDate)
+}
+
+class ShowPositionalMessagesUI {}
+
+class ShowPositionalMessagesController {
+-shipExist(mmsiCode)
+-showPositionalMessages(initialDate, finalDate)
+}
+
+class Company {
+-designation
+-getBstShip()
+}
+
+BstShip "1" -- "1..*" Ship : owns >
+ShipLocationBST "1" -- "1..*" ShipLocation : has >
+
+Company "1" -- "1" BstShip : uses >
+
+Ship "1" -- "1" ShipLocationBST : uses >
+
+ShowPositionalMessagesUI ..> ShowPositionalMessagesController
+
+ShowPositionalMessagesController ..> Company
+ShowPositionalMessagesController ..> BstShip
+ShowPositionalMessagesController ..> Ship
+ShowPositionalMessagesController ..> ShipLocationBST
+
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Port Manager" as FM
+participant "System" as SY
+
+activate FM
+FM -> SY : requests to know in a week in advance, the loading an unloading map \nbased on ships and trucks load manifests and corresponding travel plans, \nto anticipate the level of sufficient and necessary resources
+
+activate SY
+SY --> FM : receive the result
+deactivate SY
+deactivate FM
+@enduml

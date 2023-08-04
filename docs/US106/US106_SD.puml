@@ -1,0 +1,43 @@
+@startuml
+
+autonumber
+actor "Traffic Manager" as TP
+activate TP
+participant ":ShowTopShipsUI" as ui
+participant ":ShowTopShipsController" as controller
+participant ":BstShip" as bstShip
+
+
+TP -> ui : Initiates the process to obtain the Top-N ships with\n most kilometres travelled and their average speed
+activate ui
+
+
+ui --> TP : Requests the necessary data (initial date, final date and\n    number of ships want to view for each vessel type)
+deactivate ui
+
+
+TP -> ui : Introduce the requested data
+activate ui
+
+
+ui -> controller : getTopNShips(numberShips, initialDate, finalDate)
+activate controller
+
+
+controller -> bstShip : getTopNShips(numberShips, initialDate, finalDate)
+activate bstShip
+
+
+bstShip --> controller : topShips
+deactivate bstShip
+
+controller --> ui : shipString
+
+deactivate controller
+
+
+ui --> TP : Shows the Top-N Ships
+deactivate ui
+deactivate TP
+
+@enduml

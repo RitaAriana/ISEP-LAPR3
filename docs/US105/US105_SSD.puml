@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor TrafficManager as TM
+participant ": System" as SY
+
+autonumber
+activate TM
+TM -> SY: Initiates the listing of ship information ordered by \n travelled distance, total number of movements
+activate SY
+SY --> TM : Asks the desired order
+deactivate SY
+
+TM -> SY: Types the desired order
+activate SY
+SY --> TM : Displays the ordered list
+deactivate SY
+
+
+@enduml

@@ -1,0 +1,1 @@
+void printResult(char resultado, int numEnviados);

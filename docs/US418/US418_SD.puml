@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant ": getCenterOfMassForAVesselUI" as UI
+participant ": getCenterOfMassForAVesselController" as CT
+participant ":CenterOfMass" as CM
+activate SC
+SC -> UI : requests to know the unladen center of mass for \neach vessel (if different) according to its characteristics
+activate UI
+UI -> CT : getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+activate CT
+CT-> CM : getCenterMass(numberOfParts, totalMass, initialX, finalX, initialY, finalY, geometricShapes)
+
+activate CM
+CM-->CT : result
+deactivate CM
+CT --> UI : result
+deactivate CT
+
+UI --> SC : receive the result
+deactivate UI
+deactivate SC
+@enduml

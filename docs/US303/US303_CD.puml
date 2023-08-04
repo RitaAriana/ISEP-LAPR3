@@ -1,0 +1,103 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+
+class ClosenessLocalsUI {}
+
+class ClosenessLocalsController {
+-closenessLocals(n)
+}
+
+class CountryStore {
+}
+
+class Company {
+-designation
+-getFreightNetwork()
+-getCountryStore()
+}
+
+class FreightNetwork {
+-mostCenteredCities(n,countryStore)
+-mostCenteredCitiesOnTheContinent(n,continentName)
+-mediaDist(place, matrixGraph)
+}
+
+
+class Ports {
+-identification
+-name
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+class Seadist {
+-portId1
+-portId2
+-seaDistance
+-portName1
+-portName2
+-countryName1
+-countryName2
+}
+
+class AdjacencyMatrixGraph {
+-edge()
+
+}
+
+class Edge {
+
+}
+
+ClosenessLocalsUI ..> ClosenessLocalsController
+
+ClosenessLocalsController ..> Company
+ClosenessLocalsController ..> FreightNetwork
+
+Company "1"--"1" FreightNetwork: have >
+
+Company..> CountryStore
+ClosenessLocalsController..> CountryStore
+
+FreightNetwork ..> AdjacencyMatrixGraph
+FreightNetwork "1" -- "1..*" Place : related with
+Place "1" -- "1" PlaceLocation : located at >
+Place <|-- Capital
+Place <|-- Ports
+PlaceLocation "*" -- "1" Country : placed in >
+Country "2" -- "*" Border : has a
+AdjacencyMatrixGraph ..> Edge
+
+CountryStore "1"--> "*" Country : adopts
+Ports "2"--"*" Seadist: has a
+
+@enduml

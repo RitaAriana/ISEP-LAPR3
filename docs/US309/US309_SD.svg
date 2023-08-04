@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="558px" preserveAspectRatio="none" style="width:821px;height:558px;background:#FFFFFF;" version="1.1" viewBox="0 0 821 558" width="821px" zoomAndPan="magnify"><defs><filter height="300%" id="f1f5f5qb7bp96j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="355.7734" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="295" y="171.0156"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="263.0156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="201.3672"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="536.5" y="286.3281"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="541.5" y="329.6797"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="751.5" y="395.0313"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="473.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="300" x2="300" y1="89.6094" y2="473.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="412" x2="412" y1="89.6094" y2="473.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="541" x2="541" y1="242.6719" y2="473.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="756" x2="756" y1="89.6094" y2="473.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#f1f5f5qb7bp96j)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="486.916">Traffic Manager</text><ellipse cx="58" cy="499.9922" fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,507.9922 L58,534.9922 M45,515.9922 L71,515.9922 M58,534.9922 L45,549.9922 M58,534.9922 L71,549.9922 " fill="none" filter="url(#f1f5f5qb7bp96j)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="262" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="269" y="74.5332">:US309UI</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="262" y="472.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="269" y="493.916">:US309UI</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="349" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="356" y="74.5332">:US309Controller</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="349" y="472.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="356" y="493.916">:US309Controller</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="485" y="472.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="492" y="493.916">:US309Handler</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="702" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="709" y="74.5332">:WriteForAFile</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="702" y="472.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="709" y="493.916">:WriteForAFile</text><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="355.7734" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="295" y="171.0156"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="263.0156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="201.3672"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="536.5" y="286.3281"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="541.5" y="329.6797"/><rect fill="#FFFFFF" filter="url(#f1f5f5qb7bp96j)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="751.5" y="395.0313"/><polygon fill="#A80036" points="283,167.0156,293,171.0156,283,175.0156,287,171.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="289" y1="171.0156" y2="171.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="70" y="117.1045">Orders to not allow a cargo manifest</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="70" y="133.4561">for a particular ship  to be registered</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="74" y="149.8076">in the system on a date when the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="74" y="166.1592">ship is already occupied.</text><polygon fill="#A80036" points="395,197.3672,405,201.3672,395,205.3672,399,201.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="305" x2="401" y1="201.3672" y2="201.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="312" y="196.5107">createUS309()</text><polygon fill="#A80036" points="473,227.7188,483,231.7188,473,235.7188,477,231.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="417" x2="479" y1="231.7188" y2="231.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="424" y="226.8623">create()</text><rect fill="#FEFECE" filter="url(#f1f5f5qb7bp96j)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="485" y="209.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="492" y="230.9004">:US309Handler</text><line style="stroke:#A80036;stroke-width:1.0;" x1="541.5" x2="588.5" y1="273.3281" y2="273.3281"/><line style="stroke:#A80036;stroke-width:1.0;" x1="588.5" x2="588.5" y1="273.3281" y2="286.3281"/><line style="stroke:#A80036;stroke-width:1.0;" x1="547.5" x2="588.5" y1="286.3281" y2="286.3281"/><polygon fill="#A80036" points="557.5,282.3281,547.5,286.3281,557.5,290.3281,553.5,286.3281" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="553.5" y="268.4717">initialize()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="551.5" x2="593.5" y1="321.6797" y2="321.6797"/><line style="stroke:#A80036;stroke-width:1.0;" x1="593.5" x2="593.5" y1="321.6797" y2="334.6797"/><line style="stroke:#A80036;stroke-width:1.0;" x1="552.5" x2="593.5" y1="334.6797" y2="334.6797"/><polygon fill="#A80036" points="562.5,330.6797,552.5,334.6797,562.5,338.6797,558.5,334.6797" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="558.5" y="316.8232">textualInformation = toString()</text><polygon fill="#A80036" points="739.5,391.0313,749.5,395.0313,739.5,399.0313,743.5,395.0313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="546.5" x2="745.5" y1="395.0313" y2="395.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="553.5" y="390.1748">writeForAFile(textualInformation)</text><polygon fill="#A80036" points="69,451.3828,59,455.3828,69,459.3828,65,455.3828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="299" y1="455.3828" y2="455.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="75" y="450.5264">receive or not a warning</text><!--MD5=[71c664fd39e485c5c98550ffac524902]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant ":US309UI" as UI
+participant ":US309Controller" as CT
+
+participant ":US309Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+TM -> UI : Orders to not allow a cargo manifest \nfor a particular ship  to be registered \n in the system on a date when the \n ship is already occupied.
+activate UI
+
+
+UI->CT : createUS309()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+
+
+
+
+UI - -> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml
+
+@startuml
+
+actor "Traffic Manager" as TM
+participant ":US309UI" as UI
+participant ":US309Controller" as CT
+
+participant ":US309Handler" as US
+participant ":WriteForAFile" as WF
+
+activate TM
+TM -> UI : Orders to not allow a cargo manifest \nfor a particular ship  to be registered \n in the system on a date when the \n ship is already occupied.
+activate UI
+
+
+UI->CT : createUS309()
+
+activate CT
+CT -> US** : create()
+US -> US : initialize()
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+deactivate US
+
+
+
+
+UI - -> TM : receive or not a warning
+deactivate UI
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

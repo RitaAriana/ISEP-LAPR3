@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+class ListSomeShipDataUi{
+
+}
+class ListSomeShipDataController{
++ getShipByList()
++ desiredOrder(order)
+--
++ orderTheListAscending()
++ orderTheListDescending()
+}
+class Company{
++ getBstShip()
+
+}
+class BstShip{
++ inOrder()
+}
+class Ship{
++ getMmsiCode()
++ getShipPosition()
+}
+class BstShipLocation{
++ getTotalNumberOfMovements()
++ getTravelledDistance()
++ getDeltaDistance()
+}
+
+class BriefSummary{
+- mmsiCode : String
+- totalNumberOfMovements : int
+- deltaDistance : float
+- travelledDistance : float
+--
+}
+
+
+ListSomeShipDataUi ..> ListSomeShipDataController
+ListSomeShipDataController ..> Company
+Company --> Ship : owns
+Company --> BstShip : uses
+Ship --> BstShipLocation : has
+BstShipLocation --> BriefSummary : generate
+
+@enduml

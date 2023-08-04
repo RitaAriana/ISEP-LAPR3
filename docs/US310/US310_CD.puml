@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class MapOfOccupancyMonthlyUi{
+
+}
+
+class MapOfOccupancyMonthlyController{
++ createUS310()
+}
+
+
+class US310 {
+- initialize()
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+
+}
+
+
+MapOfOccupancyMonthlyUi ..> MapOfOccupancyMonthlyController
+MapOfOccupancyMonthlyController -> US310
+US310 --> WriteForAFile : uses
+@enduml

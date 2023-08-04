@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="924.3px" preserveAspectRatio="none" style="width:1647px;height:924px;" version="1.1" viewBox="0 0 1647 924" width="1647.9px" zoomAndPan="magnify"><defs><filter height="300%" id="fwffu9jitbnba" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.8"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.6" dy="3.6" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="741.5789" style="stroke:#A80036;stroke-width:0.9;" width="9" x="47.7" y="89.6484"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27.3164" style="stroke:#A80036;stroke-width:0.9;" width="9" x="467.1" y="124.4813"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="652.1133" style="stroke:#A80036;stroke-width:0.9;" width="9" x="467.1" y="179.1141"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="597.4805" style="stroke:#A80036;stroke-width:0.9;" width="9" x="657" y="206.4305"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="233.7469"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="559.6453"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="613.9617"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="668.2781"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="722.5945"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="288.0633"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="342.3797"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="396.6961"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="451.0125"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="505.3289"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="1200.15" y="776.9109"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="52.2" x2="52.2" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="471.6" x2="471.6" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="661.5" x2="661.5" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="838.8" x2="838.8" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="961.2" x2="961.2" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1095.3" x2="1095.3" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1204.2" x2="1204.2" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1303.2" x2="1303.2" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1395" x2="1395" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1495.8" x2="1495.8" y1="80.6484" y2="847.4273"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1593.9" x2="1593.9" y1="80.6484" y2="847.4273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="90" x="4.5" y="77.8799">Traffic Manager</text><ellipse cx="52.2" cy="13.5" fill="#FEFECE" filter="url(#fwffu9jitbnba)" rx="7.2" ry="7.2" style="stroke:#A80036;stroke-width:1.8;"/><path d="M52.2,20.7 L52.2,45 M40.5,27.9 L63.9,27.9 M52.2,45 L40.5,58.5 M52.2,45 L63.9,58.5 " fill="none" filter="url(#fwffu9jitbnba)" style="stroke:#A80036;stroke-width:1.8;"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="90" x="4.5" y="859.6072">Traffic Manager</text><ellipse cx="52.2" cy="871.3758" fill="#FEFECE" filter="url(#fwffu9jitbnba)" rx="7.2" ry="7.2" style="stroke:#A80036;stroke-width:1.8;"/><path d="M52.2,878.5758 L52.2,902.8758 M40.5,885.7758 L63.9,885.7758 M52.2,902.8758 L40.5,916.3758 M52.2,902.8758 L63.9,916.3758 " fill="none" filter="url(#fwffu9jitbnba)" style="stroke:#A80036;stroke-width:1.8;"/><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="158.4" x="390.6" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="138.6" x="396.9" y="67.0799">:CreateFreightNetworkUI</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="158.4" x="390.6" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="138.6" x="396.9" y="865.9072">:CreateFreightNetworkUI</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="196.2" x="561.6" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="183.6" x="567.9" y="67.0799">:CreateFreightNetworkController</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="196.2" x="561.6" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="183.6" x="567.9" y="865.9072">:CreateFreightNetworkController</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="70.2" x="801.9" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="57.6" x="808.2" y="67.0799">:Company</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="70.2" x="801.9" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="57.6" x="808.2" y="865.9072">:Company</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="150.3" x="884.7" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="137.7" x="891" y="67.0799">:TransferFromDataBase</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="150.3" x="884.7" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="137.7" x="891" y="865.9072">:TransferFromDataBase</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="91.8" x="1047.6" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="79.2" x="1053.9" y="67.0799">:CountryStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="91.8" x="1047.6" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="79.2" x="1053.9" y="865.9072">:CountryStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="101.7" x="1152" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="89.1" x="1158.3" y="67.0799">:FreightNetwork</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="101.7" x="1152" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="89.1" x="1158.3" y="865.9072">:FreightNetwork</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="70.2" x="1266.3" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="57.6" x="1272.6" y="67.0799">:PortStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="70.2" x="1266.3" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="57.6" x="1272.6" y="865.9072">:PortStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="89.1" x="1349.1" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="76.5" x="1355.4" y="67.0799">:SeadistStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="89.1" x="1349.1" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="76.5" x="1355.4" y="865.9072">:SeadistStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="86.4" x="1450.8" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="73.8" x="1457.1" y="67.0799">:CapitalStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="86.4" x="1450.8" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="73.8" x="1457.1" y="865.9072">:CapitalStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="85.5" x="1549.8" y="47.7"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="72.9" x="1556.1" y="67.0799">:BorderStore</text><rect fill="#FEFECE" filter="url(#fwffu9jitbnba)" height="28.4484" style="stroke:#A80036;stroke-width:1.35;" width="85.5" x="1549.8" y="846.5273"/><text fill="#000000" font-family="sans-serif" font-size="12.6" lengthAdjust="spacing" textLength="72.9" x="1556.1" y="865.9072">:BorderStore</text><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="741.5789" style="stroke:#A80036;stroke-width:0.9;" width="9" x="47.7" y="89.6484"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27.3164" style="stroke:#A80036;stroke-width:0.9;" width="9" x="467.1" y="124.4813"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="652.1133" style="stroke:#A80036;stroke-width:0.9;" width="9" x="467.1" y="179.1141"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="597.4805" style="stroke:#A80036;stroke-width:0.9;" width="9" x="657" y="206.4305"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="233.7469"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="559.6453"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="613.9617"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="668.2781"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="834.3" y="722.5945"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="288.0633"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="342.3797"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="396.6961"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="451.0125"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="957.15" y="505.3289"/><rect fill="#FFFFFF" filter="url(#fwffu9jitbnba)" height="27" style="stroke:#A80036;stroke-width:0.9;" width="9" x="1200.15" y="776.9109"/><polygon fill="#A80036" points="456.3,120.8813,465.3,124.4813,456.3,128.0813,459.9,124.4813" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="56.7" x2="461.7" y1="124.4813" y2="124.4813"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="63" y="112.7522">1</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="383.4" x="72.9" y="105.394">Initiates the process to create a freight network importing ports, countries,</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="234" x="76.5" y="120.1104">capitals, borders and seadists from database</text><polygon fill="#A80036" points="66.6,148.1977,57.6,151.7977,66.6,155.3977,63,151.7977" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="61.2" x2="470.7" y1="151.7977" y2="151.7977"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="72" y="147.4269">2</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="261.9" x="81.9" y="147.4269">Asks how many closest ports of any other country</text><polygon fill="#A80036" points="456.3,175.5141,465.3,179.1141,456.3,182.7141,459.9,179.1141" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="56.7" x2="461.7" y1="179.1141" y2="179.1141"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="63" y="174.7433">3</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="162.9" x="72.9" y="174.7433">Enter the requested information</text><polygon fill="#A80036" points="646.2,202.8305,655.2,206.4305,646.2,210.0305,649.8,206.4305" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="476.1" x2="651.6" y1="206.4305" y2="206.4305"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="482.4" y="202.0597">4</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="124.2" x="492.3" y="202.0597">createFreightNetwork(n)</text><polygon fill="#A80036" points="823.5,230.1469,832.5,233.7469,823.5,237.3469,827.1,233.7469" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="828.9" y1="233.7469" y2="233.7469"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="672.3" y="229.3761">5</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="141.3" x="682.2" y="229.3761">getTransferFromDatabase()</text><polygon fill="#A80036" points="946.35,284.4633,955.35,288.0633,946.35,291.6633,949.95,288.0633" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="951.75" y1="288.0633" y2="288.0633"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="672.3" y="283.6925">6</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="67.5" x="682.2" y="283.6925">importPorts()</text><polygon fill="#A80036" points="946.35,338.7797,955.35,342.3797,946.35,345.9797,949.95,342.3797" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="951.75" y1="342.3797" y2="342.3797"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="672.3" y="338.0089">7</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="85.5" x="682.2" y="338.0089">importSeadists()</text><polygon fill="#A80036" points="946.35,393.0961,955.35,396.6961,946.35,400.2961,949.95,396.6961" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="951.75" y1="396.6961" y2="396.6961"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="672.3" y="392.3253">8</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="89.1" x="682.2" y="392.3253">importCountries()</text><polygon fill="#A80036" points="946.35,447.4125,955.35,451.0125,946.35,454.6125,949.95,451.0125" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="951.75" y1="451.0125" y2="451.0125"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="6.3" x="672.3" y="446.6417">9</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="85.5" x="682.2" y="446.6417">importCapitals();</text><polygon fill="#A80036" points="946.35,501.7289,955.35,505.3289,946.35,508.9289,949.95,505.3289" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="951.75" y1="505.3289" y2="505.3289"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="500.9581">10</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="80.1" x="688.5" y="500.9581">importBorders()</text><polygon fill="#A80036" points="823.5,556.0453,832.5,559.6453,823.5,563.2453,827.1,559.6453" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="828.9" y1="559.6453" y2="559.6453"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="555.2745">11</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="60.3" x="688.5" y="555.2745">getPortStr()</text><polygon fill="#A80036" points="823.5,610.3617,832.5,613.9617,823.5,617.5617,827.1,613.9617" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="828.9" y1="613.9617" y2="613.9617"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="609.5909">12</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="78.3" x="688.5" y="609.5909">getSeadistStr()</text><polygon fill="#A80036" points="823.5,664.6781,832.5,668.2781,823.5,671.8781,827.1,668.2781" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="828.9" y1="668.2781" y2="668.2781"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="663.9073">13</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="74.7" x="688.5" y="663.9073">getCapitalStr()</text><polygon fill="#A80036" points="823.5,718.9945,832.5,722.5945,823.5,726.1945,827.1,722.5945" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="828.9" y1="722.5945" y2="722.5945"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="718.2237">14</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="72.9" x="688.5" y="718.2237">getBorderStr()</text><polygon fill="#A80036" points="1189.35,773.3109,1198.35,776.9109,1189.35,780.5109,1192.95,776.9109" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;" x1="666" x2="1194.75" y1="776.9109" y2="776.9109"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="672.3" y="772.5401">15</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="361.8" x="688.5" y="772.5401">addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)</text><polygon fill="#A80036" points="62.1,827.6273,53.1,831.2273,62.1,834.8273,58.5,831.2273" style="stroke:#A80036;stroke-width:0.9;"/><line style="stroke:#A80036;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="56.7" x2="470.7" y1="831.2273" y2="831.2273"/><text fill="#000000" font-family="sans-serif" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="12.6" x="67.5" y="826.8565">16</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacing" textLength="149.4" x="83.7" y="826.8565">Informs of operation success</text><!--MD5=[b07149a7b3e8a1be27854e436a85121e]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":CreateFreightNetworkUI  " as UI
+participant ":CreateFreightNetworkController" as CTRL
+participant ":Company" as CMP
+participant ":TransferFromDataBase" as Transfer
+participant ":CountryStore" as STORE
+participant ":FreightNetwork" as network
+participant ":PortStore" as portStore
+participant ":SeadistStore" as seadistStore
+participant ":CapitalStore" as capitalStore
+participant ":BorderStore" as borderStore
+
+
+
+
+activate TM
+TM -> UI: Initiates the process to create a freight network importing ports, countries,\n capitals, borders and seadists from database
+activate UI
+UI - -> TM : Asks how many closest ports of any other country
+deactivate UI
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : createFreightNetwork(n)
+activate CTRL
+CTRL->CMP : getTransferFromDatabase()
+activate CMP
+deactivate CMP
+CTRL->Transfer: importPorts()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importSeadists()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCountries()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCapitals();
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importBorders()
+activate Transfer
+deactivate Transfer
+CTRL->CMP : getPortStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getSeadistStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getCapitalStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getBorderStr()
+activate CMP
+deactivate CMP
+CTRL-> network : addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)
+activate network
+
+deactivate network
+
+deactivate CTRL
+UI - -> TM : Informs of operation success
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":CreateFreightNetworkUI  " as UI
+participant ":CreateFreightNetworkController" as CTRL
+participant ":Company" as CMP
+participant ":TransferFromDataBase" as Transfer
+participant ":CountryStore" as STORE
+participant ":FreightNetwork" as network
+participant ":PortStore" as portStore
+participant ":SeadistStore" as seadistStore
+participant ":CapitalStore" as capitalStore
+participant ":BorderStore" as borderStore
+
+
+
+
+activate TM
+TM -> UI: Initiates the process to create a freight network importing ports, countries,\n capitals, borders and seadists from database
+activate UI
+UI - -> TM : Asks how many closest ports of any other country
+deactivate UI
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : createFreightNetwork(n)
+activate CTRL
+CTRL->CMP : getTransferFromDatabase()
+activate CMP
+deactivate CMP
+CTRL->Transfer: importPorts()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importSeadists()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCountries()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCapitals();
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importBorders()
+activate Transfer
+deactivate Transfer
+CTRL->CMP : getPortStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getSeadistStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getCapitalStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getBorderStr()
+activate CMP
+deactivate CMP
+CTRL-> network : addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)
+activate network
+
+deactivate network
+
+deactivate CTRL
+UI - -> TM : Informs of operation success
+deactivate UI
+
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

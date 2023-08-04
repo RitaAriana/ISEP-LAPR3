@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor TrafficManager as TM
+participant ": ListSomeShipDataUi" as UI
+participant ": ListSomeShipDataController" as CTR
+participant ": Company" as COMP
+participant ": BstShip" as BST
+participant "shipLocation : BstShipLocation" as BSTL
+participant "ship : Ship" as SHIP
+participant "briefSummary : BriefSummary" as BS
+participant "listOfbriefSummary : List<BriefSummary>" as LIST
+
+autonumber
+activate TM
+TM -> UI: initiates the listing of ship information ordered by \n travelled distance, total number of movements
+activate UI
+UI -> CTR : interableListOfShip = getShipList()
+activate CTR
+CTR -> COMP : bstShip = getBstShip()
+activate COMP
+deactivate COMP
+CTR -> BST : interableListOfShip = inOrder()
+activate BST
+deactivate BST
+loop for each ship in interableListOfShip
+CTR -> CTR : ship = interableListOfShip[i]
+activate CTR
+deactivate CTR
+CTR -> SHIP : mmsiCode = getMmsiCode()
+activate SHIP
+deactivate SHIP
+CTR -> SHIP : shipLocation = getShipPosition()
+activate SHIP
+deactivate SHIP
+CTR -> BSTL : totalNumberOfMovements = getTotalNumberOfMovements()
+activate BSTL
+deactivate BSTL
+CTR -> BSTL : travelledDistance = getTravelledDistance()
+activate BSTL
+deactivate BSTL
+CTR -> BSTL : deltaDistance = getDeltaDistance()
+activate BSTL
+deactivate BSTL
+
+CTR -> BS** : create(mmsi, totalNumberOfMovements, travelledDistance, deltaDistance)
+CTR -> LIST : add(briefSummary)
+activate LIST
+deactivate LIST
+end
+deactivate CTR
+
+UI --> TM : Asks the desired order
+deactivate UI
+
+
+TM -> UI : Types the desired Data
+activate UI
+
+UI -> CTR : desiredOrder(order)
+activate CTR
+
+alt order = ascending
+CTR-> LIST : orderedList = orderTheListAscending()
+activate LIST
+deactivate LIST
+
+else order = descending
+CTR-> LIST : orderedList = orderTheListDescending()
+activate LIST
+deactivate LIST
+end
+
+UI --> TM : displays the ordered list
+deactivate CTR
+
+deactivate UI
+
+@enduml

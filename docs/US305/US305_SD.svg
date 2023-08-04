@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="603px" preserveAspectRatio="none" style="width:1227px;height:603px;background:#FFFFFF;" version="1.1" viewBox="0 0 1227 603" width="1227px" zoomAndPan="magnify"><defs><filter height="300%" id="fvpbf31zjwes7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="400.125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="215.3672"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="654" y="245.7188"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="922" y="330.6797"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="927" y="374.0313"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1156" y="439.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="517.7344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="386" x2="386" y1="89.6094" y2="517.7344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="659" x2="659" y1="89.6094" y2="517.7344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="927" x2="927" y1="287.0234" y2="517.7344"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1160.5" x2="1160.5" y1="89.6094" y2="517.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#fvpbf31zjwes7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#fvpbf31zjwes7)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="531.2676">Client</text><ellipse cx="26" cy="544.3438" fill="#FEFECE" filter="url(#fvpbf31zjwes7)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,552.3438 L26,579.3438 M13,560.3438 L39,560.3438 M26,579.3438 L13,594.3438 M26,579.3438 L39,594.3438 " fill="none" filter="url(#fvpbf31zjwes7)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="106" x="331" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="338" y="74.5332">: KnowRouteUI</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="106" x="331" y="516.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="338" y="538.2676">: KnowRouteUI</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="156" x="579" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="586" y="74.5332">: KnowRouteController</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="156" x="579" y="516.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="586" y="538.2676">: KnowRouteController</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="893" y="516.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="900" y="538.2676">: US305</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="1104.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1111.5" y="74.5332">: WriteForAFile</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="109" x="1104.5" y="516.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1111.5" y="538.2676">: WriteForAFile</text><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="400.125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="284.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="215.3672"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="654" y="245.7188"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="138.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="922" y="330.6797"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="927" y="374.0313"/><rect fill="#FFFFFF" filter="url(#fvpbf31zjwes7)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1156" y="439.3828"/><polygon fill="#A80036" points="369,134.3125,379,138.3125,369,142.3125,373,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="375" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="38" y="117.1045">Requests to know the route of a specific container</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="38" y="133.4561">he's leasing</text><polygon fill="#A80036" points="42,164.6641,32,168.6641,42,172.6641,38,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="385" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="326" x="48" y="163.8076">Asks for the registration code and the container identifier</text><polygon fill="#A80036" points="369,211.3672,379,215.3672,369,219.3672,373,215.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="375" y1="215.3672" y2="215.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="310" x="38" y="194.1592">types the registration code and the container identifier</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="42" y="210.5107">(registrationCode,containerId)</text><polygon fill="#A80036" points="642,241.7188,652,245.7188,642,249.7188,646,245.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="391" x2="648" y1="245.7188" y2="245.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="398" y="240.8623">createUS305(registrationCode,containerId)</text><polygon fill="#A80036" points="881,272.0703,891,276.0703,881,280.0703,885,276.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="659" x2="887" y1="276.0703" y2="276.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="666" y="271.2139">create(registrationCode,containerId)</text><rect fill="#FEFECE" filter="url(#fvpbf31zjwes7)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="893" y="253.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="900" y="275.252">: US305</text><line style="stroke:#A80036;stroke-width:1.0;" x1="927" x2="974" y1="317.6797" y2="317.6797"/><line style="stroke:#A80036;stroke-width:1.0;" x1="974" x2="974" y1="317.6797" y2="330.6797"/><line style="stroke:#A80036;stroke-width:1.0;" x1="933" x2="974" y1="330.6797" y2="330.6797"/><polygon fill="#A80036" points="943,326.6797,933,330.6797,943,334.6797,939,330.6797" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="939" y="312.8232">initialize (registrationCode,containerId)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="937" x2="979" y1="366.0313" y2="366.0313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="979" x2="979" y1="366.0313" y2="379.0313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="938" x2="979" y1="379.0313" y2="379.0313"/><polygon fill="#A80036" points="948,375.0313,938,379.0313,948,383.0313,944,379.0313" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="944" y="361.1748">information = toString()</text><polygon fill="#A80036" points="1144,435.3828,1154,439.3828,1144,443.3828,1148,439.3828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="932" x2="1150" y1="439.3828" y2="439.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="939" y="434.5264">WriteForAFile(information)</text><polygon fill="#A80036" points="37,495.7344,27,499.7344,37,503.7344,33,499.7344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="385" y1="499.7344" y2="499.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="43" y="494.8779">shows the result</text><!--MD5=[86d8cda5884c8b8dc6c3f340b866d7be]
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+participant ": KnowRouteController" as CT
+participant ": US305" as US
+participant ": WriteForAFile" as WF
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI - -> C : Asks for the registration code and the container identifier
+deactivate UI
+
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI-> CT : createUS305(registrationCode,containerId)
+activate CT
+CT -> US** : create(registrationCode,containerId)
+deactivate CT
+US -> US : initialize (registrationCode,containerId)
+activate US
+US -> US : information = toString()
+activate US
+deactivate US
+US -> WF : WriteForAFile(information)
+activate WF
+deactivate WF
+deactivate US
+UI- ->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml
+
+@startuml
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+participant ": KnowRouteController" as CT
+participant ": US305" as US
+participant ": WriteForAFile" as WF
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI - -> C : Asks for the registration code and the container identifier
+deactivate UI
+
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI-> CT : createUS305(registrationCode,containerId)
+activate CT
+CT -> US** : create(registrationCode,containerId)
+deactivate CT
+US -> US : initialize (registrationCode,containerId)
+activate US
+US -> US : information = toString()
+activate US
+deactivate US
+US -> WF : WriteForAFile(information)
+activate WF
+deactivate WF
+deactivate US
+UI- ->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

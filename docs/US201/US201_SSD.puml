@@ -1,0 +1,16 @@
+@startuml
+autonumber
+
+actor "Port manager" as M
+
+activate M
+M -> ":System": Import ports from a text file
+activate ":System"
+":System" --> M --: Requests the name of the .csv file containing the data
+deactivate ":System"
+M -> ":System": Inserts file name
+activate ":System"
+":System" --> M --: Informs the operation success
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+actor "Ship Captain" as SC
+participant ":CargoManifestPerYearUI" as UI
+participant ":CargoManifestPerYearController" as CT
+participant ":US207" as US
+participant ": WriteForAFile" as WF
+
+
+
+activate SC
+SC -> UI : starts the requisition of mean container \n per cargo manifest and the total number \nof cargo manifest per year
+activate UI
+UI --> SC : asks the mmsi code of the ship
+deactivate UI
+SC -> UI : type the mmsi code
+activate UI
+UI --> SC : ask the year of the cargo manifest
+
+deactivate UI
+SC->UI : type the year
+
+activate UI
+UI->CT : createUS207(year, mmsiCode)
+activate CT
+
+
+CT -> US** : create(year, mmsiCode)
+
+US -> US: initialize(year, mmsiCode)
+activate US
+
+US -> US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+
+activate WF
+deactivate WF
+
+deactivate US
+
+deactivate CT
+UI-->SC : show the result
+deactivate UI
+deactivate SC
+@enduml

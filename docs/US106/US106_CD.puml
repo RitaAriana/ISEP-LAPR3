@@ -1,0 +1,55 @@
+@startuml
+left to right direction
+
+class ShowTopShipsUI{
+
+}
+
+class ShowTopShipsController{
+-getTopNShips
+}
+
+class BstShip{
+-getTopNShips(numberShips, initialDate, finalDate)
+}
+
+class Company{
+-designation
+-getBstShip()
+}
+
+class Summary{
+-mmsiCode
+-startBaseDate
+-endBaseDate
+-meanSog
+-travelledDistance
+}
+
+class Ship {
+-MMSI
+-name
+-shipID
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-vesselType
+-length
+-width
+-capacity
+-draft
+}
+
+ShowTopShipsUI ..> ShowTopShipsController
+
+ShowTopShipsController ..> Company
+
+Company "1" -- "1" BstShip : owns >
+
+ShowTopShipsController  ..>  BstShip
+
+BstShip "1" -- "1..*" Ship : has >
+
+Ship ..> Summary
+
+@enduml

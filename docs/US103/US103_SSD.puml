@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to obtain the positional\n messages temporally organized of a ship
+activate ":System"
+":System" --> TM : Requests the ship's MMSI code
+deactivate ":System"
+TM -> ":System" : Types the MMSI code
+activate ":System"
+":System" --> TM : Requests the necessary data \n (initial date and final date)
+deactivate ":System"
+TM -> ":System" : Introduce the requested data
+activate ":System"
+":System" --> TM : Shows the ship's positional messages
+deactivate ":System"
+
+deactivate TM
+
+@enduml

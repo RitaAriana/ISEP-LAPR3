@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":CreateFreightNetworkUI  " as UI
+participant ":CreateFreightNetworkController" as CTRL
+participant ":Company" as CMP
+participant ":TransferFromDataBase" as Transfer
+participant ":CountryStore" as STORE
+participant ":FreightNetwork" as network
+participant ":PortStore" as portStore
+participant ":SeadistStore" as seadistStore
+participant ":CapitalStore" as capitalStore
+participant ":BorderStore" as borderStore
+
+
+
+
+activate TM
+TM -> UI: Initiates the process to create a freight network importing ports, countries,\n capitals, borders and seadists from database
+activate UI
+UI --> TM : Asks how many closest ports of any other country
+deactivate UI
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL : createFreightNetwork(n)
+activate CTRL
+CTRL->CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL->CMP : getTransferFromDatabase()
+activate CMP
+deactivate CMP
+CTRL->Transfer: importPorts()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importSeadists()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCountries()
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importCapitals();
+activate Transfer
+deactivate Transfer
+CTRL->Transfer: importBorders()
+activate Transfer
+deactivate Transfer
+CTRL->CMP : getPortStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getSeadistStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getCapitalStr()
+activate CMP
+deactivate CMP
+CTRL->CMP : getBorderStr()
+activate CMP
+deactivate CMP
+CTRL-> network : addNewInformation(capitalStore,portStore,seadistStore,borderStore,n)
+activate network
+
+deactivate network
+
+deactivate CTRL
+UI --> TM : Informs of operation success
+deactivate UI
+
+deactivate TM
+
+@enduml

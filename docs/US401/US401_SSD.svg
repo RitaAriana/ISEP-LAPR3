@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="498px" preserveAspectRatio="none" style="width:736px;height:498px;" version="1.1" viewBox="0 0 736 498" width="736.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1rpj073nm8sqy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="194.6367" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="182.9414"/><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="70.0547" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="273.9961"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="134.4141" y2="371.0508"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:5.0,5.0;" x1="670.5" x2="670.5" y1="134.4141" y2="371.0508"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="129.7998">Traffic Manager</text><ellipse cx="87" cy="22.5" fill="#FEFECE" filter="url(#f1rpj073nm8sqy)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,34.5 L87,75 M67.5,46.5 L106.5,46.5 M87,75 L67.5,97.5 M87,75 L106.5,97.5 " fill="none" filter="url(#f1rpj073nm8sqy)" style="stroke:#A80036;stroke-width:3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="150" x="7.5" y="391.3506">Traffic Manager</text><ellipse cx="87" cy="410.9648" fill="#FEFECE" filter="url(#f1rpj073nm8sqy)" rx="12" ry="12" style="stroke:#A80036;stroke-width:3.0;"/><path d="M87,422.9648 L87,463.4648 M67.5,434.9648 L106.5,434.9648 M87,463.4648 L67.5,485.9648 M87,463.4648 L106.5,485.9648 " fill="none" filter="url(#f1rpj073nm8sqy)" style="stroke:#A80036;stroke-width:3.0;"/><rect fill="#FEFECE" filter="url(#f1rpj073nm8sqy)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="96" x="619.5" y="79.5"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="75" x="630" y="111.7998">:System</text><rect fill="#FEFECE" filter="url(#f1rpj073nm8sqy)" height="47.4141" style="stroke:#A80036;stroke-width:2.25;" width="96" x="619.5" y="369.5508"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacing" textLength="75" x="630" y="401.8506">:System</text><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="194.6367" style="stroke:#A80036;stroke-width:1.5;" width="15" x="79.5" y="149.4141"/><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="45.5273" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="182.9414"/><rect fill="#FFFFFF" filter="url(#f1rpj073nm8sqy)" height="70.0547" style="stroke:#A80036;stroke-width:1.5;" width="15" x="663" y="273.9961"/><polygon fill="#A80036" points="645,176.9414,660,182.9414,645,188.9414,651,182.9414" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="654" y1="182.9414" y2="182.9414"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="175.6567">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="499.5" x="121.5" y="175.6567">Initiates the process to know which ports are more critical</text><polygon fill="#A80036" points="111,222.4688,96,228.4688,111,234.4688,105,228.4688" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="102" x2="669" y1="228.4688" y2="228.4688"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="120" y="221.1841">2</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="516" x="136.5" y="221.1841">Ask how many ports with greater centrality you want to get.</text><polygon fill="#A80036" points="645,267.9961,660,273.9961,645,279.9961,651,273.9961" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="94.5" x2="654" y1="273.9961" y2="273.9961"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="105" y="266.7114">3</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="271.5" x="121.5" y="266.7114">Enter the requested information</text><polygon fill="#A80036" points="103.5,338.0508,88.5,344.0508,103.5,350.0508,97.5,344.0508" style="stroke:#A80036;stroke-width:1.5;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:2.0,2.0;" x1="94.5" x2="669" y1="344.0508" y2="344.0508"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="10.5" x="112.5" y="324.5024">4</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="370.5" x="129" y="312.2388">Informs of operation success and indicates</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="285" x="135" y="336.7661">the n ports with greater centrality</text><!--MD5=[c58b82bf94100da2ba6b52d33c21af82]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know which ports are more critical
+activate ":System"
+
+":System" - -> TM : Ask how many ports with greater centrality you want to get.
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" - -> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate ":System"
+
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know which ports are more critical
+activate ":System"
+
+":System" - -> TM : Ask how many ports with greater centrality you want to get.
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" - -> TM : Informs of operation success and indicates\n the n ports with greater centrality
+deactivate ":System"
+
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

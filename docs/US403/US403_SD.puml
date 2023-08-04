@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":GetTheMostEfficientCircuitUI  " as UI
+participant ":GetTheMostEfficientCircuitController" as CTRL
+participant ":Company" as CMP
+participant ":FreightNetwork" as network
+
+activate TM
+TM -> UI : Initiates the process to know the most efficient circuit that starts from a \n source location and visits the greatest number of other locations once, \n returning to the starting location and with the shortest total distance.
+
+activate UI
+
+UI --> TM : Asks the place of departure
+deactivate UI
+
+TM -> UI : Enter the requested information
+activate UI
+UI -> CTRL :  getTheMostEfficientCircuit(sourceLocation)
+activate CTRL
+CTRL -> CMP : getFreightNetwork()
+activate CMP
+deactivate CMP
+CTRL -> network : mostEfficientCircuit(sourceLocation)
+activate network
+network--> CTRL : result
+deactivate network
+CTRL --> UI : result
+deactivate CTRL
+UI --> TM : Informs of operation success and indicates the most efficient circuit
+deactivate UI
+
+deactivate TM
+
+@enduml

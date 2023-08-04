@@ -1,0 +1,82 @@
+@startuml
+left to right direction
+
+
+class Company{
+-designation
+-getBstShip()
+-getImportShip()
+}
+
+class Ship {
+-MMSI
+-name
+-shipID
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-vesselType
+-length
+-width
+-capacity
+-draft
+-setMMSI()
+-getShipPosition()
+}
+
+class ImportShip{
+-getFile()
+-convertShips()
+-getLineArray()
+-createShip()
+}
+
+class ImportShipController{
+-importFile(String fileName)
+-importShips()
+}
+
+class ImportShipUI{
+}
+
+class ShipLocation{
+-baseDateTime
+-latitude
+-longitude
+-SOG
+-COG
+-heading
+-position
+-transceiverClass
+}
+
+class ShipLocationBST{
+-insert(shipLocation)
+}
+
+class BstShip{
+-getShipByMmsiCode(MMSI)
+-insert(ship)
+}
+
+
+
+ImportShipUI ..> ImportShipController
+
+ImportShipController ..> Company
+
+ImportShip "1" -- "1" BstShip : uses >
+
+Company "1" -- "1" BstShip : owns >
+
+Company "1" -- "1" ImportShip : uses >
+
+BstShip "1" -- "1..*" Ship : has >
+
+Ship "1" -- "1" ShipLocationBST : uses >
+
+ShipLocationBST "1" -- "1..*" ShipLocation : has >
+
+
+
+@enduml

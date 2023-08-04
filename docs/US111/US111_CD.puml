@@ -1,0 +1,140 @@
+@startuml
+left to right direction
+
+class SendToDatabaseUI{
+
+}
+
+class SendToDatabaseController{
++importShips()
++importPorts()
+}
+
+class SendToDatabase{
++saveShip(DatabaseConnection databaseConnection, Object object)
++saveShipToDatabase(DatabaseConnection databaseConnection, Ship ship)
++isShipOnDatabase(DatabaseConnection databaseConnection, Ship ship)
++updateShipOnDatabase(DatabaseConnection databaseConnection, Ship ship)
++insertShipOnDatabase(DatabaseConnection databaseConnection, Ship ship
+
++saveLocation(DatabaseConnection databaseConnection, Object object)
++saveLocationToDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++isLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++updateLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++insertLocationOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation)
++executeShipLocationStatementOnDatabase(DatabaseConnection databaseConnection, ShipLocation shipLocation, String sqlCommand, boolean type)
+
++savePort(DatabaseConnection databaseConnection, Object object)
++savePortToDatabase(DatabaseConnection databaseConnection, Ports port)
++isPortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++updatePortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertPortOnDatabase(DatabaseConnection databaseConnection, Ports port)
++executePortStatementOnDatabase(DatabaseConnection databaseConnection, Ports port, String sqlCommand)
+
++isPlaceLocationOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertPlaceLocationOnDatabase(DatabaseConnection databaseConnection, Ports port)
++executePlaceLocationStatementOnDatabase(DatabaseConnection databaseConnection, Ports port, String sqlCommand)
+
++isCountryOnDatabase(DatabaseConnection databaseConnection, Ports port)
++insertCountryOnDatabase(DatabaseConnection databaseConnection, Ports port)
+
+}
+
+class ConnectionFactory{
++loadProperties()
++getDatabaseConnection()
+}
+
+class DatabaseConnection{
++DatabaseConnection(String url, String username, String password)
++getConnection()
++registerError(SQLException error)
++connectionWorking()
+
+}
+
+interface Persistable{
++saveShip(DatabaseConnection databaseConnection, Object object)
++saveLocation(DatabaseConnection databaseConnection, Object object)
++savePort(DatabaseConnection databaseConnection, Object object)
+}
+
+class Ship {
+-mmsiCode
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-draft
+-name
+-vesselTypeId
+-length
+-width
+-capacity
+}
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+class Ports {
+-identification
+-name
+}
+
+class Company {
+-designation
+}
+
+Company "1"--"1..*" Ship: own >
+
+Company "1"--"1..*" Ports: have >
+
+PlaceLocation "*" -- "1" Country : placed in >
+
+Ports "1" -- "1" PlaceLocation : located at >
+
+Ship "0..*"--"1" Ports: dock >
+
+Ship "1" -- "1..*" ShipLocation : has >
+
+SendToDatabaseUI ..> SendToDatabaseController
+
+SendToDatabaseController ..> SendToDatabase
+
+SendToDatabase ..> Company
+
+SendToDatabase ..> Ship
+
+SendToDatabase ..> ShipLocation
+
+SendToDatabase ..> Ports
+
+SendToDatabase ..> PlaceLocation
+
+SendToDatabase ..> Country
+
+Persistable <|-- SendToDatabase
+
+SendToDatabase ..> ConnectionFactory
+
+SendToDatabase ..> DatabaseConnection
+
+@enduml

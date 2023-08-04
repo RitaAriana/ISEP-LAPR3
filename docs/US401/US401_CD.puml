@@ -1,0 +1,102 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+
+
+class GetsPortsMoreCriticalUI {}
+
+class GetsPortsMoreCriticalController {
+-getsPortsMoreCritical(n)
+}
+
+class Company {
+-designation
+-getFreightNetwork()
+}
+
+
+
+class FreightNetwork {
+-getsPortsMoreCritical(n)
+}
+
+class Ports {
+-identification
+-name
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+class Seadist {
+-portId1
+-portId2
+-seaDistance
+-portName1
+-portName2
+-countryName1
+-countryName2
+}
+
+class AdjacencyMatrixGraph {
+-numVertices();
+-vertex(i);
+-key(i)
+}
+
+class Edge {
+
+}
+
+class GraphAlgorithms {
+-shortestPaths(adjacencyMatrixGraph, origem, Double::compare, Double::sum, 0.0, paths, dists)
+-shortestPathDijkstra(g, vOrig, ce, sum, zero, visited, pathKeys, dist)
+-getPath(g, vOrig, vDest, pathKeys, shortPath)
+}
+
+GetsPortsMoreCriticalUI ..> GetsPortsMoreCriticalController
+
+GetsPortsMoreCriticalController ..> Company
+GetsPortsMoreCriticalController ..> FreightNetwork
+
+Company "1"--"1" FreightNetwork: have >
+FreightNetwork ..> AdjacencyMatrixGraph
+AdjacencyMatrixGraph ..> Edge
+Company "1"--"1..*" Ports: have >
+
+Ports "2"--"*" Seadist: has a
+FreightNetwork "1" -- "1..*" Place : related with
+Place <|-- Capital
+Place <|-- Ports
+Country "2" -- "*" Border : has a
+PlaceLocation "*" -- "1" Country : placed in >
+Place "1" -- "1" PlaceLocation : located at >
+FreightNetwork ..> GraphAlgorithms
+
+@enduml

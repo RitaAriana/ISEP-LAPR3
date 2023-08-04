@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class TrafficManager {
+-name
+}
+
+class ShipLocation {
+-baseDateTime
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-position
+-transceiver
+}
+
+class Ship {
+-mmsiCode
+-name
+-imoCode
+-numberEnergyGenerators
+-generatorPower
+-callSign
+-vesselType
+-length
+-width
+-capacity
+-draft
+}
+
+class Company {
+-designation
+}
+
+Company "1"--"1..*" Ship: own >
+Company "1"--"1..*" TrafficManager: have >
+
+Ship "1" -- "1..*" ShipLocation : has >
+
+TrafficManager "1" -- "1..*" ShipLocation : controls >
+
+
+@enduml

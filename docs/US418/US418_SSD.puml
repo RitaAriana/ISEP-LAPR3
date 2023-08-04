@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC -> SY : requests to know the unladen center of mass for \neach vessel (if different) according to its characteristics
+activate SY
+SY --> SC : receive the result
+deactivate SY
+deactivate SC
+@enduml

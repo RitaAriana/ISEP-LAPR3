@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+actor "Client" as C
+participant "System" as SY
+
+activate C
+C -> SY :  Initiates the process to get the current\n situation of a specific container
+activate SY
+SY --> C : Request the e container identifier
+deactivate SY
+C -> SY : Introduce the requested data
+
+activate SY
+SY-->C : Show the current location
+deactivate SY
+deactivate C
+@enduml

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="469px" preserveAspectRatio="none" style="width:644px;height:469px;background:#FFFFFF;" version="1.1" viewBox="0 0 644 469" width="644px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ksn5l4qw06hq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1e4322891b3d132799dc4bce8b033237]
+class ShipCaptainUI--><rect codeLine="3" fill="#FEFECE" filter="url(#f1ksn5l4qw06hq)" height="48" id="ShipCaptainUI" style="stroke:#A80036;stroke-width:1.5;" width="112" x="70" y="7"/><ellipse cx="85" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M87,19.5 Q87.2031,19 87.4375,18.75 Q87.6719,18.5 87.9375,18.5 Q88.4063,18.5 88.7031,18.7813 Q89,19.0625 89,19.7188 L89,21.2813 Q89,21.9375 88.7188,22.2188 Q88.4375,22.5 88,22.5 Q87.6094,22.5 87.3594,22.3281 Q87.1094,22.1563 87,21.7031 Q86.9531,21.3906 86.7813,21.2188 Q86.4688,20.8906 85.9063,20.7031 Q85.3438,20.5 84.7813,20.5 Q84.0781,20.5 83.4844,20.7813 Q82.9063,21.0625 82.4531,21.6875 Q82,22.3125 82,23.1719 L82,24.0938 Q82,25.125 82.8438,25.8125 Q83.6875,26.5 85.1875,26.5 Q86.0781,26.5 86.7031,26.2969 Q87.0625,26.1875 87.4688,25.8281 Q87.7344,25.625 87.875,25.5625 Q88.0156,25.5 88.1875,25.5 Q88.5156,25.5 88.75,25.7656 Q89,26.0156 89,26.375 Q89,26.7188 88.6563,27.125 Q88.1563,27.7188 87.3594,28.0469 Q86.3125,28.5 85.0313,28.5 Q83.5313,28.5 82.3281,27.9063 Q81.3594,27.4375 80.6719,26.4219 Q80,25.4063 80,24.2031 L80,23.1094 Q80,21.8594 80.5938,20.7656 Q81.2031,19.6719 82.25,19.0938 Q83.3125,18.5 84.5,18.5 Q85.2188,18.5 85.8438,18.75 Q86.4688,19 87,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="99" y="27.9102">ShipCaptainUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="71" x2="181" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="71" x2="181" y1="47" y2="47"/><!--MD5=[a8e9afe1ea2556e071ba199fcab3ff03]
+class VesselSankController--><rect codeLine="6" fill="#FEFECE" filter="url(#f1ksn5l4qw06hq)" height="200.1953" id="VesselSankController" style="stroke:#A80036;stroke-width:1.5;" width="238" x="7" y="116"/><ellipse cx="61.75" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M63.75,128.5 Q63.9531,128 64.1875,127.75 Q64.4219,127.5 64.6875,127.5 Q65.1563,127.5 65.4531,127.7813 Q65.75,128.0625 65.75,128.7188 L65.75,130.2813 Q65.75,130.9375 65.4688,131.2188 Q65.1875,131.5 64.75,131.5 Q64.3594,131.5 64.1094,131.3281 Q63.8594,131.1563 63.75,130.7031 Q63.7031,130.3906 63.5313,130.2188 Q63.2188,129.8906 62.6563,129.7031 Q62.0938,129.5 61.5313,129.5 Q60.8281,129.5 60.2344,129.7813 Q59.6563,130.0625 59.2031,130.6875 Q58.75,131.3125 58.75,132.1719 L58.75,133.0938 Q58.75,134.125 59.5938,134.8125 Q60.4375,135.5 61.9375,135.5 Q62.8281,135.5 63.4531,135.2969 Q63.8125,135.1875 64.2188,134.8281 Q64.4844,134.625 64.625,134.5625 Q64.7656,134.5 64.9375,134.5 Q65.2656,134.5 65.5,134.7656 Q65.75,135.0156 65.75,135.375 Q65.75,135.7188 65.4063,136.125 Q64.9063,136.7188 64.1094,137.0469 Q63.0625,137.5 61.7813,137.5 Q60.2813,137.5 59.0781,136.9063 Q58.1094,136.4375 57.4219,135.4219 Q56.75,134.4063 56.75,133.2031 L56.75,132.1094 Q56.75,130.8594 57.3438,129.7656 Q57.9531,128.6719 59,128.0938 Q60.0625,127.5 61.25,127.5 Q61.9688,127.5 62.5938,127.75 Q63.2188,128 63.75,128.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="82.25" y="136.9102">VesselSankController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="244" y1="148" y2="148"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="27" y="163.4189">weightForce</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="169.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="27" y="177.2549">immersedArea</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="183.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="27" y="191.0908">pressure</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="197.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="27" y="204.9268">immersedVolumeEmpty</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="211.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="27" y="218.7627">immersedVolumeLoaded</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="225.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="27" y="232.5986">draftEmpty</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="239.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="27" y="246.4346">draftLoaded</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="252.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="27" y="260.2705">shipSankHeight</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="266.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="27" y="274.1064">textualInformation</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="244" y1="280.5234" y2="280.5234"/><ellipse cx="18" cy="291.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="212" x="27" y="295.9424">createUS420(ship, vesselMass, containers)</text><ellipse cx="18" cy="305.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="27" y="309.7783">toString()</text><!--MD5=[a6da4840a992a59ed13e4b9aa94f32a6]
+class ShipSank--><rect codeLine="21" fill="#FEFECE" filter="url(#f1ksn5l4qw06hq)" height="131.0156" id="ShipSank" style="stroke:#A80036;stroke-width:1.5;" width="350" x="280" y="150.5"/><ellipse cx="424.25" cy="166.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M426.25,163 Q426.4531,162.5 426.6875,162.25 Q426.9219,162 427.1875,162 Q427.6563,162 427.9531,162.2813 Q428.25,162.5625 428.25,163.2188 L428.25,164.7813 Q428.25,165.4375 427.9688,165.7188 Q427.6875,166 427.25,166 Q426.8594,166 426.6094,165.8281 Q426.3594,165.6563 426.25,165.2031 Q426.2031,164.8906 426.0313,164.7188 Q425.7188,164.3906 425.1563,164.2031 Q424.5938,164 424.0313,164 Q423.3281,164 422.7344,164.2813 Q422.1563,164.5625 421.7031,165.1875 Q421.25,165.8125 421.25,166.6719 L421.25,167.5938 Q421.25,168.625 422.0938,169.3125 Q422.9375,170 424.4375,170 Q425.3281,170 425.9531,169.7969 Q426.3125,169.6875 426.7188,169.3281 Q426.9844,169.125 427.125,169.0625 Q427.2656,169 427.4375,169 Q427.7656,169 428,169.2656 Q428.25,169.5156 428.25,169.875 Q428.25,170.2188 427.9063,170.625 Q427.4063,171.2188 426.6094,171.5469 Q425.5625,172 424.2813,172 Q422.7813,172 421.5781,171.4063 Q420.6094,170.9375 419.9219,169.9219 Q419.25,168.9063 419.25,167.7031 L419.25,166.6094 Q419.25,165.3594 419.8438,164.2656 Q420.4531,163.1719 421.5,162.5938 Q422.5625,162 423.75,162 Q424.4688,162 425.0938,162.25 Q425.7188,162.5 426.25,163 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="444.75" y="171.4102">ShipSank</text><line style="stroke:#A80036;stroke-width:1.5;" x1="281" x2="629" y1="182.5" y2="182.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="281" x2="629" y1="190.5" y2="190.5"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="198.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="300" y="205.9189">calculateWeightForce(vesselMass)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="212.3359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="300" y="219.7549">immersedArea(ship)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="226.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="324" x="300" y="233.5908">pressureWxertedByVesselOnWater(ship, vesselMass, containers)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="240.0078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="300" y="247.4268">vesselImmersedVolume(vesselMass,containers)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="253.8438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="300" y="261.2627">calculateDraft(ship,volume)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="267.6797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="217" x="300" y="275.0986">shipSankHeight(ship,vesselMass,containers)</text><!--MD5=[c4c1f95cf25890b8d906953e22c853cc]
+class WriteForAFile--><rect codeLine="30" fill="#FEFECE" filter="url(#f1ksn5l4qw06hq)" height="61.8359" id="WriteForAFile" style="stroke:#A80036;stroke-width:1.5;" width="225" x="342.5" y="394"/><ellipse cx="414.25" cy="410" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M416.25,406.5 Q416.4531,406 416.6875,405.75 Q416.9219,405.5 417.1875,405.5 Q417.6563,405.5 417.9531,405.7813 Q418.25,406.0625 418.25,406.7188 L418.25,408.2813 Q418.25,408.9375 417.9688,409.2188 Q417.6875,409.5 417.25,409.5 Q416.8594,409.5 416.6094,409.3281 Q416.3594,409.1563 416.25,408.7031 Q416.2031,408.3906 416.0313,408.2188 Q415.7188,407.8906 415.1563,407.7031 Q414.5938,407.5 414.0313,407.5 Q413.3281,407.5 412.7344,407.7813 Q412.1563,408.0625 411.7031,408.6875 Q411.25,409.3125 411.25,410.1719 L411.25,411.0938 Q411.25,412.125 412.0938,412.8125 Q412.9375,413.5 414.4375,413.5 Q415.3281,413.5 415.9531,413.2969 Q416.3125,413.1875 416.7188,412.8281 Q416.9844,412.625 417.125,412.5625 Q417.2656,412.5 417.4375,412.5 Q417.7656,412.5 418,412.7656 Q418.25,413.0156 418.25,413.375 Q418.25,413.7188 417.9063,414.125 Q417.4063,414.7188 416.6094,415.0469 Q415.5625,415.5 414.2813,415.5 Q412.7813,415.5 411.5781,414.9063 Q410.6094,414.4375 409.9219,413.4219 Q409.25,412.4063 409.25,411.2031 L409.25,410.1094 Q409.25,408.8594 409.8438,407.7656 Q410.4531,406.6719 411.5,406.0938 Q412.5625,405.5 413.75,405.5 Q414.4688,405.5 415.0938,405.75 Q415.7188,406 416.25,406.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="434.75" y="414.9102">WriteForAFile</text><line style="stroke:#A80036;stroke-width:1.5;" x1="343.5" x2="566.5" y1="426" y2="426"/><line style="stroke:#A80036;stroke-width:1.5;" x1="343.5" x2="566.5" y1="434" y2="434"/><ellipse cx="353.5" cy="445" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="199" x="362.5" y="449.4189">writeForAFiLe(textualInformation : String)</text><!--MD5=[3c145bf63cd2c24213d7918a4449975c]
+link ShipCaptainUI to VesselSankController--><path codeLine="34" d="M126,55.18 C126,69.78 126,89.78 126,110.68 " fill="none" id="ShipCaptainUI-to-VesselSankController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="126,115.73,130,106.73,126,110.73,122,106.73,126,115.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fc4f3fea9a41b854033b586f1f763f94]
+link VesselSankController to ShipSank--><path codeLine="35" d="M245.2,216 C254.97,216 264.74,216 274.51,216 " fill="none" id="VesselSankController-to-ShipSank" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="279.62,216,270.62,212,274.62,216,270.62,220,279.62,216" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8cbd20705bbd763e775ad165f8132aaf]
+link ShipSank to WriteForAFile--><path codeLine="36" d="M455,281.64 C455,316.93 455,359.27 455,388.56 " fill="none" id="ShipSank-to-WriteForAFile" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="455,393.87,459,384.87,455,388.87,451,384.87,455,393.87" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="456" y="360.4951">uses</text><!--MD5=[c6046df48cd198c293bb603fb95f7aa9]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ShipCaptainUI{
+}
+
+class VesselSankController{
+- weightForce
+- immersedArea
+- pressure
+- immersedVolumeEmpty
+- immersedVolumeLoaded
+- draftEmpty
+- draftLoaded
+- shipSankHeight
+- textualInformation
++ createUS420(ship, vesselMass, containers)
++ toString()
+}
+
+
+class ShipSank {
+- calculateWeightForce(vesselMass)
+- immersedArea(ship)
+- pressureWxertedByVesselOnWater(ship, vesselMass, containers)
+- vesselImmersedVolume(vesselMass,containers)
+- calculateDraft(ship,volume)
+- shipSankHeight(ship,vesselMass,containers)
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+ShipCaptainUI ..> VesselSankController
+VesselSankController-> ShipSank
+ShipSank - -> WriteForAFile : uses
+@enduml
+
+@startuml
+
+class ShipCaptainUI{
+}
+
+class VesselSankController{
+- weightForce
+- immersedArea
+- pressure
+- immersedVolumeEmpty
+- immersedVolumeLoaded
+- draftEmpty
+- draftLoaded
+- shipSankHeight
+- textualInformation
++ createUS420(ship, vesselMass, containers)
++ toString()
+}
+
+
+class ShipSank {
+- calculateWeightForce(vesselMass)
+- immersedArea(ship)
+- pressureWxertedByVesselOnWater(ship, vesselMass, containers)
+- vesselImmersedVolume(vesselMass,containers)
+- calculateDraft(ship,volume)
+- shipSankHeight(ship,vesselMass,containers)
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation : String)
+}
+
+ShipCaptainUI ..> VesselSankController
+VesselSankController-> ShipSank
+ShipSank - -> WriteForAFile : uses
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

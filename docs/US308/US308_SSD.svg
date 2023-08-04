@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:388px;height:288px;background:#FFFFFF;" version="1.1" viewBox="0 0 388 288" width="388px" zoomAndPan="magnify"><defs><filter height="300%" id="fc2uy40hskkjw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fc2uy40hskkjw)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fc2uy40hskkjw)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="341" y="154.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="203.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="346" x2="346" y1="89.6094" y2="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#fc2uy40hskkjw)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#fc2uy40hskkjw)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="216.5488">Traffic Manager</text><ellipse cx="58" cy="229.625" fill="#FEFECE" filter="url(#fc2uy40hskkjw)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,237.625 L58,264.625 M45,245.625 L71,245.625 M58,264.625 L45,279.625 M58,264.625 L71,279.625 " fill="none" filter="url(#fc2uy40hskkjw)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fc2uy40hskkjw)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="314" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="321" y="74.5332">System</text><rect fill="#FEFECE" filter="url(#fc2uy40hskkjw)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="314" y="202.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="321" y="223.5488">System</text><rect fill="#FFFFFF" filter="url(#fc2uy40hskkjw)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fc2uy40hskkjw)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="341" y="154.6641"/><polygon fill="#A80036" points="329,150.6641,339,154.6641,329,158.6641,333,154.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="335" y1="154.6641" y2="154.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="70" y="117.1045">have a system that ensures that the number</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="70" y="133.4561">of containers in a manifest does not exceed</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="74" y="149.8076">the ship's available capacity</text><polygon fill="#A80036" points="69,181.0156,59,185.0156,69,189.0156,65,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="345" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="75" y="180.1592">receive or not a warning</text><!--MD5=[c9421b92ae051f72af52bd0f5fad2904]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Traffic Manager" as TM
+participant "System" as SY
+
+activate TM
+TM -> SY : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate SY
+SY - -> TM : receive or not a warning
+deactivate SY
+deactivate TM
+@enduml
+
+@startuml
+
+actor "Traffic Manager" as TM
+participant "System" as SY
+
+activate TM
+TM -> SY : have a system that ensures that the number \nof containers in a manifest does not exceed\n the ship's available capacity
+activate SY
+SY - -> TM : receive or not a warning
+deactivate SY
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FindContainerSituationUi {}
+
+class FindContainerSituationController {
+-getContainerLocation(containerNumber)
+
+}
+
+class US204Handler {
+-getContainerLocation(containerNumber)
+}
+
+class WriteForAFile{
+-writeForAFile(containerLocation, fileName, filePath)
+}
+
+
+FindContainerSituationUi ..> FindContainerSituationController
+FindContainerSituationController ..> US204Handler
+US204Handler ..> WriteForAFile
+@enduml

@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+actor "Ship Captain" as SC
+participant ":LoadUI" as UI
+participant ":LoadController" as CT
+participant ":US206" as US
+participant ": WriteForAFile" as WF
+
+
+
+activate SC
+SC -> UI : starts the requisition of the list \n of containers to be loaded in the next port
+activate UI
+UI --> SC : asks the mmsi code of the ship
+deactivate UI
+SC -> UI : type the mmsi code
+
+
+activate UI
+UI->CT : createUS206(mmsiCode)
+activate CT
+
+
+CT -> US** : create(mmsiCode)
+
+US -> US: initialize(mmsiCode)
+activate US
+
+US -> US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+
+activate WF
+deactivate WF
+
+deactivate US
+
+deactivate CT
+UI-->SC : show the result
+deactivate UI
+deactivate SC
+@enduml

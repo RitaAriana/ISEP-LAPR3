@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="345px" preserveAspectRatio="none" style="width:404px;height:345px;background:#FFFFFF;" version="1.1" viewBox="0 0 404 345" width="404px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l33s65brgf5g" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8c4776c04722ee496bc43427c56a5ed7]
+class ShipsReadyNextMondayUI--><rect codeLine="3" fill="#FEFECE" filter="url(#f1l33s65brgf5g)" height="48" id="ShipsReadyNextMondayUI" style="stroke:#A80036;stroke-width:1.5;" width="177" x="28" y="7"/><ellipse cx="43" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M45,19.5 Q45.2031,19 45.4375,18.75 Q45.6719,18.5 45.9375,18.5 Q46.4063,18.5 46.7031,18.7813 Q47,19.0625 47,19.7188 L47,21.2813 Q47,21.9375 46.7188,22.2188 Q46.4375,22.5 46,22.5 Q45.6094,22.5 45.3594,22.3281 Q45.1094,22.1563 45,21.7031 Q44.9531,21.3906 44.7813,21.2188 Q44.4688,20.8906 43.9063,20.7031 Q43.3438,20.5 42.7813,20.5 Q42.0781,20.5 41.4844,20.7813 Q40.9063,21.0625 40.4531,21.6875 Q40,22.3125 40,23.1719 L40,24.0938 Q40,25.125 40.8438,25.8125 Q41.6875,26.5 43.1875,26.5 Q44.0781,26.5 44.7031,26.2969 Q45.0625,26.1875 45.4688,25.8281 Q45.7344,25.625 45.875,25.5625 Q46.0156,25.5 46.1875,25.5 Q46.5156,25.5 46.75,25.7656 Q47,26.0156 47,26.375 Q47,26.7188 46.6563,27.125 Q46.1563,27.7188 45.3594,28.0469 Q44.3125,28.5 43.0313,28.5 Q41.5313,28.5 40.3281,27.9063 Q39.3594,27.4375 38.6719,26.4219 Q38,25.4063 38,24.2031 L38,23.1094 Q38,21.8594 38.5938,20.7656 Q39.2031,19.6719 40.25,19.0938 Q41.3125,18.5 42.5,18.5 Q43.2188,18.5 43.8438,18.75 Q44.4688,19 45,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="145" x="57" y="27.9102">ShipsReadyNextMondayUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="29" x2="204" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="29" x2="204" y1="47" y2="47"/><!--MD5=[8dc8d8e19fb368c6cd49119d599df1a2]
+class ShipsReadyNextMondayController--><rect codeLine="5" fill="#FEFECE" filter="url(#f1l33s65brgf5g)" height="61.8359" id="ShipsReadyNextMondayController" style="stroke:#A80036;stroke-width:1.5;" width="219" x="7" y="123"/><ellipse cx="22" cy="139" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,135.5 Q24.2031,135 24.4375,134.75 Q24.6719,134.5 24.9375,134.5 Q25.4063,134.5 25.7031,134.7813 Q26,135.0625 26,135.7188 L26,137.2813 Q26,137.9375 25.7188,138.2188 Q25.4375,138.5 25,138.5 Q24.6094,138.5 24.3594,138.3281 Q24.1094,138.1563 24,137.7031 Q23.9531,137.3906 23.7813,137.2188 Q23.4688,136.8906 22.9063,136.7031 Q22.3438,136.5 21.7813,136.5 Q21.0781,136.5 20.4844,136.7813 Q19.9063,137.0625 19.4531,137.6875 Q19,138.3125 19,139.1719 L19,140.0938 Q19,141.125 19.8438,141.8125 Q20.6875,142.5 22.1875,142.5 Q23.0781,142.5 23.7031,142.2969 Q24.0625,142.1875 24.4688,141.8281 Q24.7344,141.625 24.875,141.5625 Q25.0156,141.5 25.1875,141.5 Q25.5156,141.5 25.75,141.7656 Q26,142.0156 26,142.375 Q26,142.7188 25.6563,143.125 Q25.1563,143.7188 24.3594,144.0469 Q23.3125,144.5 22.0313,144.5 Q20.5313,144.5 19.3281,143.9063 Q18.3594,143.4375 17.6719,142.4219 Q17,141.4063 17,140.2031 L17,139.1094 Q17,137.8594 17.5938,136.7656 Q18.2031,135.6719 19.25,135.0938 Q20.3125,134.5 21.5,134.5 Q22.2188,134.5 22.8438,134.75 Q23.4688,135 24,135.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="36" y="143.9102">ShipsReadyNextMondayController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="225" y1="155" y2="155"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="225" y1="163" y2="163"/><ellipse cx="18" cy="174" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="27" y="178.4189">createUS210()</text><!--MD5=[26773b83996bc461b92a7a441ebdd2ba]
+class US210--><rect codeLine="10" fill="#FEFECE" filter="url(#f1l33s65brgf5g)" height="75.6719" id="US210" style="stroke:#A80036;stroke-width:1.5;" width="71" x="261" y="116"/><ellipse cx="276.45" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M278.45,128.5 Q278.6531,128 278.8875,127.75 Q279.1219,127.5 279.3875,127.5 Q279.8563,127.5 280.1531,127.7813 Q280.45,128.0625 280.45,128.7188 L280.45,130.2813 Q280.45,130.9375 280.1688,131.2188 Q279.8875,131.5 279.45,131.5 Q279.0594,131.5 278.8094,131.3281 Q278.5594,131.1563 278.45,130.7031 Q278.4031,130.3906 278.2313,130.2188 Q277.9188,129.8906 277.3563,129.7031 Q276.7938,129.5 276.2313,129.5 Q275.5281,129.5 274.9344,129.7813 Q274.3563,130.0625 273.9031,130.6875 Q273.45,131.3125 273.45,132.1719 L273.45,133.0938 Q273.45,134.125 274.2938,134.8125 Q275.1375,135.5 276.6375,135.5 Q277.5281,135.5 278.1531,135.2969 Q278.5125,135.1875 278.9188,134.8281 Q279.1844,134.625 279.325,134.5625 Q279.4656,134.5 279.6375,134.5 Q279.9656,134.5 280.2,134.7656 Q280.45,135.0156 280.45,135.375 Q280.45,135.7188 280.1063,136.125 Q279.6063,136.7188 278.8094,137.0469 Q277.7625,137.5 276.4813,137.5 Q274.9813,137.5 273.7781,136.9063 Q272.8094,136.4375 272.1219,135.4219 Q271.45,134.4063 271.45,133.2031 L271.45,132.1094 Q271.45,130.8594 272.0438,129.7656 Q272.6531,128.6719 273.7,128.0938 Q274.7625,127.5 275.95,127.5 Q276.6688,127.5 277.2938,127.75 Q277.9188,128 278.45,128.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="290.55" y="136.9102">US210</text><line style="stroke:#A80036;stroke-width:1.5;" x1="262" x2="331" y1="148" y2="148"/><line style="stroke:#A80036;stroke-width:1.5;" x1="262" x2="331" y1="156" y2="156"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="269" y="164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="281" y="171.4189">initialize)</text><ellipse cx="272" cy="180.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="281" y="185.2549">toString()</text><!--MD5=[c4c1f95cf25890b8d906953e22c853cc]
+class WriteForAFile--><rect codeLine="16" fill="#FEFECE" filter="url(#f1l33s65brgf5g)" height="61.8359" id="WriteForAFile" style="stroke:#A80036;stroke-width:1.5;" width="188" x="202.5" y="270"/><ellipse cx="255.75" cy="286" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M257.75,282.5 Q257.9531,282 258.1875,281.75 Q258.4219,281.5 258.6875,281.5 Q259.1563,281.5 259.4531,281.7813 Q259.75,282.0625 259.75,282.7188 L259.75,284.2813 Q259.75,284.9375 259.4688,285.2188 Q259.1875,285.5 258.75,285.5 Q258.3594,285.5 258.1094,285.3281 Q257.8594,285.1563 257.75,284.7031 Q257.7031,284.3906 257.5313,284.2188 Q257.2188,283.8906 256.6563,283.7031 Q256.0938,283.5 255.5313,283.5 Q254.8281,283.5 254.2344,283.7813 Q253.6563,284.0625 253.2031,284.6875 Q252.75,285.3125 252.75,286.1719 L252.75,287.0938 Q252.75,288.125 253.5938,288.8125 Q254.4375,289.5 255.9375,289.5 Q256.8281,289.5 257.4531,289.2969 Q257.8125,289.1875 258.2188,288.8281 Q258.4844,288.625 258.625,288.5625 Q258.7656,288.5 258.9375,288.5 Q259.2656,288.5 259.5,288.7656 Q259.75,289.0156 259.75,289.375 Q259.75,289.7188 259.4063,290.125 Q258.9063,290.7188 258.1094,291.0469 Q257.0625,291.5 255.7813,291.5 Q254.2813,291.5 253.0781,290.9063 Q252.1094,290.4375 251.4219,289.4219 Q250.75,288.4063 250.75,287.2031 L250.75,286.1094 Q250.75,284.8594 251.3438,283.7656 Q251.9531,282.6719 253,282.0938 Q254.0625,281.5 255.25,281.5 Q255.9688,281.5 256.5938,281.75 Q257.2188,282 257.75,282.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="276.25" y="290.9102">WriteForAFile</text><line style="stroke:#A80036;stroke-width:1.5;" x1="203.5" x2="389.5" y1="302" y2="302"/><line style="stroke:#A80036;stroke-width:1.5;" x1="203.5" x2="389.5" y1="310" y2="310"/><ellipse cx="213.5" cy="321" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="222.5" y="325.4189">writeForAFiLe(textualInformation)</text><!--MD5=[ca5aec7e79944a50b09584b69fa40d43]
+link ShipsReadyNextMondayController to US210--><path codeLine="23" d="M226.19,154 C236.01,154 245.83,154 255.66,154 " fill="none" id="ShipsReadyNextMondayController-to-US210" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="260.79,154,251.79,150,255.79,154,251.79,158,260.79,154" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d6a2ebd9e5fdeaa467797e541a9fe54a]
+link US210 to WriteForAFile--><path codeLine="24" d="M296.5,192.34 C296.5,214.56 296.5,242.59 296.5,264.48 " fill="none" id="US210-to-WriteForAFile" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="296.5,269.62,300.5,260.62,296.5,264.62,292.5,260.62,296.5,269.62" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="297.5" y="236.4951">uses</text><!--MD5=[d72e2ce0400b3439dd4065f79f84b178]
+link ShipsReadyNextMondayUI to ShipsReadyNextMondayController--><path codeLine="28" d="M116.5,55.04 C116.5,72.74 116.5,97.49 116.5,117.69 " fill="none" id="ShipsReadyNextMondayUI-to-ShipsReadyNextMondayController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="116.5,122.72,120.5,113.72,116.5,117.72,112.5,113.72,116.5,122.72" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[54ed453143a32f9d578278a6d4fc88bc]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ShipsReadyNextMondayUI {}
+
+class ShipsReadyNextMondayController{
++ createUS210()
+}
+
+
+class US210 {
+- initialize)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+
+ShipsReadyNextMondayController -> US210
+US210 - -> WriteForAFile : uses
+
+
+
+ShipsReadyNextMondayUI ..> ShipsReadyNextMondayController
+
+
+
+
+
+@enduml
+
+@startuml
+
+class ShipsReadyNextMondayUI {}
+
+class ShipsReadyNextMondayController{
++ createUS210()
+}
+
+
+class US210 {
+- initialize)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+
+ShipsReadyNextMondayController -> US210
+US210 - -> WriteForAFile : uses
+
+
+
+ShipsReadyNextMondayUI ..> ShipsReadyNextMondayController
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

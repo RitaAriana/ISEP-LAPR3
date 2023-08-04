@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know the shortest\n  path between two locals
+activate ":System"
+
+":System" --> TM : Asks the place of departure and arrival
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Ask how many places are required on the path
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Ask for the places
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Informs of operation success and indicates\n  the shortest paths between two locals
+deactivate ":System"
+
+deactivate TM
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+
+
+activate TM
+TM -> ":System" : Initiates the process to know the most efficient circuit that starts from a \n source location and visits the greatest number of other locations once, \n returning to the starting location and with the shortest total distance.
+
+activate ":System"
+
+":System" --> TM : Asks the place of departure
+deactivate ":System"
+
+TM -> ":System" : Enter the requested information
+activate ":System"
+
+":System" --> TM : Informs of operation success and indicates the most efficient circuit
+deactivate ":System"
+
+deactivate TM
+
+@enduml

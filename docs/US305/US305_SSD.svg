@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="349px" preserveAspectRatio="none" style="width:451px;height:349px;background:#FFFFFF;" version="1.1" viewBox="0 0 451 349" width="451px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l8t59fof9b01" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="146.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="215.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="263.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="386" x2="386" y1="89.6094" y2="263.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#f1l8t59fof9b01)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#f1l8t59fof9b01)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="277.252">Client</text><ellipse cx="26" cy="290.3281" fill="#FEFECE" filter="url(#f1l8t59fof9b01)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,298.3281 L26,325.3281 M13,306.3281 L39,306.3281 M26,325.3281 L13,340.3281 M26,325.3281 L39,340.3281 " fill="none" filter="url(#f1l8t59fof9b01)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1l8t59fof9b01)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="106" x="331" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="338" y="74.5332">: KnowRouteUI</text><rect fill="#FEFECE" filter="url(#f1l8t59fof9b01)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="106" x="331" y="262.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="338" y="284.252">: KnowRouteUI</text><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="146.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f1l8t59fof9b01)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="381" y="215.3672"/><polygon fill="#A80036" points="369,134.3125,379,138.3125,369,142.3125,373,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="375" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="38" y="117.1045">Requests to know the route of a specific container</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="38" y="133.4561">he's leasing</text><polygon fill="#A80036" points="42,164.6641,32,168.6641,42,172.6641,38,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="385" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="326" x="48" y="163.8076">Asks for the registration code and the container identifier</text><polygon fill="#A80036" points="369,211.3672,379,215.3672,369,219.3672,373,215.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="375" y1="215.3672" y2="215.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="310" x="38" y="194.1592">types the registration code and the container identifier</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="42" y="210.5107">(registrationCode,containerId)</text><polygon fill="#A80036" points="37,241.7188,27,245.7188,37,249.7188,33,245.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="385" y1="245.7188" y2="245.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="43" y="240.8623">shows the result</text><!--MD5=[d2883336eee1a05e3528e49859a5e260]
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI - -> C : Asks for the registration code and the container identifier
+deactivate UI
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI- ->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml
+
+@startuml
+actor "Client" as C
+participant ": KnowRouteUI" as UI
+
+activate C
+C -> UI : Requests to know the route of a specific container \nhe's leasing
+activate UI
+UI - -> C : Asks for the registration code and the container identifier
+deactivate UI
+C -> UI : types the registration code and the container identifier\n (registrationCode,containerId)
+activate UI
+UI- ->C : shows the result
+deactivate UI
+deactivate C
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

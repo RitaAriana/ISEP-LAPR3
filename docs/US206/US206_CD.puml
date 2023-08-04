@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class LoadUI{
+
+}
+
+class LoadController{
++ createUS206(mmsiCode)
+}
+
+
+class US206 {
+- initialize(mmsiCode)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+LoadUI ..> LoadController
+LoadController -> US206
+US206 --> WriteForAFile : uses
+
+@enduml

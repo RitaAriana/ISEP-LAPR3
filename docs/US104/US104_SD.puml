@@ -1,0 +1,52 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor TrafficManager as TM
+participant ": MovementsSummaryUI" as UI
+participant ": MovementsSummaryController" as CT
+participant ": Company" as CP
+participant "shipsTree : BstShip" as ST
+participant "ship : Ship" as SP
+participant ": SummaryMapper" as MP
+
+
+
+
+autonumber
+activate TM
+TM -> UI: starts the creation of the Summary
+activate UI
+UI --> TM : ask the IMO code that the user wants to use for the search
+deactivate UI
+TM -> UI : type the code
+activate UI
+UI -> CT : ship = getShipByMMSI(mmsiCode)
+activate  CT
+CT->CP : store = getShipsBTS()
+activate CP
+
+deactivate CP
+
+CT->ST : ship = getShipByMMSI(mmsiCode)
+activate ST
+deactivate ST
+
+deactivate CT
+UI --> TM : shows the ship name and requests a confirmation
+deactivate UI
+TM -> UI: confirms the data
+activate UI
+UI->CT : createSummaryForShip(ship)
+activate CT
+CT->"summary : Summary"**: summary = createSummaryForShip(ship)
+CT->MP : summaryDto = toDto(summary)
+activate MP
+deactivate MP
+
+deactivate CT
+UI --> TM : show the Summary associated with the code inserted
+deactivate UI
+
+
+
+@enduml

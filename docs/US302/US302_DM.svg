@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1162.5px" preserveAspectRatio="none" style="width:355px;height:1162px;" version="1.1" viewBox="0 0 355 1162" width="355.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fcw7y43mnsqlv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="7" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="80.7539" id="Company" style="stroke:#A80036;stroke-width:2.25;" width="127.5" x="123.75" y="10.5"/><ellipse cx="146.25" cy="34.5" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M149.25,29.25 Q149.5547,28.5 149.9063,28.125 Q150.2578,27.75 150.6563,27.75 Q151.3594,27.75 151.8047,28.1719 Q152.25,28.5938 152.25,29.5781 L152.25,31.9219 Q152.25,32.9063 151.8281,33.3281 Q151.4063,33.75 150.75,33.75 Q150.1641,33.75 149.7891,33.4922 Q149.4141,33.2344 149.25,32.5547 Q149.1797,32.0859 148.9219,31.8281 Q148.4531,31.3359 147.6094,31.0547 Q146.7656,30.75 145.9219,30.75 Q144.8672,30.75 143.9766,31.1719 Q143.1094,31.5938 142.4297,32.5313 Q141.75,33.4688 141.75,34.7578 L141.75,36.1406 Q141.75,37.6875 143.0156,38.7188 Q144.2813,39.75 146.5313,39.75 Q147.8672,39.75 148.8047,39.4453 Q149.3438,39.2813 149.9531,38.7422 Q150.3516,38.4375 150.5625,38.3438 Q150.7734,38.25 151.0313,38.25 Q151.5234,38.25 151.875,38.6484 Q152.25,39.0234 152.25,39.5625 Q152.25,40.0781 151.7344,40.6875 Q150.9844,41.5781 149.7891,42.0703 Q148.2188,42.75 146.2969,42.75 Q144.0469,42.75 142.2422,41.8594 Q140.7891,41.1563 139.7578,39.6328 Q138.75,38.1094 138.75,36.3047 L138.75,34.6641 Q138.75,32.7891 139.6406,31.1484 Q140.5547,29.5078 142.125,28.6406 Q143.7188,27.75 145.5,27.75 Q146.5781,27.75 147.5156,28.125 Q148.4531,28.5 149.25,29.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="79.5" x="167.25" y="41.8652">Company</text><line style="stroke:#A80036;stroke-width:2.25;" x1="125.25" x2="249.75" y1="58.5" y2="58.5"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="88.5" x="132.75" y="81.6284">-designation</text><!--MD5=[deb4e1f6eb1e3c1256fdb830f96abfbb]
+class Country--><rect codeLine="12" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="101.5078" id="Country" style="stroke:#A80036;stroke-width:2.25;" width="111" x="37.5" y="822"/><ellipse cx="60" cy="846" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M63,840.75 Q63.3047,840 63.6563,839.625 Q64.0078,839.25 64.4063,839.25 Q65.1094,839.25 65.5547,839.6719 Q66,840.0938 66,841.0781 L66,843.4219 Q66,844.4063 65.5781,844.8281 Q65.1563,845.25 64.5,845.25 Q63.9141,845.25 63.5391,844.9922 Q63.1641,844.7344 63,844.0547 Q62.9297,843.5859 62.6719,843.3281 Q62.2031,842.8359 61.3594,842.5547 Q60.5156,842.25 59.6719,842.25 Q58.6172,842.25 57.7266,842.6719 Q56.8594,843.0938 56.1797,844.0313 Q55.5,844.9688 55.5,846.2578 L55.5,847.6406 Q55.5,849.1875 56.7656,850.2188 Q58.0313,851.25 60.2813,851.25 Q61.6172,851.25 62.5547,850.9453 Q63.0938,850.7813 63.7031,850.2422 Q64.1016,849.9375 64.3125,849.8438 Q64.5234,849.75 64.7813,849.75 Q65.2734,849.75 65.625,850.1484 Q66,850.5234 66,851.0625 Q66,851.5781 65.4844,852.1875 Q64.7344,853.0781 63.5391,853.5703 Q61.9688,854.25 60.0469,854.25 Q57.7969,854.25 55.9922,853.3594 Q54.5391,852.6563 53.5078,851.1328 Q52.5,849.6094 52.5,847.8047 L52.5,846.1641 Q52.5,844.2891 53.3906,842.6484 Q54.3047,841.0078 55.875,840.1406 Q57.4688,839.25 59.25,839.25 Q60.3281,839.25 61.2656,839.625 Q62.2031,840 63,840.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="63" x="81" y="853.3652">Country</text><line style="stroke:#A80036;stroke-width:2.25;" x1="39" x2="147" y1="870" y2="870"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="45" x="46.5" y="893.1284">-name</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="72" x="46.5" y="913.8823">-continent</text><!--MD5=[9febfb2ff9adfe183e01ff702b9c1c02]
+class PlaceLocation--><rect codeLine="17" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="101.5078" id="PlaceLocation" style="stroke:#A80036;stroke-width:2.25;" width="165" x="10.5" y="582.75"/><ellipse cx="33" cy="606.75" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M36,601.5 Q36.3047,600.75 36.6563,600.375 Q37.0078,600 37.4063,600 Q38.1094,600 38.5547,600.4219 Q39,600.8438 39,601.8281 L39,604.1719 Q39,605.1563 38.5781,605.5781 Q38.1563,606 37.5,606 Q36.9141,606 36.5391,605.7422 Q36.1641,605.4844 36,604.8047 Q35.9297,604.3359 35.6719,604.0781 Q35.2031,603.5859 34.3594,603.3047 Q33.5156,603 32.6719,603 Q31.6172,603 30.7266,603.4219 Q29.8594,603.8438 29.1797,604.7813 Q28.5,605.7188 28.5,607.0078 L28.5,608.3906 Q28.5,609.9375 29.7656,610.9688 Q31.0313,612 33.2813,612 Q34.6172,612 35.5547,611.6953 Q36.0938,611.5313 36.7031,610.9922 Q37.1016,610.6875 37.3125,610.5938 Q37.5234,610.5 37.7813,610.5 Q38.2734,610.5 38.625,610.8984 Q39,611.2734 39,611.8125 Q39,612.3281 38.4844,612.9375 Q37.7344,613.8281 36.5391,614.3203 Q34.9688,615 33.0469,615 Q30.7969,615 28.9922,614.1094 Q27.5391,613.4063 26.5078,611.8828 Q25.5,610.3594 25.5,608.5547 L25.5,606.9141 Q25.5,605.0391 26.3906,603.3984 Q27.3047,601.7578 28.875,600.8906 Q30.4688,600 32.25,600 Q33.3281,600 34.2656,600.375 Q35.2031,600.75 36,601.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="117" x="54" y="614.1152">PlaceLocation</text><line style="stroke:#A80036;stroke-width:2.25;" x1="12" x2="174" y1="630.75" y2="630.75"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="57" x="19.5" y="653.8784">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="70.5" x="19.5" y="674.6323">-longitude</text><!--MD5=[ea8f20dfdca176213da526d9b557babf]
+class Capital--><rect codeLine="22" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="143.0156" id="Capital" style="stroke:#A80036;stroke-width:2.25;" width="106.5" x="228.75" y="562.5"/><ellipse cx="251.25" cy="586.5" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M254.25,581.25 Q254.5547,580.5 254.9063,580.125 Q255.2578,579.75 255.6563,579.75 Q256.3594,579.75 256.8047,580.1719 Q257.25,580.5938 257.25,581.5781 L257.25,583.9219 Q257.25,584.9063 256.8281,585.3281 Q256.4063,585.75 255.75,585.75 Q255.1641,585.75 254.7891,585.4922 Q254.4141,585.2344 254.25,584.5547 Q254.1797,584.0859 253.9219,583.8281 Q253.4531,583.3359 252.6094,583.0547 Q251.7656,582.75 250.9219,582.75 Q249.8672,582.75 248.9766,583.1719 Q248.1094,583.5938 247.4297,584.5313 Q246.75,585.4688 246.75,586.7578 L246.75,588.1406 Q246.75,589.6875 248.0156,590.7188 Q249.2813,591.75 251.5313,591.75 Q252.8672,591.75 253.8047,591.4453 Q254.3438,591.2813 254.9531,590.7422 Q255.3516,590.4375 255.5625,590.3438 Q255.7734,590.25 256.0313,590.25 Q256.5234,590.25 256.875,590.6484 Q257.25,591.0234 257.25,591.5625 Q257.25,592.0781 256.7344,592.6875 Q255.9844,593.5781 254.7891,594.0703 Q253.2188,594.75 251.2969,594.75 Q249.0469,594.75 247.2422,593.8594 Q245.7891,593.1563 244.7578,591.6328 Q243.75,590.1094 243.75,588.3047 L243.75,586.6641 Q243.75,584.7891 244.6406,583.1484 Q245.5547,581.5078 247.125,580.6406 Q248.7188,579.75 250.5,579.75 Q251.5781,579.75 252.5156,580.125 Q253.4531,580.5 254.25,581.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="58.5" x="272.25" y="593.8652">Capital</text><line style="stroke:#A80036;stroke-width:2.25;" x1="230.25" x2="333.75" y1="610.5" y2="610.5"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="45" x="237.75" y="633.6284">-name</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="61.5" x="237.75" y="654.3823">-country</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="57" x="237.75" y="675.1362">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="70.5" x="237.75" y="695.8901">-longitude</text><!--MD5=[8515a37c80da559ff7ce07f8a9e75d30]
+class Place--><rect codeLine="29" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="60" id="Place" style="stroke:#A80036;stroke-width:2.25;" width="94.5" x="140.25" y="385.5"/><ellipse cx="162.75" cy="409.5" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M165.75,404.25 Q166.0547,403.5 166.4063,403.125 Q166.7578,402.75 167.1563,402.75 Q167.8594,402.75 168.3047,403.1719 Q168.75,403.5938 168.75,404.5781 L168.75,406.9219 Q168.75,407.9063 168.3281,408.3281 Q167.9063,408.75 167.25,408.75 Q166.6641,408.75 166.2891,408.4922 Q165.9141,408.2344 165.75,407.5547 Q165.6797,407.0859 165.4219,406.8281 Q164.9531,406.3359 164.1094,406.0547 Q163.2656,405.75 162.4219,405.75 Q161.3672,405.75 160.4766,406.1719 Q159.6094,406.5938 158.9297,407.5313 Q158.25,408.4688 158.25,409.7578 L158.25,411.1406 Q158.25,412.6875 159.5156,413.7188 Q160.7813,414.75 163.0313,414.75 Q164.3672,414.75 165.3047,414.4453 Q165.8438,414.2813 166.4531,413.7422 Q166.8516,413.4375 167.0625,413.3438 Q167.2734,413.25 167.5313,413.25 Q168.0234,413.25 168.375,413.6484 Q168.75,414.0234 168.75,414.5625 Q168.75,415.0781 168.2344,415.6875 Q167.4844,416.5781 166.2891,417.0703 Q164.7188,417.75 162.7969,417.75 Q160.5469,417.75 158.7422,416.8594 Q157.2891,416.1563 156.2578,414.6328 Q155.25,413.1094 155.25,411.3047 L155.25,409.6641 Q155.25,407.7891 156.1406,406.1484 Q157.0547,404.5078 158.625,403.6406 Q160.2188,402.75 162,402.75 Q163.0781,402.75 164.0156,403.125 Q164.9531,403.5 165.75,404.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="46.5" x="183.75" y="416.8652">Place</text><line style="stroke:#A80036;stroke-width:2.25;" x1="141.75" x2="233.25" y1="433.5" y2="433.5"/><!--MD5=[a0336aaa8110b78d9cacadb9d45e00a3]
+class Border--><rect codeLine="33" fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="101.5078" id="Border" style="stroke:#A80036;stroke-width:2.25;" width="129" x="28.5" y="1041"/><ellipse cx="62.475" cy="1065" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M65.475,1059.75 Q65.7797,1059 66.1313,1058.625 Q66.4828,1058.25 66.8813,1058.25 Q67.5844,1058.25 68.0297,1058.6719 Q68.475,1059.0938 68.475,1060.0781 L68.475,1062.4219 Q68.475,1063.4063 68.0531,1063.8281 Q67.6313,1064.25 66.975,1064.25 Q66.3891,1064.25 66.0141,1063.9922 Q65.6391,1063.7344 65.475,1063.0547 Q65.4047,1062.5859 65.1469,1062.3281 Q64.6781,1061.8359 63.8344,1061.5547 Q62.9906,1061.25 62.1469,1061.25 Q61.0922,1061.25 60.2016,1061.6719 Q59.3344,1062.0938 58.6547,1063.0313 Q57.975,1063.9688 57.975,1065.2578 L57.975,1066.6406 Q57.975,1068.1875 59.2406,1069.2188 Q60.5062,1070.25 62.7562,1070.25 Q64.0922,1070.25 65.0297,1069.9453 Q65.5688,1069.7813 66.1781,1069.2422 Q66.5766,1068.9375 66.7875,1068.8438 Q66.9984,1068.75 67.2563,1068.75 Q67.7484,1068.75 68.1,1069.1484 Q68.475,1069.5234 68.475,1070.0625 Q68.475,1070.5781 67.9594,1071.1875 Q67.2094,1072.0781 66.0141,1072.5703 Q64.4438,1073.25 62.5219,1073.25 Q60.2719,1073.25 58.4672,1072.3594 Q57.0141,1071.6563 55.9828,1070.1328 Q54.975,1068.6094 54.975,1066.8047 L54.975,1065.1641 Q54.975,1063.2891 55.8656,1061.6484 Q56.7797,1060.0078 58.35,1059.1406 Q59.9437,1058.25 61.725,1058.25 Q62.8031,1058.25 63.7406,1058.625 Q64.6781,1059 65.475,1059.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="55.5" x="86.025" y="1072.3652">Border</text><line style="stroke:#A80036;stroke-width:2.25;" x1="30" x2="156" y1="1089" y2="1089"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="111" x="37.5" y="1112.1284">-countryName1</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="111" x="37.5" y="1132.8823">-countryName2</text><!--MD5=[074ba6ad47b234bd73d65012320c1634]
+class FreightNetwork--><rect fill="#FEFECE" filter="url(#fcw7y43mnsqlv)" height="60" id="FreightNetwork" style="stroke:#A80036;stroke-width:2.25;" width="172.5" x="101.25" y="208.5"/><ellipse cx="123.75" cy="232.5" fill="#ADD1B2" rx="16.5" ry="16.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M126.75,227.25 Q127.0547,226.5 127.4063,226.125 Q127.7578,225.75 128.1563,225.75 Q128.8594,225.75 129.3047,226.1719 Q129.75,226.5938 129.75,227.5781 L129.75,229.9219 Q129.75,230.9063 129.3281,231.3281 Q128.9063,231.75 128.25,231.75 Q127.6641,231.75 127.2891,231.4922 Q126.9141,231.2344 126.75,230.5547 Q126.6797,230.0859 126.4219,229.8281 Q125.9531,229.3359 125.1094,229.0547 Q124.2656,228.75 123.4219,228.75 Q122.3672,228.75 121.4766,229.1719 Q120.6094,229.5938 119.9297,230.5313 Q119.25,231.4688 119.25,232.7578 L119.25,234.1406 Q119.25,235.6875 120.5156,236.7188 Q121.7813,237.75 124.0313,237.75 Q125.3672,237.75 126.3047,237.4453 Q126.8438,237.2813 127.4531,236.7422 Q127.8516,236.4375 128.0625,236.3438 Q128.2734,236.25 128.5313,236.25 Q129.0234,236.25 129.375,236.6484 Q129.75,237.0234 129.75,237.5625 Q129.75,238.0781 129.2344,238.6875 Q128.4844,239.5781 127.2891,240.0703 Q125.7188,240.75 123.7969,240.75 Q121.5469,240.75 119.7422,239.8594 Q118.2891,239.1563 117.2578,237.6328 Q116.25,236.1094 116.25,234.3047 L116.25,232.6641 Q116.25,230.7891 117.1406,229.1484 Q118.0547,227.5078 119.625,226.6406 Q121.2188,225.75 123,225.75 Q124.0781,225.75 125.0156,226.125 Q125.9531,226.5 126.75,227.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="124.5" x="144.75" y="239.8652">FreightNetwork</text><line style="stroke:#A80036;stroke-width:2.25;" x1="102.75" x2="272.25" y1="256.5" y2="256.5"/><!--MD5=[8019f7a40ce5be359cb5778b910e4989]
+reverse link Place to Capital--><path codeLine="38" d="M226.695,471.57 C230.43,477.81 233.955,484.2 237,490.5 C247.89,513.045 256.995,538.86 264.09,562.23 " fill="none" id="Place-backto-Capital" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="none" points="217.5,476.7,209.745,445.875,235.035,465.15,217.5,476.7" style="stroke:#A80036;stroke-width:1.5;"/><!--MD5=[553c71e238892de64676e9482c62727a]
+link Country to Border--><path codeLine="39" d="M93,924.06 C93,958.935 93,1005.435 93,1040.43 " fill="none" id="Country-Border" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="48" x="94.5" y="990.7427">has a</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="81.5648" y="955.626">2</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="84.7852" y="1024.6518">*</text><!--MD5=[3d04185e7085eaaeba7ebd93b9963be0]
+link PlaceLocation to Country--><path codeLine="40" d="M93,684.78 C93,724.965 93,781.35 93,821.64 " fill="none" id="PlaceLocation-Country" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#000000" points="100.5,771.2637,104.9084,757.696,96.0916,757.696,100.5,771.2637" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="78" x="114" y="771.7427">placed in</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="84.832" y="716.3407">*</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="81.4992" y="805.9018">1</text><!--MD5=[3f90a4e0e12e19ee6f3a457d358ba219]
+link Place to PlaceLocation--><path codeLine="41" d="M151.935,445.89 C138.96,458.28 125.43,473.76 117,490.5 C102.75,518.82 96.735,553.92 94.29,582.12 " fill="none" id="Place-PlaceLocation" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#000000" points="121.5773,511.1708,130.9244,500.3936,122.8046,496.9578,121.5773,511.1708" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="85.5" x="138" y="512.2427">located at</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="130.466" y="477.5959">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="83.0351" y="566.3304">1</text><!--MD5=[e359b474b5bea3d5e0a05d5f38acf6c5]
+link Company to FreightNetwork--><path codeLine="42" d="M187.5,91.635 C187.5,126.54 187.5,176.835 187.5,208.185 " fill="none" id="Company-FreightNetwork" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#000000" points="195,157.7637,199.4084,144.196,190.5916,144.196,195,157.7637" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="39" x="208.5" y="158.2427">have</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="175.8516" y="123.4762">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="175.4578" y="192.0751">1</text><!--MD5=[fa4d65f953ae0f8f2ca1213e61726aa9]
+link FreightNetwork to Place--><path codeLine="43" d="M187.5,268.74 C187.5,300.975 187.5,352.965 187.5,385.23 " fill="none" id="FreightNetwork-Place" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="99" x="189" y="335.2427">related with</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="175.5234" y="300.9368">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="30" x="153.0938" y="369.1333">1..*</text><!--MD5=[b612b04faacec8a4db3dc48d83ef0c6b]
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+skinparam classAttributeIconSize 0
+
+
+class Company {
+-designation
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+Place <|- - Capital
+Country "2" - - "*" Border : has a
+PlaceLocation "*" - - "1" Country : placed in >
+Place "1" - - "1" PlaceLocation : located at >
+Company "1"- -"1" FreightNetwork: have >
+FreightNetwork "1" - - "1..*" Place : related with
+@enduml
+
+@startuml
+
+hide methods
+skinparam classAttributeIconSize 0
+
+
+class Company {
+-designation
+}
+
+
+class Country {
+-name
+-continent
+}
+
+class PlaceLocation {
+-latitude
+-longitude
+}
+
+class Capital{
+-name
+-country
+-latitude
+-longitude
+}
+
+class Place {
+
+}
+
+class Border {
+-countryName1
+-countryName2
+}
+
+Place <|- - Capital
+Country "2" - - "*" Border : has a
+PlaceLocation "*" - - "1" Country : placed in >
+Place "1" - - "1" PlaceLocation : located at >
+Company "1"- -"1" FreightNetwork: have >
+FreightNetwork "1" - - "1..*" Place : related with
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

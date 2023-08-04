@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Ship Chief Eletrical Engineer" as SCEE
+participant ": ShipChiefEletricaEngineerUI" as UI
+
+activate SCEE
+SCEE -> UI : requests to receive an alert when the current\n energy generation units are not enough to\n provide energy to all refrigerated containers\n at once
+activate UI
+UI --> SCEE : shows requested information
+deactivate UI
+deactivate SCEE
+
+@enduml

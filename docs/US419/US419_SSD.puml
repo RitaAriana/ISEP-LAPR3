@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain" as SC
+participant "System" as SY
+
+activate SC
+SC -> SY : requests to know where to position, for example, one hundred\n(100) containers on the vessel, such that the center of mass\nremains at xx and yy
+activate SY
+SY --> SC : receive the result
+deactivate SY
+deactivate SC
+@enduml

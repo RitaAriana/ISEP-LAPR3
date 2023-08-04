@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class RatioOfCargoManifestDateUI {}
+
+class RatioOfCargoManifestDateController{
++ createUS209(mmsiCode, actualDate)
+}
+
+
+class US209 {
+- initialize(mmsiCode, actualDate)
++ toString()
+
+}
+
+class WriteForAFile{
++ writeForAFiLe(textualInformation)
+
+}
+
+
+
+RatioOfCargoManifestDateController -> US209
+US209 --> WriteForAFile : uses
+
+
+
+RatioOfCargoManifestDateUI ..> RatioOfCargoManifestDateController
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

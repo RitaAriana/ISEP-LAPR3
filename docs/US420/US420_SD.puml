@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Ship Captain " as SC
+participant ": ShipCaptainUI" as UI
+participant ":vesselSankController" as CT
+participant ": ShipSank " as SS
+participant ":WriteForAFile" as WF
+
+activate SC
+SC -> UI : requests to know for a specific vessel, how much \ndid the vessel sink, assuming that each container\n has half a ton of mass
+activate UI
+
+
+UI->CT : createUS420(ship, vesselMass, containers)
+activate CT
+CT -> SS : weightForce = calculateWeightForce(vesselMass)
+activate SS
+deactivate SS
+CT -> SS : immersedArea = immersedArea(ship)
+activate SS
+deactivate SS
+CT -> SS : pressure = pressureExertedByVesselOnWater(ship, vesselMass, containers)
+activate SS
+deactivate SS
+CT -> SS : immersedVolumeEmpty = vesselImmersedVolume(vesselMass,0)
+activate SS
+deactivate SS
+CT -> SS : immersedVolumeLoaded = vesselImmersedVolume(vesselMass,containers)
+activate SS
+deactivate SS
+CT -> SS : draftEmpty = calculateDraft(ship, immersedVolumeEmpty)
+activate SS
+deactivate SS
+CT -> SS : draftLoaded = calculateDraft(ship, immersedVolumeLoaded)
+activate SS
+deactivate SS
+CT -> SS : shipSankHeight = shipSankHeight(ship,vesselMass,containers)
+activate SS
+deactivate SS
+
+
+CT->CT : textualInformation = toString()
+activate CT
+deactivate CT
+CT -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+
+UI --> SC : shows requested information
+deactivate UI
+deactivate SC
+@enduml

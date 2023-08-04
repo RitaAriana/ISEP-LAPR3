@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Fleet Manager" as FM
+participant ":405UI" as UI
+participant ":405Controller" as CT
+participant ":405" as US
+participant ":WriteForAFile" as WF
+
+activate FM
+FM -> UI : requests to know the average occupancy rate per manifest of a given ship during a given period
+activate UI
+UI --> FM : asks to enter period to analyze (initialTime, endTime)
+deactivate UI
+FM -> UI : inserts the requested data (initialTime, endTime)
+activate UI
+UI->CT : createUS405(initialTime, endTime)
+activate CT
+CT -> US** : create(initialTime, endTime)
+US -> US : initialize(initialTime, endTime)
+activate US
+US->US : textualInformation = toString()
+activate US
+deactivate US
+US -> WF : writeForAFile(textualInformation)
+activate WF
+deactivate WF
+deactivate US
+
+UI --> FM : receive the result
+deactivate UI
+deactivate FM
+@enduml
